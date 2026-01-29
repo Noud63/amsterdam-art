@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<link rel="stylesheet" type="text/css" href="map.css">
+<link href='https://fonts.googleapis.com/css?family=Stardos Stencil' rel='stylesheet'> 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+<!-- <link rel="stylesheet" type="text/css" href="leaflet.css"> -->
+<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+<script type="text/javascript" src="leaflet.smoothmarkerbouncing.js"></script>
+
+</head>
+    
+<body>
+      <div id="container">
+          <div id="mapid"></div>
+      </div> 
+
+         <div class="sidebar" id="sidebar">
+            <div class="listPopUpWrapper">
+              <img src="images/nachtwacht.jpg" id="adam">
+                  <div id='listings' class='listings'></div>
+            </div>
+         </div> 
+
+            <div id="cover">
+               <!-- <div id="popup"></div> -->
+            </div>
+   
+   <script type="text/javascript" src="geojson.js"></script>
+   <script type="text/javascript" src="map.js"></script>
+   <script type="text/javascript" src="markers.js"></script>
+   <script type="text/javascript" src="buildList.js"></script>
+   <script type="text/javascript" src="highlight.js"></script>
+   
+</body>
+</html>
