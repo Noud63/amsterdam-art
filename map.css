@@ -51,10 +51,10 @@ html {
 }
 
 @media only screen and (max-width: 700px) {
-    .sidebar {
-            display: none;
-     }
-   }  
+  .sidebar {
+    display: none;
+  }
+}
 
 /* Listing styles */
 
@@ -66,7 +66,6 @@ html {
   flex-direction: column;
   justify-content: space-between;
   padding-left: 15px;
-  /* z-index: 10; */
 }
 
 #pic {
@@ -82,7 +81,7 @@ html {
 }
 
 .item {
-  border-bottom: 2px dotted #471700;
+  border-bottom: 2px dotted #ffffff;
   font-family: "Times";
   font-size: 1rem;
   color: rgb(99, 13, 13);
@@ -138,9 +137,11 @@ html {
 .space {
   margin-top: 3%;
   font-family: "Times";
+  font-size: 20px;
   font-weight: bold;
-  color: #291400;
-  text-decoration: none;
+  color: #ffffff;
+  padding-bottom: 3px;
+  text-shadow: #3d2100 1px 1px 1px;
 }
 
 .listings {
@@ -292,10 +293,10 @@ Toggle this class - hide and show the popup
 }
 
 @media only screen and (max-width: 700px) {
-    #cover {
-            left:0;
-     }
-   }  
+  #cover {
+    left: 0;
+  }
+}
 
 .wrapper::-webkit-scrollbar {
   width: 7px;
@@ -338,11 +339,11 @@ Toggle this class - hide and show the popup
   padding-right: 10px;
 }
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
   .popUpContent {
     width: 220px;
   }
-}
+} */
 
 .puName {
   font-family: "Times";
@@ -364,7 +365,7 @@ Toggle this class - hide and show the popup
   color: #883d00;
   font-size: 1rem;
   text-align: center;
-  padding: 10px 10px 10px 10px;
+  padding: 5px ;
 }
 
 .check {

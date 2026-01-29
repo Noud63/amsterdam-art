@@ -72,7 +72,7 @@ const art = {
       "type": "Feature",
       "properties": {
         "name": "Rijks Museum",
-        "image": "rijks.jpg",
+        "image": "rijks.png",
         "extra": "Collection of Dutch Art and History. One of the most celebrated museums in the world and home to Rembrandt's world famous painting 'De Nachtwacht'.\
                   The museum has on display 8,000 objects of art and history, from their total collection of 1 million objects from the years 1200 - 2000",
         "adress": "Museumstraat 1",
