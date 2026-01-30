@@ -3,8 +3,7 @@ function filterByCategory(cat) {
     ...art,
     features: art.features.filter(f => f.cat === cat),
   };
-
-  createArtLayer(filtered);
+    createArtLayer(filtered);
 }
 
 
