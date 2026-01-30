@@ -1,7 +1,7 @@
 
 var mymap = L.map('mapid', {
      zoomControl: true
-	}).setView([52.378763, 4.874906], 13);
+	}).setView([52.374534, 4.845805], 13);
 mymap.zoomControl.setPosition('bottomright');		
 		
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
@@ -20,5 +20,7 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_M
 //'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}' (default)
 
 
-// Clock in middle of footer
 
+mymap.on("click", () => {
+  wrapper.classList.remove("active");
+});

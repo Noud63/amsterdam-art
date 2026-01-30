@@ -31,66 +31,59 @@ const myLayer = L.geoJSON(art, {
 
   onEachFeature: function (feature, layer) {
     layer.on("click", function (e) {
-      const element = document.getElementById("cover");
+       e.originalEvent.stopPropagation(); // IMPORTANT
+      const element = document.querySelector(".wrapper");
 
-      element.innerHTML = `<div class= "wrapper" style="background-color:#fffdee">
-                    <div class='pic'>
-                          <img src="images/${feature.properties.image}">
-                       </div>
-                    <div class="popUpContent" style="background-color:#fffdee">
+      element.classList.add("active");
+
+      element.innerHTML = `<div class='pic'><img src="images/${feature.properties.image}" class="puImage"/></div>
+
+                        <div class="popUpContent" style="background-color:#fffdee">
                           <div class="puName">${feature.properties.name}</div>
                           <div class="puTitle">"${feature.properties.title}"</div> 
                           <div class="extra3">${feature.properties.extra}</div> 
-                       </div>
-                       <div class="close">
-                       <div><img src="images/close.png" alt="close icon" style="width: 30px"/></div>
-                       <div>close</div>
-                       </div>
-                 </div>`;
+
+                          <div class="close">
+                             <img src="images/close.png" alt="close icon" class="closeIcon"/>
+                             <div class="closeText">close</div>
+                          </div>
+
+                       </div>`;
 
       if (!feature.properties.title) {
-        element.innerHTML = `<div class= "wrapper" style="background-color:#fffdee">
+        element.innerHTML = `
                      <div class='pic'>
-                          <img src="images/${feature.properties.image}">
+                          <img src="images/${feature.properties.image}" class="puImage"/>
                      </div>
-                 <div class="popUpContent" style="background-color:#fffdee">
+                     <div class="popUpContent" style="background-color:#fffdee">
                          <div class="puName">${feature.properties.name}</div>
                          <div class="extra3">${feature.properties.extra}</div>
-                         <hr><p>
+                         <p>
                          <div><span class="check">Check for more info:</span></div>
                          <div class="link"><a href="${feature.properties.link}" target="blank"><span class="link1">${feature.properties.link}</a></div><p>
-                         <hr> 
-                     </div>
-                     <div class="close">
-                       <div><img src="images/close.png" alt="close icon" style="width: 30px"/></div>
-                       <div>close</div>
+                       
+                         <div class="close">
+                          <div><img src="images/close.png" alt="close icon" class="closeIcon"/></div>
+                          <div class="closeText">close</div>
                        </div>
-                 </div>`;
+                     </div>`;
       }
 
       if (!feature.properties.extra) {
-        element.innerHTML = `<div class= "wrapper" style="background-color:#fffdee">
-                    <div class='pic'>
-                         <img src="images/${feature.properties.image}">
-                    </div> 
+        element.innerHTML = `
+                               <div class='pic'>
+                                    <img src="images/${feature.properties.image}" class="puImage"/>
+                               </div> 
                 <div class="popUpContent" style="background-color:#fffdee">
                          <div class="puName">${feature.properties.name}</div>
                          <div class="puTitle">"${feature.properties.title}"</div>
-                    </div>
-                    <div class="close">
-                       <div><img src="images/close.png" alt="close icon" style="width: 30px"/></div>
-                       <div>close</div>
+                          <div class="close">
+                       <div><img src="images/close.png" alt="close icon" class="closeIcon"/></div>
+                       <div class="closeText">close</div>
                        </div>
-                </div>`;
+                    </div>`;
       }
-
-      document.getElementById("cover").addEventListener("click", closePopup);
-      function closePopup(e) {
-        if ((document.querySelector(".wrapper").style.display = "block")) {
-          document.querySelector(".wrapper").style.display = "none";
-        }
-      }
-    });
+});
   },
 });
 

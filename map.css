@@ -20,15 +20,9 @@ html {
   position: relative;
   width: 100%;
   float: left;
-  z-index: 1;
 }
 
-/* @media only screen and (max-width: 400px) {
-    #mapid {
-            width: 0%;
-     }
-   }   */
-
+/* SIDEBAR AND LISTING STYLES */
 #adam {
   width: 350px;
   height: auto;
@@ -55,8 +49,6 @@ html {
     display: none;
   }
 }
-
-/* Listing styles */
 
 .box {
   height: auto;
@@ -157,41 +149,19 @@ html {
   align-items: center;
 }
 
-/*  
-.listings .item:last-child { border-bottom: none; }
+/* CUSTOM SCROLLBAR */
 
-.listings .item .title {
-display: block;
-color: #375e8c;
-font-weight: 700;
-z-index: 5;
-}
-
-.listings .item .title small { 
-font-weight: 400; 
-color: #99cdfe;                     
-}
-
-.listings .item.active .title,
-.listings .item .title:hover { color: #8cc63f; }
-
-.listings .item.active {
-background-color: #f8f8f8;
-}
-*/
-
-::-webkit-scrollbar {
+.listings::-webkit-scrollbar {
   width: 7px;
   height: 0px;
   border-left: 0;
-  /*background: rgba(0, 0, 0, 0.1);*/
 }
 
-::-webkit-scrollbar-track {
+.listings::-webkit-scrollbar-track {
   background: none;
 }
 
-::-webkit-scrollbar-thumb {
+.listings::-webkit-scrollbar-thumb {
   background: #53310a;
   border-radius: 2px;
   min-height: 40px;
@@ -208,7 +178,7 @@ background-color: #f8f8f8;
   box-shadow: inset 0px 0px 5px #53310a;
   background-color: #cf9451;
 }
-::-webkit-scrollbar-thumb:hover {
+.listings::-webkit-scrollbar-thumb:hover {
   background: #b47630;
 }
 
@@ -224,7 +194,162 @@ background-color: #f8f8f8;
   visibility: hidden;
 }
 
-/* The leaflet actual popup 
+/*CUSTOM POPUP STYLES*/
+
+/* #cover {
+  display: block;
+} */
+
+.wrapper {
+  -webkit-box-shadow: 5px 0 8px -2px #2a4763;
+  -moz-box-shadow: 5px 0 8px -2px #2a4763;
+  box-shadow: 5px 0 8px -2px #2a4763;
+  position: relative;
+  display: none;
+  flex-direction: column;
+  left: 350px;
+  height: 100vh;
+  float: left;
+  z-index: 999;
+}
+
+.wrapper.active {
+  display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+  #cover {
+    left: 0;
+  }
+}
+
+.pic {
+  width: 350px;
+  height: 200px;
+}
+
+.pic img {
+  width: 350px;
+  height: 200px;
+}
+
+.popUpContent {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  width: 350px;
+  height: 100vh;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  color: #883d00;
+  overflow: auto;
+}
+
+.popUpContent::-webkit-scrollbar {
+  width: 7px;
+  height: 0px;
+  border-left: 0;
+}
+
+.popUpContent::-webkit-scrollbar-track {
+  background: none;
+}
+
+.popUpContent::-webkit-scrollbar-thumb {
+  background: #8d6e4a;
+  border-radius: 2px;
+  min-height: 40px;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    #c4aa8d 10%,
+    #ffffff 35%,
+    transparent 100%,
+    #ffffff 65%,
+    transparent
+  );
+  -webkit-box-shadow: inset 0px 0px 5px #53310a;
+  box-shadow: inset 0px 0px 5px #a17a4e;
+  background-color: #ffffff;
+}
+.popUpContent::-webkit-scrollbar-thumb:hover {
+  background: #e6bc8c;
+}
+
+.puName {
+  font-family: "Times";
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.puTitle {
+  font-family: "Times";
+  font-size: 1em;
+  text-align: center;
+}
+
+.extra3 {
+  font-family: "times";
+  font-size: 1rem;
+  text-align: center;
+  padding: 5px;
+}
+
+.check {
+  font-family: "Times";
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.link a {
+  font-family: "Times";
+  font-size: 1em;
+  text-decoration: underline #883d00;
+}
+
+.link1 {
+  font-family: "Times";
+  font-size: 1em;
+  color: #883d00;
+  text-decoration: none;
+}
+
+hr {
+  border-top: 1px dashed #883d00;
+}
+
+.listPopUpWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.closeIcon {
+  margin-top: 40px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.closeText {
+  width: 100%;
+  color: #883d00;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+/* git add . && git commit -m "update" && git push origin main */
+
+/* The leaflet actual popup */
+/*
 .popup .popuptext {
     visibility: hidden;
     width: 160px;
@@ -270,159 +395,3 @@ Toggle this class - hide and show the popup
     to {opacity:1 ;}
   }
 */
-
-/*custom popup */
-.wrapper {
-  height: 100vh;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  width: 350px;
-  -webkit-box-shadow: 5px 0 8px -2px #566f86;
-  -moz-box-shadow: 5px 0 8px -2px #566f86;
-  box-shadow: 5px 0 8px -2px #566f86;
-}
-
-#cover {
-  position: absolute;
-  width: 100%;
-  z-index: 999;
-  overflow: auto;
-  left: 350px;
-  top: 0;
-}
-
-@media only screen and (max-width: 700px) {
-  #cover {
-    left: 0;
-  }
-}
-
-.wrapper::-webkit-scrollbar {
-  width: 7px;
-  height: 0px;
-  border-left: 0;
-}
-
-.wrapper::-webkit-scrollbar-thumb {
-  background: #659dd4;
-  border-radius: 2px;
-  min-height: 40px;
-  background-image: -webkit-linear-gradient(
-    90deg,
-    #286299 0%,
-    #99cdfe 35%,
-    transparent 100%,
-    #99cdfe 65%,
-    transparent
-  );
-  -webkit-box-shadow: inset 0px 0px 5px #286299;
-  box-shadow: inset 0px 0px 5px #286299;
-  background-color: #99cdfe;
-}
-
-.wrapper::-webkit-scrollbar-thumb:hover {
-  background: #518cc4;
-}
-
-.popUpContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 14px;
-  position: relative;
-  height: auto;
-  width: 100%;
-  text-align: center;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-/* @media only screen and (max-width: 400px) {
-  .popUpContent {
-    width: 220px;
-  }
-} */
-
-.puName {
-  font-family: "Times";
-  font-size: 1.3em;
-  color: #8d480f;
-  text-align: center;
-  font-weight: bold;
-}
-
-.puTitle {
-  font-family: "Times";
-  font-size: 1em;
-  color: #883d00;
-  text-align: center;
-}
-
-.extra3 {
-  font-family: "times";
-  color: #883d00;
-  font-size: 1rem;
-  text-align: center;
-  padding: 5px ;
-}
-
-.check {
-  font-family: "Times";
-  font-size: 1em;
-  font-weight: bold;
-  color: #8d480f;
-}
-
-.link a {
-  font-family: "Times";
-  font-size: 1em;
-  color: #883d00;
-  text-decoration: underline #883d00;
-}
-
-.link1 {
-  font-family: "Times";
-  font-size: 1em;
-  color: #883d00;
-  text-decoration: none;
-}
-
-.pic {
-  position: relative;
-  width: 100%;
-  height: 200px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-hr {
-  border-top: 1px dashed #883d00;
-}
-
-.listPopUpWrapper {
-  display: flex;
-  flex-direction: column;
-  /* width: 100%; */
-  height: 100%;
-  position: relative;
-}
-
-.close {
-  width: 100%;
-  color: #883d00;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30px;
-  cursor: pointer;
-}
