@@ -49,9 +49,9 @@ html {
 }
 
 .sidebar {
-  -webkit-box-shadow: 5px 0 8px -2px #2a4763;
-  -moz-box-shadow: 5px 0 8px -2px #2a4763;
-  box-shadow: 5px 0 8px -2px #2a4763;
+ -webkit-box-shadow: 5px 0 5px -2px #6e6e47;
+  -moz-box-shadow: 5px 0 5px -2px #6e6e47;
+  box-shadow: 5px 0 5px -2px #6e6e47;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -231,15 +231,15 @@ html {
 } */
 
 .wrapper {
-  -webkit-box-shadow: 5px 0 8px -2px #2a4763;
-  -moz-box-shadow: 5px 0 8px -2px #2a4763;
-  box-shadow: 5px 0 8px -2px #2a4763;
+  -webkit-box-shadow: 5px 0 5px -2px #807f4c;
+  -moz-box-shadow: 5px 0 5px -2px #807f4c;
+  box-shadow: 5px 0 5px -2px #9c9b69;
   position: relative;
   display: none;
   flex-direction: column;
   left: 350px;
   height: 100vh;
-  /* float: left; */
+  float: left;
   z-index: 999;
 }
 
