@@ -11,7 +11,7 @@ var version = "1.4.0+HEAD.3337f36";
  * Various utility functions, used by Leaflet internally.
  */
 
-var freeze = Object.freeze;
+// var freeze = Object.freeze;
 Object.freeze = function (obj) { return obj; };
 
 // @function extend(dest: Object, src?: Object): Object
