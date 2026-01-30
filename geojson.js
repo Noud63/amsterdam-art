@@ -3,6 +3,7 @@ const art = {
   "features": [
     {
       "type": "Feature",
+      "cat": "public",
       "properties": {
         "name": "Noud van Dun",
         "image": "ufo.jpg",
@@ -19,6 +20,7 @@ const art = {
     },
     {
       "type": "Feature",
+      "cat": "public",
       "properties": {
         "name": "Pablo Picasso",
         "title": "L'oiseau",
@@ -36,6 +38,7 @@ const art = {
     },
     {
       "type": "Feature",
+      "cat": "public",
       "properties": {
         "name": "Frank Mandersloot",
         "title": "For the Bees",
@@ -53,6 +56,7 @@ const art = {
     },
     {
       "type": "Feature",
+      "cat": "public",
       "properties": {
         "name": "Maree Blok en Bas Lugthorst",
         "title": "Mens van Water",
@@ -70,6 +74,7 @@ const art = {
     },
     {
       "type": "Feature",
+      "cat": "museum",
       "properties": {
         "name": "Rijks Museum",
         "image": "rijks.png",
@@ -88,6 +93,7 @@ const art = {
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "Van Gogh Museum",
         "bgImg": "vGbg.jpg",
@@ -107,6 +113,7 @@ const art = {
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "Stedelijk Museum",
         "image": "stedelijkmuseum.jpg",
@@ -125,6 +132,7 @@ const art = {
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "Moco Museum",
         "image": "mocomuseum.jpg",
@@ -142,6 +150,7 @@ const art = {
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "Rembrandt House",
         "image": "rembrandthuis.jpg",
@@ -159,6 +168,7 @@ const art = {
     },
     {
       "type": "Feature",
+      "cat": "public",
       "properties": {
         "name": "Jan Fabre",
         "image": "janfabre.jpg",
@@ -176,6 +186,7 @@ const art = {
     },
     {
       "type": "Feature",
+      "cat": "public",
       "properties": {
         "name": "Irma Boom",
         "image": "tunnel.jpg",
@@ -193,6 +204,7 @@ const art = {
     },
     {
       "type": "Feature",
+      "cat": "public",
       "properties": {
         "name": "Marjan Laaper",
         "image": "ramses.jpg",
@@ -210,6 +222,7 @@ const art = {
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "EYE Film Museum",
         "image": "eye.jpg",
@@ -229,6 +242,7 @@ const art = {
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "FOAM",
         "image": "foam2.jpg",
@@ -249,6 +263,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+      "cat": "public",
       "properties": {
         "name": "Nicolas Dings",
         "title": "Baruch de Spinoza",
@@ -266,6 +281,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+      "cat": "public",
       "properties": {
         "name": "Merijn Bolink",
         "title": "Man en Schaap",
@@ -283,6 +299,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+      "cat": "public",
       "properties": {
         "name": "Piet Parra",
         "title": "Angstig Konijn (Anxiety Rabbit)",
@@ -300,6 +317,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+      "cat": "public",
       "properties": {
         "name": "Mark Manders",
         "title": "Rokin Fountain",
@@ -316,6 +334,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "Street Art Museum Amsterdam",
         "image": "streetart.jpg",
@@ -335,6 +354,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "Het Hem",
         "title": "",
@@ -353,6 +373,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "WOW",
         "title": "",
@@ -371,6 +392,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "De Appel",
         "title": "",
@@ -391,6 +413,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "W139",
         "title": "",
@@ -410,6 +433,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "Cobra Museum",
         "title": "",
@@ -428,6 +452,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "Arti et Amicitiae",
         "title": "",
@@ -449,6 +474,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "Greenbox Museum",
         "title": "",
@@ -468,6 +494,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "Corridor Project Space",
         "title": "",
@@ -488,6 +515,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+      "cat": "public",
       "properties": {
         "name": "Keith Haring Mural",
         "title": "Seamonster",
@@ -506,6 +534,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "Huis Marseille",
         "title": "",
@@ -527,6 +556,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+        "cat": "gallery",
       "properties": {
         "name": "Gallery Fons Welters",
         "title": "",
@@ -547,6 +577,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+      "cat": "gallery",
       "properties": {
         "name": "Grimm Gallery",
         "title": "",
@@ -568,6 +599,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
     },
     {
       "type": "Feature",
+        "cat": "museum",
       "properties": {
         "name": "OSCAM",
         "title": "",

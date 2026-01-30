@@ -17,7 +17,7 @@ myArt = artName.sort((a, b) => {
   return x < y ? -1 : x > y ? 1 : 0;
 });
 
-console.log(myArt);
+// console.log(myArt);
 
 // Add items and build list
 
@@ -37,14 +37,15 @@ const buildItemList = (data) => {
     listing.appendChild(content);
     content.className = "content";
     content.innerHTML = `<div class="box">
-                                        <div class="info">
-                                        <div class="space">${prop.name}</div>
-                                        ${prop.title ? `<span class="title">${prop.title}</span><br>` : ""}
-                                        <span class="extra">${prop.extra}<br>Adress: ${prop.adress}</span>
-                                        </div>
-                                        <img src="images/thumbs/${prop.image}" id="pic">
-                                        </div>`;
+                          <div class="info">
+                          <div class="space">${prop.name}</div>
+                          ${prop.title ? `<span class="title">${prop.title}</span><br>` : ""}
+                          <span class="extra">${prop.extra}<br>Adress: ${prop.adress}</span>
+                          </div>
+                          <img src="images/thumbs/${prop.image}" id="pic">
+                          </div>`;
   }
 };
 
 buildItemList(myArt);
+
