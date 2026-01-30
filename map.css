@@ -26,20 +26,20 @@ html {
 }
 
 .menu button {
- background-color: #fff;
- width: 100px;
- padding: 8px;
- border-radius: 25px;
- border: none;
- font-size: 14px;
- font-weight: 600;
- color:#682f00;
- box-shadow: 0 2px 3px #725238;
- cursor: pointer;
+  background-color: #fff;
+  width: 100px;
+  padding: 8px;
+  border-radius: 25px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #682f00;
+  box-shadow: 0 2px 3px #725238;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 750px) {
-  .menu{
+  .menu {
     display: none;
   }
 }
@@ -79,7 +79,7 @@ html {
 }
 
 .sidebar {
- -webkit-box-shadow: 5px 0 5px -2px #6e6e47;
+  -webkit-box-shadow: 5px 0 5px -2px #6e6e47;
   -moz-box-shadow: 5px 0 5px -2px #6e6e47;
   box-shadow: 5px 0 5px -2px #6e6e47;
   position: absolute;
