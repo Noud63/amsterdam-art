@@ -23,9 +23,29 @@ html {
 }
 
 /* SIDEBAR AND LISTING STYLES */
-#adam {
-  width: 350px;
-  height: auto;
+
+.listPopUpWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.hideSidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50vh;
+  left: 350px;
+  height: 50px;
+  width: 22px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #b47630;
+  -webkit-box-shadow: 5px 0 5px -2px #2a4763;
+  -moz-box-shadow: 5px 0 5px -2px #2a4763;
+  box-shadow: 5px 0 5px -2px #4b647c;
 }
 
 .sidebar {
@@ -37,18 +57,28 @@ html {
   flex-direction: column;
   justify-content: space-between;
   background-color: #b47630;
-  width: 100%;
-  max-width: 350px;
+  top: 0;
+  left: 0;
   height: 100%;
-  float: left;
   z-index: 999;
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
 }
 
-@media only screen and (max-width: 700px) {
+.sidebar.hidden {
+  transform: translateX(-350px);
+}
+
+#adam {
+  width: 350px;
+  height: 200px;
+}
+
+/* @media only screen and (max-width: 700px) {
   .sidebar {
     display: none;
   }
-}
+} */
 
 .box {
   height: auto;
@@ -66,7 +96,7 @@ html {
   padding-bottom: 5%;
 }
 
-.flex {
+.info {
   display: flex;
   flex-direction: column;
   width: 95%;
@@ -120,7 +150,7 @@ html {
   text-overflow: ellipsis;
 }
 
-.info {
+.title {
   font-family: "times";
   color: #3d2100;
   background: transparent;
@@ -209,7 +239,7 @@ html {
   flex-direction: column;
   left: 350px;
   height: 100vh;
-  float: left;
+  /* float: left; */
   z-index: 999;
 }
 
@@ -319,13 +349,6 @@ html {
 
 hr {
   border-top: 1px dashed #883d00;
-}
-
-.listPopUpWrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  position: relative;
 }
 
 .closeIcon {

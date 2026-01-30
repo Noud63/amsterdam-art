@@ -31,8 +31,15 @@ const myLayer = L.geoJSON(art, {
 
   onEachFeature: function (feature, layer) {
     layer.on("click", function (e) {
-       e.originalEvent.stopPropagation(); // IMPORTANT
+      e.originalEvent.stopPropagation(); // IMPORTANT
       const element = document.querySelector(".wrapper");
+
+      const sidebar = document.querySelector(".sidebar");
+      if (sidebar.classList.contains("hidden")) {
+        element.style.left = 0;
+      }else{
+        element.style.left = '350px';
+      }
 
       element.classList.add("active");
 
@@ -83,7 +90,7 @@ const myLayer = L.geoJSON(art, {
                        </div>
                     </div>`;
       }
-});
+    });
   },
 });
 
