@@ -9,6 +9,23 @@ function filterByCategory(cat) {
   createArtLayer(filtered); // rebuild map and sidebar
 }
 
+document
+  .querySelector(".museums")
+  .addEventListener("click", () => filterByCategory("museum"));
+
+document
+  .querySelector(".galleries")
+  .addEventListener("click", () => filterByCategory("gallery"));
+
+document
+  .querySelector(".publicArt")
+  .addEventListener("click", () => filterByCategory("public"));
+
+document
+  .querySelector(".artcentre")
+  .addEventListener("click", () => filterByCategory("artcentre"));
+  
+
 // --- Initial load ---
 createArtLayer(art.features);
 
@@ -32,21 +49,6 @@ hideSidebar.addEventListener("click", () => {
   hideSidebar.title = isHidden ? "Show sidebar" : "Hide sidebar";
 });
 
-document
-  .querySelector(".museums")
-  .addEventListener("click", () => filterByCategory("museum"));
-
-document
-  .querySelector(".galleries")
-  .addEventListener("click", () => filterByCategory("gallery"));
-
-document
-  .querySelector(".publicArt")
-  .addEventListener("click", () => filterByCategory("public"));
-
-document
-  .querySelector(".artcentre")
-  .addEventListener("click", () => filterByCategory("artcentre"));
 
 // Highlight list item on hover
 const res = Array.from(document.querySelectorAll(".item"));
