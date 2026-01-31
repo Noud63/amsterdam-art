@@ -3,6 +3,9 @@ const wrapper = document.querySelector(".wrapper");
 const hideSidebar = document.querySelector(".hideSidebar");
 const sidebar = document.querySelector(".sidebar");
 
+// --- Initial load ---
+createArtLayer(art.features);
+
 // Filter listitems by category
 function filterByCategory(cat) {
   const filtered = art.features.filter((f) => f.cat === cat); // create filtered array
@@ -24,10 +27,7 @@ document
 document
   .querySelector(".artcentre")
   .addEventListener("click", () => filterByCategory("artcentre"));
-  
 
-// --- Initial load ---
-createArtLayer(art.features);
 
 //Add attribute to sidebar tag on initial load
 hideSidebar.setAttribute("title", "Hide Sidebar");
