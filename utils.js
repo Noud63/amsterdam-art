@@ -2,6 +2,7 @@
 const wrapper = document.querySelector(".wrapper");
 const hideSidebar = document.querySelector(".hideSidebar");
 const sidebar = document.querySelector(".sidebar");
+hideSidebar.setAttribute("title", "Hide Sidebar");
 
 //Close popup when clicking on map
 mymap.on("click", () => {
@@ -16,6 +17,8 @@ wrapper.addEventListener("click", () => {
 // Hide sidbar on click
 hideSidebar.addEventListener("click", () => {
   sidebar.classList.toggle("hidden");
+  const isHidden = sidebar.classList.contains("hidden");
+  hideSidebar.title = isHidden ? "Show sidebar" : "Hide sidebar";
 });
 
 //Filter by category add new layer of markers
@@ -40,10 +43,9 @@ document
   .querySelector(".publicArt")
   .addEventListener("click", () => filterByCategory("public"));
 
-  document
+document
   .querySelector(".artcentre")
   .addEventListener("click", () => filterByCategory("artcentre"));
-
 
 // Highlight list item on hover
 const res = Array.from(document.querySelectorAll(".item"));
