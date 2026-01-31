@@ -1,7 +1,7 @@
 
 const mymap = L.map('mapid', {
      zoomControl: true
-	}).setView([52.374534, 4.845805], 13);
+	}).setView([52.371534, 4.862805], 14);
 mymap.zoomControl.setPosition('bottomright');		
 		
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {

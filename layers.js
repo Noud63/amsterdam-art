@@ -7,9 +7,7 @@ var redFlag = L.icon({
   iconAnchor: [14, 42],
 });
 
-//Add markers and popups
-
-
+//Add layer with markers and popups
 let myLayer;
 
 function createArtLayer(data) {
@@ -36,7 +34,7 @@ function createArtLayer(data) {
 
     onEachFeature: function (feature, layer) {
       layer.on("click", function (e) {
-        e.originalEvent.stopPropagation();
+        e.originalEvent.stopPropagation(); //Important, stop bubbling up. Prevent popup from closing immediately!
 
         const element = document.querySelector(".wrapper");
         const sidebar = document.querySelector(".sidebar");
@@ -47,7 +45,7 @@ function createArtLayer(data) {
 
         element.classList.add("active");
 
-        // ---- popup rendering logic unchanged ----
+        // popup rendering logic
         element.innerHTML = `
           <div class='pic'>
             <img src="images/${feature.properties.image}" class="puImage"/>

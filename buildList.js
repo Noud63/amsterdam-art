@@ -9,7 +9,7 @@ function sortJson() {
 }
 
 const artName = sortJson();
-// console.log(artName);
+console.log(artName);
 
 myArt = artName.sort((a, b) => {
   const x = a.properties.name.toLowerCase();
@@ -34,12 +34,13 @@ const buildItemList = (data) => {
     listing.appendChild(content);
     content.className = "content";
     content.innerHTML = `<div class="box">
+                          ${prop.image === "noimage.png" ? `<img src="images/noimage.png" id="pic">` : `<img src="images/${prop.image}" id="pic">`}
                           <div class="info">
                           <div class="space">${prop.name}</div>
-                          ${prop.title ? `<span class="title">${prop.title}</span><br>` : ""}
-                          <span class="extra">${prop.extra}<br>Adress: ${prop.adress}</span>
+                   
+                          <span class="extra">${el.cat}
                           </div>
-                          <img src="images/thumbs/${prop.image}" id="pic">
+                         
                           </div>`;
   }
 };
