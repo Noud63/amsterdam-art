@@ -3,8 +3,9 @@ const wrapper = document.querySelector(".wrapper");
 const hideSidebar = document.querySelector(".hideSidebar");
 const sidebar = document.querySelector(".sidebar");
 
- const reset = document.querySelector(".reset");
 
+//Reset map to initial state
+const reset = document.querySelector(".reset");
 reset.addEventListener("click", () => {
   createArtLayer(art.features);
 });
