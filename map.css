@@ -320,6 +320,10 @@ html {
   z-index: 999;
 }
 
+.wrapper.left {
+  left: 0;
+}
+
 .wrapper.active {
   display: flex;
 }
@@ -351,6 +355,10 @@ html {
 @media only screen and (max-width: 975px) {
   .wrapper {
     left: 270px;
+  }
+
+  .wrapper.left {
+    left: 0;
   }
   .pic {
   width: 270px;

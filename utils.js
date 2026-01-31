@@ -3,7 +3,6 @@ const wrapper = document.querySelector(".wrapper");
 const hideSidebar = document.querySelector(".hideSidebar");
 const sidebar = document.querySelector(".sidebar");
 
-
 //Reset map to initial state
 const reset = document.querySelector(".reset");
 reset.addEventListener("click", () => {
@@ -35,7 +34,6 @@ document
   .querySelector(".artcentre")
   .addEventListener("click", () => filterByCategory("artcentre"));
 
-
 //Add attribute to sidebar tag on initial load
 hideSidebar.setAttribute("title", "Hide Sidebar");
 
@@ -55,7 +53,6 @@ hideSidebar.addEventListener("click", () => {
   const isHidden = sidebar.classList.contains("hidden");
   hideSidebar.title = isHidden ? "Show sidebar" : "Hide sidebar";
 });
-
 
 // Highlight list item on hover
 const res = Array.from(document.querySelectorAll(".item"));
