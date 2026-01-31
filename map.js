@@ -1,5 +1,5 @@
 
-var mymap = L.map('mapid', {
+const mymap = L.map('mapid', {
      zoomControl: true
 	}).setView([52.374534, 4.845805], 13);
 mymap.zoomControl.setPosition('bottomright');		
@@ -21,6 +21,6 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_M
 
 
 
-mymap.on("click", () => {
-  wrapper.classList.remove("active");
-});
+// mymap.on("click", () => {
+//   wrapper.classList.remove("active");
+// });
