@@ -15,6 +15,29 @@ html {
   height: 100%;
 }
 
+.hamburger {
+   display: none;
+   justify-content: center;
+   align-items: center;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  z-index: 9999;
+  margin-top: 20px;
+  gap: 15px;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 3px #725238;
+
+}
+
+.hamburger img {
+  width: 22px;
+}
+
 .menu {
   display: flex;
   position: absolute;
@@ -38,9 +61,12 @@ html {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 860px) {
   .menu {
     display: none;
+  }
+  .hamburger {
+    display: flex;
   }
 }
 

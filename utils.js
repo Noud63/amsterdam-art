@@ -2,6 +2,8 @@
 const wrapper = document.querySelector(".wrapper");
 const hideSidebar = document.querySelector(".hideSidebar");
 const sidebar = document.querySelector(".sidebar");
+
+//Add attribute to sidebar tag on initial load
 hideSidebar.setAttribute("title", "Hide Sidebar");
 
 //Close popup when clicking on map
@@ -14,7 +16,7 @@ wrapper.addEventListener("click", () => {
   wrapper.classList.remove("active");
 });
 
-// Hide sidbar on click
+// Hide sidbar on click and toggle title attribute text
 hideSidebar.addEventListener("click", () => {
   sidebar.classList.toggle("hidden");
   const isHidden = sidebar.classList.contains("hidden");
