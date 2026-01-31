@@ -685,7 +685,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "gallery",
       "properties": {
         "name": "De Witte Voet",
-        "image": "noimage.png",
+        "image": "dewittevoet.jpg",
         "extra": "Gallery focused on modern ceramics and experimental clay-based art.",
         "link": ""
       },

@@ -16,9 +16,9 @@ html {
 }
 
 .hamburger {
-   display: none;
-   justify-content: center;
-   align-items: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   right: 30px;
@@ -31,7 +31,6 @@ html {
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 2px 3px #725238;
-
 }
 
 .hamburger img {
@@ -40,6 +39,8 @@ html {
 
 .menu {
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   right: 30px;
@@ -61,12 +62,11 @@ html {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 975px) {
   .menu {
-    display: none;
-  }
-  .hamburger {
-    display: flex;
+    flex-direction: column;
+    right: 20px;
+    gap: 10px;
   }
 }
 
@@ -126,15 +126,9 @@ html {
 }
 
 #adam {
-  width: 350px;
+  width: 100%;
   height: 200px;
 }
-
-/* @media only screen and (max-width: 600px) {
-  .sidebar{
-    transform: translateX(-350px);
-  }
-} */
 
 .box {
   height: auto;
@@ -145,14 +139,14 @@ html {
   justify-content: space-between;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 10px
+  padding-top: 10px;
 }
 
 #pic {
   width: 30%;
   height: auto;
   padding-bottom: 5%;
-  margin-right: 15px
+  margin-right: 15px;
 }
 
 .info {
@@ -238,6 +232,33 @@ html {
   align-items: center;
 }
 
+@media only screen and (max-width: 975px) {
+  .menu {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .sidebar {
+    width: 270px;
+  }
+  .listPopUpWrapper {
+    width: 270px;
+  }
+  .listings {
+    width: 270px;
+  }
+  .hideSidebar {
+    left: 270px;
+  }
+  .sidebar.hidden {
+    transform: translateX(-270px);
+  }
+  .space {
+    font-size: 16px;
+  }
+}
+
 /* CUSTOM SCROLLBAR */
 
 .listings::-webkit-scrollbar {
@@ -285,10 +306,6 @@ html {
 
 /*CUSTOM POPUP STYLES*/
 
-/* #cover {
-  display: block;
-} */
-
 .wrapper {
   -webkit-box-shadow: 5px 0 5px -2px #807f4c;
   -moz-box-shadow: 5px 0 5px -2px #807f4c;
@@ -296,6 +313,7 @@ html {
   position: relative;
   display: none;
   flex-direction: column;
+  top:0;
   left: 350px;
   height: 100vh;
   float: left;
@@ -304,12 +322,6 @@ html {
 
 .wrapper.active {
   display: flex;
-}
-
-@media only screen and (max-width: 700px) {
-  #cover {
-    left: 0;
-  }
 }
 
 .pic {
@@ -334,6 +346,25 @@ html {
   padding-top: 10px;
   color: #883d00;
   overflow: auto;
+}
+
+@media only screen and (max-width: 975px) {
+  .wrapper {
+    left: 270px;
+  }
+  .pic {
+  width: 270px;
+  height: 161px;
+}
+
+.pic img {
+  width: 270px;
+  height: 161px;
+}
+
+.popUpContent {
+  width: 270px;
+}
 }
 
 .popUpContent::-webkit-scrollbar {
@@ -427,6 +458,8 @@ hr {
   margin-bottom: 80px;
   cursor: pointer;
 }
+
+
 
 /* git add . && git commit -m "update" && git push origin main */
 

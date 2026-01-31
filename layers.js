@@ -38,11 +38,11 @@ function createArtLayer(features) {
         e.originalEvent.stopPropagation(); //Important, stop bubbling up. Prevent popup from closing immediately!
 
         const element = document.querySelector(".wrapper");
-        const sidebar = document.querySelector(".sidebar");
+        // const sidebar = document.querySelector(".sidebar");
 
-        element.style.left = sidebar.classList.contains("hidden")
-          ? "0"
-          : "350px";
+        // element.style.left = sidebar.classList.contains("hidden")
+        //   ? "0"
+        //   : "350px";
 
         element.classList.add("active");
 
