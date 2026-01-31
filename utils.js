@@ -1,17 +1,19 @@
+//Elements
+const wrapper = document.querySelector(".wrapper");
+const hideSidebar = document.querySelector(".hideSidebar");
+const sidebar = document.querySelector(".sidebar");
+
 //Close popup when clicking on map
 mymap.on("click", () => {
   wrapper.classList.remove("active");
 });
 
 // close popup on ANY click
-const wrapper = document.querySelector(".wrapper");
 wrapper.addEventListener("click", () => {
   wrapper.classList.remove("active");
 });
 
 // Hide sidbar on click
-const hideSidebar = document.querySelector(".hideSidebar");
-const sidebar = document.querySelector(".sidebar");
 hideSidebar.addEventListener("click", () => {
   sidebar.classList.toggle("hidden");
 });
@@ -21,7 +23,7 @@ hideSidebar.addEventListener("click", () => {
 function filterByCategory(cat) {
   const filtered = {
     ...art,
-    features: art.features.filter(f => f.cat === cat),
+    features: art.features.filter(f => f.cat === cat)
   };
     createArtLayer(filtered);
 }
