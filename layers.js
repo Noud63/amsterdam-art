@@ -1,3 +1,4 @@
+// Marker icon
 var redFlag = L.icon({
   iconUrl: "images/marker1.png",
   shadowUrl: "images/marker1shadow.png",
@@ -7,17 +8,18 @@ var redFlag = L.icon({
   iconAnchor: [14, 42],
 });
 
-//Add layer with markers and popups
 let myLayer;
 
-function createArtLayer(data) {
+// --- Create map markers and sidebar ---
+function createArtLayer(features) {
   if (myLayer) {
     mymap.removeLayer(myLayer);
   }
 
-  myLayer = L.geoJSON(data, {
+  // Create new markers layer
+  myLayer = L.geoJSON(features, {
     pointToLayer: function (feature, latlng) {
-      const myMarker = L.marker(latlng, { icon: redFlag })
+      const marker = L.marker(latlng, { icon: redFlag })
         .setBouncingOptions({
           bounceHeight: 30,
           bounceSpeed: 54,
@@ -28,10 +30,9 @@ function createArtLayer(data) {
           this.bounce(1);
         });
 
-      feature.marker = myMarker;
-      return myMarker;
+      feature.marker = marker; // attach marker for sidebar
+      return marker;
     },
-
     onEachFeature: function (feature, layer) {
       layer.on("click", function (e) {
         e.originalEvent.stopPropagation(); //Important, stop bubbling up. Prevent popup from closing immediately!
@@ -63,6 +64,7 @@ function createArtLayer(data) {
       });
     },
   }).addTo(mymap);
-}
 
-createArtLayer(art);
+  // Build sidebar with filtered features
+  buildItemList(features);
+}

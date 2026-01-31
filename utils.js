@@ -3,6 +3,15 @@ const wrapper = document.querySelector(".wrapper");
 const hideSidebar = document.querySelector(".hideSidebar");
 const sidebar = document.querySelector(".sidebar");
 
+// Filter listitems by category
+function filterByCategory(cat) {
+  const filtered = art.features.filter((f) => f.cat === cat); // create filtered array
+  createArtLayer(filtered); // rebuild map and sidebar
+}
+
+// --- Initial load ---
+createArtLayer(art.features);
+
 //Add attribute to sidebar tag on initial load
 hideSidebar.setAttribute("title", "Hide Sidebar");
 
@@ -22,16 +31,6 @@ hideSidebar.addEventListener("click", () => {
   const isHidden = sidebar.classList.contains("hidden");
   hideSidebar.title = isHidden ? "Show sidebar" : "Hide sidebar";
 });
-
-//Filter by category add new layer of markers
-function filterByCategory(cat) {
-  const filtered = {
-    ...art,
-    features: art.features.filter((f) => f.cat === cat),
-  };
-  console.log("Filtered:", filtered);
-  createArtLayer(filtered);
-}
 
 document
   .querySelector(".museums")

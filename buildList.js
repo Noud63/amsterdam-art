@@ -1,48 +1,40 @@
-// Sort JSON file by key name alphabetically
+// Build sidebar and list of items
 
-function sortJson() {
-  let name = [];
-  for (const el of art.features) {
-    name.push(el);
-  }
-  return name;
-}
+function buildItemList(features) {
+  const data = features.sort((a, b) => {
+    const x = a.properties.name.toLowerCase();
+    const y = b.properties.name.toLowerCase();
+    return x < y ? -1 : x > y ? 1 : 0;
+  });
+  const listings = document.getElementById("listings");
+  listings.innerHTML = ""; // clear previous items
 
-const artName = sortJson();
-console.log(artName);
+  data.forEach((feature, index) => {
+    const prop = feature.properties;
+    const marker = feature.marker;
 
-myArt = artName.sort((a, b) => {
-  const x = a.properties.name.toLowerCase();
-  const y = b.properties.name.toLowerCase();
-  return x < y ? -1 : x > y ? 1 : 0;
-});
-
-// Add items and build list
-let i = 1;
-const buildItemList = (data) => {
-  for (const el of data) {
-    const prop = el.properties;
-    const myMarker = el.marker;
-
-    const listings = document.getElementById("listings");
-    const listing = listings.appendChild(document.createElement("div"));
+    const listing = document.createElement("div");
     listing.className = "item";
-    listing.id = "newItem" + i++;
-    listing.marker = myMarker;
+    listing.id = "item" + index;
+    listing.marker = marker;
 
-    const content = document.createElement("div");
-    listing.appendChild(content);
-    content.className = "content";
-    content.innerHTML = `<div class="box">
-                          ${prop.image === "noimage.png" ? `<img src="images/noimage.png" id="pic">` : `<img src="images/${prop.image}" id="pic">`}
-                          <div class="info">
-                          <div class="space">${prop.name}</div>
-                   
-                          <span class="extra">${el.cat}
-                          </div>
-                         
-                          </div>`;
-  }
-};
+    // Bounce marker on hover
+    listing.addEventListener("mouseenter", () => {
+      if (marker) marker.bounce(1);
+    });
 
-buildItemList(myArt);
+    listing.innerHTML = `
+      <div class="content">
+        <div class="box">
+          <img src="images/${prop.image}" id="pic">
+          <div class="info">
+            <div class="space">${prop.name}</div>
+            <span class="extra">${feature.cat}</span>
+          </div>
+        </div>
+      </div>
+    `;
+
+    listings.appendChild(listing);
+  });
+}
