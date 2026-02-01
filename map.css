@@ -62,6 +62,29 @@ html {
   cursor: pointer;
 }
 
+.infowindow {
+  display: flex;
+  position: fixed;
+  top:70px;
+  right: 30px;
+  width: 300px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 20px;
+  z-index: 999;
+  padding: 20px;
+  box-shadow: 0 2px 3px #725238;
+  color:#502400;
+  transform: translateX(330px);
+  transition: transform 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.infowindow.active {
+   transform: translateX(0px);
+     pointer-events: auto;
+}
+
 @media only screen and (max-width: 975px) {
   .menu {
     flex-direction: column;
@@ -194,6 +217,7 @@ html {
   height: auto;
   background: transparent;
   padding-bottom: 5%;
+  white-space: pre-line;
 }
 
 .content {
@@ -362,12 +386,12 @@ html {
   }
   .pic {
   width: 270px;
-  height: 161px;
+  height: 171px;
 }
 
 .pic img {
   width: 270px;
-  height: 161px;
+  height: 170px;
 }
 
 .popUpContent {
@@ -419,17 +443,31 @@ html {
   text-align: center;
 }
 
+
 .extra3 {
   font-family: "times";
   font-size: 1rem;
   text-align: center;
   padding: 5px;
+    white-space: pre-line;
 }
 
 .check {
   font-family: "Times";
   font-size: 1em;
   font-weight: bold;
+}
+
+.puLink {
+  margin-top: 20px;
+}
+
+.puLink a {
+  margin-top: 20px;
+  font-family: "Times";
+  color: #883d00;
+  font-size: 1.2em;
+  text-decoration-color: #883d00;
 }
 
 .link a {
@@ -442,7 +480,7 @@ html {
   font-family: "Times";
   font-size: 1em;
   color: #883d00;
-  text-decoration: none;
+
 }
 
 hr {

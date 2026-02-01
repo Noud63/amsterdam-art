@@ -1,15 +1,19 @@
-// Build sidebar and list of items
+// Build sidebar with list of items
+// Add marker bounce onhover list item
+// Highlight list item on hover
 
 function buildItemList(features) {
-  const data = features.sort((a, b) => {
+
+    const data = features.sort((a, b) => {
     const x = a.properties.name.toLowerCase();
     const y = b.properties.name.toLowerCase();
     return x < y ? -1 : x > y ? 1 : 0;
   });
-  const listings = document.getElementById("listings");
-  listings.innerHTML = ""; // clear previous items
 
-  data.forEach((feature, index) => {
+    const listings = document.getElementById("listings");
+    listings.innerHTML = ""; // clear previous items
+
+    data.forEach((feature, index) => {
     const prop = feature.properties;
     const marker = feature.marker;
 
@@ -22,6 +26,10 @@ function buildItemList(features) {
     listing.addEventListener("mouseenter", () => {
       if (marker) marker.bounce(1);
     });
+    
+    // Highlight list item on hover
+    const res = Array.from(document.querySelectorAll(".item"));
+    highLightItem(res);
 
     listing.innerHTML = `
       <div class="content">

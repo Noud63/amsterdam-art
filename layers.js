@@ -54,6 +54,7 @@ function createArtLayer(features) {
             <div class="puName">${feature.properties.name}</div>
             ${feature.properties.title ? `<div class="puTitle">"${feature.properties.title}"</div>` : ""}
             ${feature.properties.extra ? `<div class="extra3">${feature.properties.extra}</div>` : ""}
+            <div class="puLink"><a href=${feature.properties.link} target="_blank" rel="noopener" style="text-decoration:none">${feature.properties.link}</a></div>
             <div class="close">
               <img src="images/close.png" class="closeIcon"/>
               <div class="closeText">close</div>
