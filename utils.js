@@ -22,6 +22,7 @@ function filterByCategory(cat) {
   createArtLayer(filtered); // rebuild map and sidebar
 }
 
+
 // Menu buttons
 document
   .querySelector(".museums")
@@ -87,7 +88,7 @@ function highLightItem(res) {
   }
 }
 
-
+// Toggle info box
 info.addEventListener("click", function(){
    infowindow.classList.toggle("active");
 })

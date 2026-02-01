@@ -712,9 +712,9 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "artcentre",
       "properties": {
         "name": "Droog",
-        "image": "noimage.png",
-        "extra": "Design platform presenting conceptual design worldwide.",
-        "link": ""
+        "image": "droog.jpg",
+        "extra": "Was Droog Design a generation of young designers? That’s what it appeared to be. Or was it a movement? Not really. A collective, perhaps? A label? A manifesto? It was none of the above and all of them at once, but never at the same moment – certainly not for the long term.",
+        "link": "https://www.droog.com"
       },
       "geometry": { "type": "Point", "coordinates": [4.8976, 52.3712] }
     },
@@ -724,9 +724,9 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "gallery",
       "properties": {
         "name": "Galerie Bart",
-        "image": "noimage.png",
+        "image": "bart.jpg",
         "extra": "Breeding ground for new talent from Dutch art academies.",
-        "link": ""
+        "link": "https://www.galeriebart.nl"
       },
       "geometry": { "type": "Point", "coordinates": [4.8756, 52.3718] }
     },
@@ -736,10 +736,9 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "gallery",
       "properties": {
         "name": "Gallery Delaive",
-        "image": "noimage.png",
-        "image": "noimage.png",
+        "image": "delaive.jpg",
         "extra": "Commercial gallery presenting major Dutch and international artists.",
-        "link": ""
+        "link": "https://delaive.com"
       },
       "geometry": { "type": "Point", "coordinates": [4.8949, 52.3654] }
     },
@@ -749,23 +748,11 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "gallery",
       "properties": {
         "name": "Galerie Mokum",
-        "image": "noimage.png",
-        "extra": "Gallery for realist still lifes, portraits and landscapes.",
-        "link": ""
+        "image": "mokum.jpg",
+        "extra": "Galerie Mokum is in 1962 opgericht en zij was toen de eerste en enige plek in Amsterdam, waar realistische kunst werd getoond, verdedigd en gestimuleerd. Hiermee heeft zij een bepalende rol gespeeld in de ontwikkeling van Nederlandse naoorlogse realistische schilderkunst. Door het consequente beleid dat de galerie door de jaren heen heeft gevoerd is Galerie Mokum ook nu nog toonaangevend op het gebied van figuratieve schilderkunst in Nederland.",
+        "link": "https://www.galeriemokum.com"
       },
       "geometry": { "type": "Point", "coordinates": [4.8996, 52.3739] }
-    },
-    {
-      "id": "galerie-rob-koudijs",
-      "type": "Feature",
-      "cat": "gallery",
-      "properties": {
-        "name": "Galerie Rob Koudijs",
-        "image": "noimage.png",
-        "extra": "Gallery dedicated to contemporary jewellery.",
-        "link": ""
-      },
-      "geometry": { "type": "Point", "coordinates": [4.8752, 52.3716] }
     },
     {
       "id": "go-gallery",
@@ -773,9 +760,9 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "gallery",
       "properties": {
         "name": "GO Gallery",
-        "image": "noimage.png",
-        "extra": "Gallery focused on street art and urban contemporary culture.",
-        "link": ""
+        "image": "go.jpg",
+        "extra": "Gallery focused on street art and urban contemporary culture. Shortly after its foundation, Oscar van der Voorn met his partner Farud Cambatta in Bombay. A few years later, Farud came to Amsterdam and they have the GO Gallery continued together. \nIn the early 2000’s, van der Voorn and Cambatta came in contact with local and international artists who used the street as their canvas and this art form was still called graffiti but soon got the name Street Art.",
+        "link": "https://gogallery.nl"
       },
       "geometry": { "type": "Point", "coordinates": [4.8769, 52.3692] }
     },
@@ -797,11 +784,11 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "gallery",
       "properties": {
         "name": "Kersgallery",
-        "image": "noimage.png",
-        "extra": "Gallery showing theatrical and absurd interpretations of daily life.",
-        "link": ""
+        "image": "kers.jpg",
+        "extra": "Kers Gallery is a contemporary art gallery based in Amsterdam, dedicated to artists whose practices are conceptually rigorous, materially attentive, and grounded in lived experience.\nThe gallery’s program brings together poetic, political, and sensorial approaches as interconnected modes of artistic inquiry.",
+        "link": "https://www.kersgallery.com"
       },
-      "geometry": { "type": "Point", "coordinates": [4.8781, 52.3754] }
+      "geometry": { "type": "Point", "coordinates": [4.884636, 52.380373] }
     },
     {
       "id": "kochxbos",
@@ -809,9 +796,9 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "artcentre",
       "properties": {
         "name": "KochXBos Gallery",
-        "image": "noimage.png",
-        "extra": "Contemporary underground art space.",
-        "link": ""
+        "image": "kochxbox.jpg",
+        "extra": "KochxBos Gallery is committed to new and cutting edge art.Rewarded by Top Ten independent galeries by The Guardian we provide a stage for artists to explore their ideas of tolerance and liberation in high and low art. With artists like Ray Caesar, Claire artington and Sarah Maple we contribute to some challenging trending topics. When visiting the gallery you will be surprised by high class alienating paintings and figures.",
+        "link": "https://kochxbos.com"
       },
       "geometry": { "type": "Point", "coordinates": [4.8793, 52.3749] }
     },
@@ -821,9 +808,9 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "gallery",
       "properties": {
         "name": "Martin van Zomeren",
-        "image": "noimage.png",
+        "image": "vanzomeren.png",
         "extra": "Gallery for contemporary art and documentary photography.",
-        "link": ""
+        "link": "https://www.martinvanzomeren.nl"
       },
       "geometry": { "type": "Point", "coordinates": [4.8837, 52.3699] }
     },
@@ -845,11 +832,11 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "gallery",
       "properties": {
         "name": "Torch Gallery",
-        "image": "noimage.png",
-        "extra": "Gallery specializing in photography and new media.",
-        "link": ""
+        "image": "torch.jpg",
+        "extra": "In 1984, TORCH Gallery was established by Adriaan van der Have as a stage for Dutch and international contemporary art. Adriaan was among the first to see the potential of photography as an art form. He continued to take risks in new ways of expression, making him a pioneer promoter of photography, veejay art and digital imaging.",
+        "link": "https://www.torchgallery.com"
       },
-      "geometry": { "type": "Point", "coordinates": [4.8762, 52.3726] }
+      "geometry": { "type": "Point", "coordinates": [4.880215, 52.371582] }
     }
   ]
 }

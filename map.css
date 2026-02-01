@@ -149,7 +149,7 @@ html {
 }
 
 #adam {
-  width: 100%;
+  width: 350px;
   height: 200px;
 }
 
@@ -281,6 +281,14 @@ html {
   .space {
     font-size: 16px;
   }
+  #adam {
+    width:270px;
+    height: 170px;
+    position: fixed;
+  }
+  .listings {
+    margin-top: 170px;
+  }
 }
 
 /* CUSTOM SCROLLBAR */
@@ -339,6 +347,7 @@ html {
   flex-direction: column;
   top:0;
   left: 350px;
+  width: 350px;
   height: 100vh;
   float: left;
   z-index: 999;
@@ -379,6 +388,7 @@ html {
 @media only screen and (max-width: 975px) {
   .wrapper {
     left: 270px;
+     width: 270px;
   }
 
   .wrapper.left {
@@ -386,7 +396,7 @@ html {
   }
   .pic {
   width: 270px;
-  height: 171px;
+  height: 170px;
 }
 
 .pic img {
