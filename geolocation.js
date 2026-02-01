@@ -772,9 +772,9 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "gallery",
       "properties": {
         "name": "Jaski Art Gallery",
-        "image": "noimage.png",
-        "extra": "Gallery specializing in CoBrA and post-CoBrA abstraction.",
-        "link": ""
+        "image": "jaski.jpg",
+        "extra": "Jaski Gallery is situated in the heart of Amsterdam’s Art & Antiques district, where we’ve been since 1988. We specialise in work from the CoBrA movement and contemporary art. The gallery regularly stages exhibitions and takes part in major art fairs such as TEFAF in Maastricht and PAN Amsterdam.",
+        "link": "https://www.jaski.nl"
       },
       "geometry": { "type": "Point", "coordinates": [4.8962, 52.3657] }
     },
