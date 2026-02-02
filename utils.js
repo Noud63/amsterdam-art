@@ -58,6 +58,11 @@ hideSidebar.addEventListener("click", () => {
   hideSidebar.title = isHidden ? "Show sidebar" : "Hide sidebar";
 });
 
+// Hide sidebar on mobile
+if(window.innerWidth <= 665){
+   sidebar.classList.add("hidden")
+}
+
 // Highlight list item on hover
 function highLightItem(res) {
   for (const el of res) {
@@ -110,3 +115,5 @@ document.addEventListener("click", (e) => {
     hamburger.setAttribute("aria-expanded", "false");
   }
 });
+
+

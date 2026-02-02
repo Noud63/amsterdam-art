@@ -185,6 +185,7 @@ html {
   background-color: #b47630;
   top: 0;
   left: 0;
+  width: 350px;
   height: 100%;
   z-index: 999;
   transform: translateX(0);
@@ -335,6 +336,8 @@ html {
   }
   .hideSidebar {
     left: 270px;
+    height: 60px;
+    width: 24px
   }
   .sidebar.hidden {
     transform: translateX(-270px);
