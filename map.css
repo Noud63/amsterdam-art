@@ -62,6 +62,36 @@ html {
   cursor: pointer;
 }
 
+.menubar {
+   display: none;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  z-index: 9999;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.menubar.active {
+  display: flex;
+}
+
+.menubar button {
+  background-color: #fff;
+  width: 100px;
+  padding: 8px;
+  border-radius: 25px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #682f00;
+  box-shadow: 0 2px 3px #725238;
+  cursor: pointer;
+}
+
 .infowindow {
   display: flex;
   position: fixed;

@@ -4,6 +4,8 @@ const hideSidebar = document.querySelector(".hideSidebar");
 const sidebar = document.querySelector(".sidebar");
 const info = document.querySelector(".informatie")
 const infowindow = document.querySelector(".infowindow")
+const hamburger = document.querySelector(".hamburger")
+const menubar = document.querySelector(".menubar")
 
 //Reset map to initial state
 const reset = document.querySelector(".reset");
@@ -93,6 +95,12 @@ info.addEventListener("click", function(){
    infowindow.classList.toggle("active");
 })
 
+
+//Close info when clicking map
 mymap.on("click", () => {
   infowindow.classList.remove("active");
 });
+
+hamburger.addEventListener("click", function(){
+  menubar.classList.toggle("active");
+})
