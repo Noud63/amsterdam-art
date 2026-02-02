@@ -16,9 +16,9 @@ document.querySelectorAll(".reset").forEach((btn) => {
 createArtLayer(art.features);
 
 // Filter listitems by category
-function filterByCategory(cat) { 
-  const filtered = art.features.filter((f) => f.cat === cat); // create filtered array 
-  createArtLayer(filtered); // rebuild map and sidebar 
+function filterByCategory(cat) {
+  const filtered = art.features.filter((f) => f.cat === cat); // create filtered array
+  createArtLayer(filtered); // rebuild map and sidebar
 }
 function handleMenuClick(e) {
   const btn = e.target.closest("button");
@@ -94,8 +94,20 @@ mymap.on("click", () => {
 
 hamburger.addEventListener("click", () => {
   const isOpen = menubar.classList.toggle("active");
-
   hamburger.classList.toggle("active", isOpen);
+  
   hamburger.setAttribute("aria-expanded", isOpen);
   hamburger.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+});
+
+//Close menu and x when clicking map
+document.addEventListener("click", (e) => {
+  const clickedInsideMenu = menubar.contains(e.target);
+  const clickedHamburger = hamburger.contains(e.target);
+
+  if (!clickedInsideMenu && !clickedHamburger) {
+    menubar.classList.remove("active");
+    hamburger.classList.remove("active");
+    hamburger.setAttribute("aria-expanded", "false");
+  }
 });
