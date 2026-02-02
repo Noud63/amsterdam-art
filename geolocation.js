@@ -783,9 +783,9 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "type": "Feature",
       "cat": "gallery",
       "properties": {
-        "name": "Kersgallery",
+        "name": "Kers gallery",
         "image": "kers.jpg",
-        "extra": "Kers Gallery is a contemporary art gallery based in Amsterdam, dedicated to artists whose practices are conceptually rigorous, materially attentive, and grounded in lived experience.\nThe gallery’s program brings together poetic, political, and sensorial approaches as interconnected modes of artistic inquiry.",
+        "extra": "Kers gallery is a contemporary art gallery based in Amsterdam, dedicated to artists whose practices are conceptually rigorous, materially attentive, and grounded in lived experience.\nThe gallery’s program brings together poetic, political, and sensorial approaches as interconnected modes of artistic inquiry.",
         "link": "https://www.kersgallery.com"
       },
       "geometry": { "type": "Point", "coordinates": [4.884636, 52.380373] }

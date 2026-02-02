@@ -92,3 +92,7 @@ function highLightItem(res) {
 info.addEventListener("click", function(){
    infowindow.classList.toggle("active");
 })
+
+mymap.on("click", () => {
+  infowindow.classList.remove("active");
+});

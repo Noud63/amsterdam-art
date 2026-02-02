@@ -70,7 +70,7 @@ html {
   width: 300px;
   height: auto;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 10px;
   z-index: 999;
   padding: 20px;
   box-shadow: 0 2px 3px #725238;
@@ -85,7 +85,7 @@ html {
      pointer-events: auto;
 }
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 1070px) {
   .menu {
     flex-direction: column;
     right: 20px;
@@ -256,12 +256,19 @@ html {
   align-items: center;
 }
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 680px) {
   .menu {
     display: none;
   }
   .hamburger {
     display: flex;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .infowindow {
+    top: 280px;
+    right: 20px;
   }
   .sidebar {
     width: 270px;
@@ -291,13 +298,24 @@ html {
   }
 }
 
+@media only screen and (max-width: 1070px) {
+  .infowindow {
+    top: 280px;
+    right: 20px;
+    z-index:9999;
+    width: 240px;
+  }
+}
 /* CUSTOM SCROLLBAR */
 
 .listings::-webkit-scrollbar {
   width: 7px;
   height: 0px;
   border-left: 0;
+ 
 }
+
+/* .listings:hover::-webkit-scrollbar */
 
 .listings::-webkit-scrollbar-track {
   background: none;
@@ -320,9 +338,10 @@ html {
   box-shadow: inset 0px 0px 5px #53310a;
   background-color: #cf9451;
 }
-.listings::-webkit-scrollbar-thumb:hover {
+
+/* .listings:hover::-webkit-scrollbar-thumb {
   background: #b47630;
-}
+} */
 
 .clearfix {
   display: block;
