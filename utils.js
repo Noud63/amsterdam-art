@@ -2,10 +2,10 @@
 const wrapper = document.querySelector(".wrapper");
 const hideSidebar = document.querySelector(".hideSidebar");
 const sidebar = document.querySelector(".sidebar");
-const info = document.querySelector(".informatie")
-const infowindow = document.querySelector(".infowindow")
-const hamburger = document.querySelector(".hamburger")
-const menubar = document.querySelector(".menubar")
+const info = document.querySelector(".informatie");
+const infowindow = document.querySelector(".infowindow");
+const hamburger = document.querySelector(".hamburger");
+const menubar = document.querySelector(".menubar");
 
 //Reset map to initial state
 const reset = document.querySelector(".reset");
@@ -13,17 +13,14 @@ reset.addEventListener("click", () => {
   createArtLayer(art.features);
 });
 
-
 // Initial load
 createArtLayer(art.features);
-
 
 // Filter listitems by category
 function filterByCategory(cat) {
   const filtered = art.features.filter((f) => f.cat === cat); // create filtered array
   createArtLayer(filtered); // rebuild map and sidebar
 }
-
 
 // Menu buttons
 document
@@ -42,22 +39,18 @@ document
   .querySelector(".artcentre")
   .addEventListener("click", () => filterByCategory("artcentre"));
 
-
 //Add attribute to sidebar tag on initial load
 hideSidebar.setAttribute("title", "Hide Sidebar");
-
 
 //Close popup when clicking on map
 mymap.on("click", () => {
   wrapper.classList.remove("active");
 });
 
-
 // close popup on ANY click
 wrapper.addEventListener("click", () => {
   wrapper.classList.remove("active");
 });
-
 
 // Hide sidbar on click and toggle title attribute text
 hideSidebar.addEventListener("click", () => {
@@ -65,7 +58,6 @@ hideSidebar.addEventListener("click", () => {
   const isHidden = sidebar.classList.contains("hidden");
   hideSidebar.title = isHidden ? "Show sidebar" : "Hide sidebar";
 });
-
 
 // Highlight list item on hover
 function highLightItem(res) {
@@ -91,16 +83,22 @@ function highLightItem(res) {
 }
 
 // Toggle info box
-info.addEventListener("click", function(){
-   infowindow.classList.toggle("active");
-})
-
+info.addEventListener("click", function () {
+  infowindow.classList.toggle("active");
+});
 
 //Close info when clicking map
 mymap.on("click", () => {
   infowindow.classList.remove("active");
 });
 
-hamburger.addEventListener("click", function(){
-  menubar.classList.toggle("active");
-})
+hamburger.addEventListener('click', () => {
+  const isOpen = menubar.classList.toggle('active');
+
+  hamburger.classList.toggle('active', isOpen);
+  hamburger.setAttribute('aria-expanded', isOpen);
+  hamburger.setAttribute(
+    'aria-label',
+    isOpen ? 'Close menu' : 'Open menu'
+  );
+});

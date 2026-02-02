@@ -31,10 +31,27 @@ html {
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 2px 3px #725238;
+  border: none;
 }
 
-.hamburger img {
-  width: 22px;
+.icon-closed {
+  width: 20px;
+}
+
+.icon-open {
+  width: 16px;
+}
+
+.hamburger .icon-open {
+  display: none;
+}
+
+.hamburger.active .icon-closed {
+  display: none;
+}
+
+.hamburger.active .icon-open {
+  display: flex;
 }
 
 .menu {
@@ -63,8 +80,8 @@ html {
 }
 
 .menubar {
-   display: none;
-   flex-direction: column;
+  display: none;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -95,7 +112,7 @@ html {
 .infowindow {
   display: flex;
   position: fixed;
-  top:70px;
+  top: 70px;
   right: 30px;
   width: 300px;
   height: auto;
@@ -104,15 +121,15 @@ html {
   z-index: 999;
   padding: 20px;
   box-shadow: 0 2px 3px #725238;
-  color:#502400;
+  color: #502400;
   transform: translateX(330px);
   transition: transform 0.3s ease-in-out;
   pointer-events: none;
 }
 
 .infowindow.active {
-   transform: translateX(0px);
-     pointer-events: auto;
+  transform: translateX(0px);
+  pointer-events: auto;
 }
 
 @media only screen and (max-width: 1070px) {
@@ -292,6 +309,13 @@ html {
   }
   .hamburger {
     display: flex;
+    right: 40px;
+  }
+}
+
+@media only screen and (min-width: 680px) {
+  .menubar.active {
+    display: none;
   }
 }
 
@@ -319,7 +343,7 @@ html {
     font-size: 16px;
   }
   #adam {
-    width:270px;
+    width: 270px;
     height: 170px;
     position: fixed;
   }
@@ -332,7 +356,7 @@ html {
   .infowindow {
     top: 280px;
     right: 20px;
-    z-index:9999;
+    z-index: 9999;
     width: 240px;
   }
 }
@@ -342,7 +366,6 @@ html {
   width: 7px;
   height: 0px;
   border-left: 0;
- 
 }
 
 /* .listings:hover::-webkit-scrollbar */
@@ -394,7 +417,7 @@ html {
   position: relative;
   display: none;
   flex-direction: column;
-  top:0;
+  top: 0;
   left: 350px;
   width: 350px;
   height: 100vh;
@@ -437,25 +460,25 @@ html {
 @media only screen and (max-width: 975px) {
   .wrapper {
     left: 270px;
-     width: 270px;
+    width: 270px;
   }
 
   .wrapper.left {
     left: 0;
   }
   .pic {
-  width: 270px;
-  height: 170px;
-}
+    width: 270px;
+    height: 170px;
+  }
 
-.pic img {
-  width: 270px;
-  height: 170px;
-}
+  .pic img {
+    width: 270px;
+    height: 170px;
+  }
 
-.popUpContent {
-  width: 270px;
-}
+  .popUpContent {
+    width: 270px;
+  }
 }
 
 .popUpContent::-webkit-scrollbar {
@@ -502,13 +525,12 @@ html {
   text-align: center;
 }
 
-
 .extra3 {
   font-family: "times";
   font-size: 1rem;
   text-align: center;
   padding: 5px;
-    white-space: pre-line;
+  white-space: pre-line;
 }
 
 .check {
@@ -539,7 +561,6 @@ html {
   font-family: "Times";
   font-size: 1em;
   color: #883d00;
-
 }
 
 hr {
@@ -563,8 +584,6 @@ hr {
   margin-bottom: 80px;
   cursor: pointer;
 }
-
-
 
 /* git add . && git commit -m "update" && git push origin main */
 
