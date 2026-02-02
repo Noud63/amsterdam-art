@@ -8,36 +8,36 @@ const hamburger = document.querySelector(".hamburger");
 const menubar = document.querySelector(".menubar");
 
 //Reset map to initial state
-const reset = document.querySelector(".reset");
-reset.addEventListener("click", () => {
-  createArtLayer(art.features);
+document.querySelectorAll(".reset").forEach((btn) => {
+  btn.addEventListener("click", () => createArtLayer(art.features));
 });
 
 // Initial load
 createArtLayer(art.features);
 
 // Filter listitems by category
-function filterByCategory(cat) {
-  const filtered = art.features.filter((f) => f.cat === cat); // create filtered array
-  createArtLayer(filtered); // rebuild map and sidebar
+function filterByCategory(cat) { 
+  const filtered = art.features.filter((f) => f.cat === cat); // create filtered array 
+  createArtLayer(filtered); // rebuild map and sidebar 
+}
+function handleMenuClick(e) {
+  const btn = e.target.closest("button");
+  if (!btn) return;
+
+  if (btn.classList.contains("museums")) {
+    filterByCategory("museum");
+  } else if (btn.classList.contains("galleries")) {
+    filterByCategory("gallery");
+  } else if (btn.classList.contains("publicArt")) {
+    filterByCategory("public");
+  } else if (btn.classList.contains("artcentre")) {
+    filterByCategory("artcentre");
+  }
 }
 
-// Menu buttons
-document
-  .querySelector(".museums")
-  .addEventListener("click", () => filterByCategory("museum"));
-
-document
-  .querySelector(".galleries")
-  .addEventListener("click", () => filterByCategory("gallery"));
-
-document
-  .querySelector(".publicArt")
-  .addEventListener("click", () => filterByCategory("public"));
-
-document
-  .querySelector(".artcentre")
-  .addEventListener("click", () => filterByCategory("artcentre"));
+// Attach once to both menus
+document.querySelector(".menu").addEventListener("click", handleMenuClick);
+document.querySelector(".menubar").addEventListener("click", handleMenuClick);
 
 //Add attribute to sidebar tag on initial load
 hideSidebar.setAttribute("title", "Hide Sidebar");
@@ -92,13 +92,10 @@ mymap.on("click", () => {
   infowindow.classList.remove("active");
 });
 
-hamburger.addEventListener('click', () => {
-  const isOpen = menubar.classList.toggle('active');
+hamburger.addEventListener("click", () => {
+  const isOpen = menubar.classList.toggle("active");
 
-  hamburger.classList.toggle('active', isOpen);
-  hamburger.setAttribute('aria-expanded', isOpen);
-  hamburger.setAttribute(
-    'aria-label',
-    isOpen ? 'Close menu' : 'Open menu'
-  );
+  hamburger.classList.toggle("active", isOpen);
+  hamburger.setAttribute("aria-expanded", isOpen);
+  hamburger.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
 });
