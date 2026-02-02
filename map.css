@@ -30,12 +30,13 @@ html {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 2px 3px #725238;
+  box-shadow: 0 2px 3px #583f2b;
   border: none;
+  /* border: 1px solid #725238; */
 }
 
 .icon-closed {
-  width: 20px;
+  width: 24px;
 }
 
 .icon-open {
@@ -74,7 +75,7 @@ html {
   border: none;
   font-size: 14px;
   font-weight: 600;
-  color: #682f00;
+  color: #854109;
   box-shadow: 0 2px 3px #725238;
   cursor: pointer;
 }
