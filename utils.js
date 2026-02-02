@@ -42,7 +42,6 @@ document.querySelector(".menubar").addEventListener("click", handleMenuClick);
 //Add attribute to sidebar tag on initial load
 hideSidebar.setAttribute("title", "Hide Sidebar");
 
-//Close popup when clicking on map
 mymap.on("click", () => {
   wrapper.classList.remove("active");
 });
@@ -95,12 +94,12 @@ mymap.on("click", () => {
 hamburger.addEventListener("click", () => {
   const isOpen = menubar.classList.toggle("active");
   hamburger.classList.toggle("active", isOpen);
-  
+
   hamburger.setAttribute("aria-expanded", isOpen);
   hamburger.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
 });
 
-//Close menu and x when clicking map
+//Close menu and change x to hamburger when clicking map
 document.addEventListener("click", (e) => {
   const clickedInsideMenu = menubar.contains(e.target);
   const clickedHamburger = hamburger.contains(e.target);
