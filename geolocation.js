@@ -458,9 +458,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "title": "",
         "image": "arti.jpg",
         "adress": "Rokin 112",
-        "extra": "Arti is the oldest visual artist society in the Netherlands where the artists themselves determine policy. \
-                  Arti\u2019s policies embrace unity coupled with diversity. Our identity as a medium transcending platform leads us to \
-                  embrace the inherent fruitful characteristics. Tradition is coupled with the experimental, the parochial with the cosmopolitan, \
+        "extra": "Arti is the oldest visual artist society in the Netherlands where the artists themselves determine policy.\n\nArti\u2019s policies embrace unity coupled with diversity.\nOur identity as a medium transcending platform leads us to embrace the inherent fruitful characteristics.\n\nTradition is coupled with the experimental, the parochial with the cosmopolitan, \
                   the inclusive with the exclusive. As a lively and stable factor in an unstable (art) world, curiosity, friendship and connecting are key issues for Arti.",
         "link": "https://www.arti.nl/"
       },
@@ -674,8 +672,9 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "properties": {
         "name": "Borzo Gallery",
         "image": "borzo.jpg",
-        "extra": "Borzo Gallery is one of the oldest established art galleries in the Netherlands and is a leading gallery in NUL/Zero, Minimal art and Conceptual art. Artists such as Jan Schoonhoven, Jan Henderikse, herman de vries, Ad Dekkers, Carel Visser, Constant and Ger van Elk are represented in the collection. Tthe gallery produces an ongoing series of publications to accompany its gallery exhibitions.",
-        "link": ""
+        "extra": "Borzo Gallery is one of the oldest established art galleries in the Netherlands and is a leading gallery in NUL/Zero, Minimal art and Conceptual art.\n\nArtists such as Jan Schoonhoven, Jan Henderikse, herman de vries, Ad Dekkers, Carel Visser, Constant and Ger van Elk are represented in the collection.\n\nThe gallery produces an ongoing series of publications to accompany its gallery exhibitions.",
+        "address": "Keizersgracht 321",
+        "link": "https://www.borzo.com"
       },
       "geometry": { "type": "Point", "coordinates": [4.8878, 52.3701] }
     },

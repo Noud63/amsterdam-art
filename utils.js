@@ -20,6 +20,7 @@ function filterByCategory(cat) {
   const filtered = art.features.filter((f) => f.cat === cat); // create filtered array
   createArtLayer(filtered); // rebuild map and sidebar
 }
+
 function handleMenuClick(e) {
   const btn = e.target.closest("button");
   if (!btn) return;

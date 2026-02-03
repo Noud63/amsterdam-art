@@ -57,7 +57,7 @@ html {
 
 .menu {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   position: absolute;
   top: 0;
@@ -73,7 +73,10 @@ html {
   padding: 8px;
   border-radius: 25px;
   border: none;
-  font-size: 14px;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: .85rem;
+  letter-spacing: 0.04rem;
+  line-height: 1.25rem;
   font-weight: 600;
   color: #854109;
   box-shadow: 0 2px 3px #725238;
@@ -103,7 +106,11 @@ html {
   padding: 8px;
   border-radius: 25px;
   border: none;
-  font-size: 14px;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.04rem;
+    line-height: 1.25rem;
+  font-weight: 600;
   font-weight: 600;
   color: #682f00;
   box-shadow: 0 2px 3px #725238;
@@ -122,7 +129,10 @@ html {
   z-index: 999;
   padding: 20px;
   box-shadow: 0 2px 3px #725238;
-  color: #502400;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.1rem;
+  color: #5f2b00;
   transform: translateX(330px);
   transition: transform 0.3s ease-in-out;
   pointer-events: none;
@@ -162,8 +172,9 @@ html {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 50vh;
-  left: 350px;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
   height: 50px;
   width: 22px;
   border-bottom-right-radius: 10px;
@@ -248,10 +259,12 @@ html {
 }
 
 .extra {
-  margin-top: 0%;
-  font-family: "times";
+  font-family: "Google Sans", Roboto, Arial, sans-serif;;
   color: rgb(255, 255, 255);
+  font-size: 0.75rem;
+  letter-spacing: .1rem;
   white-space: normal;
+  font-weight: 400;
   float: left;
   background: transparent;
   padding-bottom: 5%;
@@ -267,6 +280,7 @@ html {
   background: transparent;
   padding-bottom: 5%;
   white-space: pre-line;
+  line-height: 1.1rem;
 }
 
 .content {
@@ -281,15 +295,16 @@ html {
   font-family: "times";
   color: #3d2100;
   background: transparent;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
 }
 
 .space {
-  font-family: "Times";
-  font-size: 20px;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: .07rem;
   font-weight: bold;
   color: #ffffff;
   padding-bottom: 3px;
-  text-shadow: #3d2100 1px 1px 1px;
 }
 
 .listings {
@@ -344,7 +359,10 @@ html {
     transform: translateX(-270px);
   }
   .space {
-    font-size: 16px;
+    font-size: 12px;
+  }
+  .extra {
+    font-size: 0.65rem;
   }
   #adam {
     width: 270px;
@@ -415,6 +433,7 @@ html {
 /*CUSTOM POPUP STYLES*/
 
 .wrapper {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
   -webkit-box-shadow: 5px 0 5px -2px #807f4c;
   -moz-box-shadow: 5px 0 5px -2px #807f4c;
   box-shadow: 5px 0 5px -2px #9c9b69;
@@ -453,7 +472,6 @@ html {
   font-size: 14px;
   width: 350px;
   height: 100vh;
-  text-align: center;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
@@ -517,52 +535,53 @@ html {
 }
 
 .puName {
-  font-family: "Times";
-  font-size: 20px;
+  font-size: 1rem;
   text-align: center;
   font-weight: bold;
 }
 
 .puTitle {
-  font-family: "Times";
-  font-size: 1em;
+  line-height: 1.4rem;
+  font-size: 0.9em;
   text-align: center;
 }
 
 .extra3 {
-  font-family: "times";
-  font-size: 1rem;
-  text-align: center;
+  margin-top: 10px;
+  font-size: .85rem;
+  text-align:left;
   padding: 5px;
   white-space: pre-line;
+  line-height: 1.1rem;
+}
+
+.address {
+  margin-top: 10px;
+  padding: 0 5px;
 }
 
 .check {
-  font-family: "Times";
-  font-size: 1em;
+  font-size: .85em;
   font-weight: bold;
 }
 
 .puLink {
-  margin-top: 20px;
+  margin-top: 10px;
+  padding: 0 5px;
 }
 
 .puLink a {
-  margin-top: 20px;
-  font-family: "Times";
   color: #883d00;
-  font-size: 1.2em;
+  font-size: 0.9rem;
   text-decoration-color: #883d00;
 }
 
 .link a {
-  font-family: "Times";
   font-size: 1em;
   text-decoration: underline #883d00;
 }
 
 .link1 {
-  font-family: "Times";
   font-size: 1em;
   color: #883d00;
 }
@@ -571,16 +590,23 @@ hr {
   border-top: 1px dashed #883d00;
 }
 
+
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
 .closeIcon {
   margin-top: 40px;
-  width: 30px;
+  width: 26px;
   cursor: pointer;
 }
 
 .closeText {
-  width: 100%;
   color: #883d00;
-  font-size: 18px;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   flex-direction: column;
