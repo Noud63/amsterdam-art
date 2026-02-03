@@ -149,6 +149,9 @@ html {
     right: 20px;
     gap: 10px;
   }
+  .infowindow {
+    margin-top: 20px;
+  }
 }
 
 #mapid {
