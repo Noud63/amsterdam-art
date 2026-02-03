@@ -535,6 +535,7 @@ html {
 }
 
 .puName {
+  margin-top: 12px;
   font-size: 1rem;
   text-align: center;
   font-weight: bold;
@@ -589,7 +590,6 @@ html {
 hr {
   border-top: 1px dashed #883d00;
 }
-
 
 .close {
   display: flex;
