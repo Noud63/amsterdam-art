@@ -371,11 +371,36 @@ html {
     width: 270px;
     height: 170px;
     position: fixed;
+    display: none;
   }
   .listings {
-    margin-top: 170px;
+    margin-top: 0px;
+  }
+  #pic {
+    display: none;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .listings {
+    width: 200px;
+  }
+  .sidebar {
+    width: 200px;
+  }
+  .listPopUpWrapper {
+    width: 200px;
+}
+.hideSidebar {
+    left: 200px;
+    height: 60px;
+    width: 24px
+  }
+  .sidebar.hidden {
+    transform: translateX(-200px);
+  }
+}
+
 
 @media only screen and (max-width: 1070px) {
   .infowindow {
@@ -506,6 +531,12 @@ html {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .wrapper {
+    left: 0;
+  }
+}
+
 .popUpContent::-webkit-scrollbar {
   width: 7px;
   height: 0px;
@@ -600,6 +631,7 @@ hr {
   align-items: center;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 80px;
 }
 .closeIcon {
   margin-top: 40px;

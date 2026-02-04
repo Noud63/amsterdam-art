@@ -54,7 +54,7 @@ function createArtLayer(features) {
             <div class="puName">${feature.properties.name}</div>
             ${feature.properties.title ? `<div class="puTitle">"${feature.properties.title}"</div>` : ""}
             ${feature.properties.extra ? `<div class="extra3">${feature.properties.extra}</div>` : ""}
-             ${feature.properties.address ? `<div class="address">Adres: ${feature.properties.address}</div>` : ""}
+             ${feature.properties.address ? `<div class="address">Address: ${feature.properties.address}</div>` : ""}
             ${feature.properties.link ? `<div class="puLink"><a href=${feature.properties.link} target="_blank" rel="noopener" style="text-decoration:none">Website: ${feature.properties.link}</a></div>`: ""}
             
             <div class="close">

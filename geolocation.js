@@ -7,8 +7,8 @@ const art = {
       "properties": {
         "name": "Noud van Dun",
         "image": "ufo.jpg",
-        "extra": "Visit the website of the Amsterdam based dutch visual artist Noud van Dun",
-        "link": "http://www.noudvandun.com"
+        "extra": "Visit the website of the Amsterdam based dutch visual artist and web developer Noud van Dun",
+        "link": "http://www.noudvandun.com\nWebdev:https://appcollection.netlify.app"
       },
       "geometry": {
         "type": "Point",
@@ -26,7 +26,7 @@ const art = {
         "title": "L'oiseau",
         "image": "picasso.jpg",
         "extra": "Sculpture made by the world famous artist Pablo Picasso in 1965.Located in Amsterdam's green oasis, the VondelPark ",
-        "adress": " Vondelpark"
+        "address": " Vondelpark"
       },
       "geometry": {
         "type": "Point",
@@ -44,7 +44,7 @@ const art = {
         "title": "For the Bees",
         "image": "fmanders.jpg",
         "extra": "Made in 2004 by the dutch artist Frank Mandersloot.Three wooden tables piled up, consisting several beehives,hence the title 'For the Bees'",
-        "adress": "Piet Heinkade"
+        "address": "Piet Heinkade"
       },
       "geometry": {
         "type": "Point",
@@ -58,11 +58,11 @@ const art = {
       "type": "Feature",
       "cat": "public",
       "properties": {
-        "name": "Maree Blok en Bas Lugthorst",
+        "name": "M.Blok en B.Lugthorst",
         "title": "Mens van Water",
         "image": "mens.jpg",
         "extra": "Human fountain made out of copper pipe",
-        "adress": "Arlandaweg 88"
+        "address": "Arlandaweg 88"
       },
       "geometry": {
         "type": "Point",
@@ -80,7 +80,7 @@ const art = {
         "image": "rijks.png",
         "extra": "Collection of Dutch Art and History. One of the most celebrated museums in the world and home to Rembrandt's world famous painting 'De Nachtwacht'.\
                   The museum has on display 8,000 objects of art and history, from their total collection of 1 million objects from the years 1200 - 2000",
-        "adress": "Museumstraat 1",
+        "address": "Museumstraat 1",
         "link": "https://www.rijksmuseum.nl"
       },
       "geometry": {
@@ -100,7 +100,7 @@ const art = {
         "image": "vangoghmuseum.jpg",
         "extra": "Museum dedicated to the dutch painter Vincent van Gogh. It accomodates the biggest collection of his paintings in the world. \
                   It is one of the many art museums in the Netherlands dedicated to the works of Vincent van Gogh and his contemporaries",
-        "adress": "Museumplein 6",
+        "address": "Museumplein 6",
         "link": "https://www.vangoghmuseum.nl"
       },
       "geometry": {
@@ -119,7 +119,7 @@ const art = {
         "image": "stedelijkmuseum.jpg",
         "extra": " Museum of Modern Art Amsterdam, is a museum for modern art, contemporary art, and design.\
                   The collection comprises modern and contemporary art and design from the early 20th century up to the 21st century. ",
-        "adress": "Museumplein 10",
+        "address": "Museumplein 10",
         "link": "https://www.stedelijk.nl"
       },
       "geometry": {
@@ -137,7 +137,7 @@ const art = {
         "name": "Moco Museum",
         "image": "mocomuseum.jpg",
         "extra": "Modern Contemporary Museum The Moco Museum in Amsterdam is a boutique museum with a wide range of inspiring modern and contemporary art.",
-        "adress": "Honthorststraat 20",
+        "address": "Honthorststraat 20",
         "link" : "https://mocomuseum.com/"
       },
       "geometry": {
@@ -154,8 +154,8 @@ const art = {
       "properties": {
         "name": "Rembrandt House",
         "image": "rembrandthuis.jpg",
-        "extra": " (Dutch: Museum Het Rembrandthuis) is a historic house and art museum in Amsterdam. Painter Rembrandt lived and worked in the house between 1639 and 1656",
-        "adress": "Jodenbreestraat 4",
+        "extra": " (Dutch: Museum Het Rembrandthuis) is a historic house and art museum in Amsterdam. Here, in the heart of Amsterdam,Painter Rembrandt lived and worked in the house between 1639 and 1656. The house where he started full of ambition, but which he had to leave due to financial problems.\n\n Nearly 400 years later, The Rembrandt House Museum is the only museum in the world entirely dedicated to Rembrandt. Each room in Rembrandt’s house has its own story. Here he experienced joy and sorrow. Here he collected art and rarities from all over the world, educated his students and received his customers. Here he looked out over a rapidly changing city. Here he made his masterpieces. Here he became the greatest.",
+        "address": "Jodenbreestraat 4",
         "link": "https://www.rembrandthuis.nl"
       },
       "geometry": {
@@ -173,8 +173,8 @@ const art = {
         "name": "Jan Fabre",
         "image": "janfabre.jpg",
         "title": "Searching for Utopia",
-        "extra": "Unfortunately no longer on display",
-        "adress": "Appololaan-Beethovenstraat"
+        "extra": "De titel van Searching for Utopia, een vele malen uitvergrote schildpad met op zijn schild een ruiter, verwijst naar Utopia van Thomas Moore, maar herinnert ook aan The Boy Who Talks With Animals van Roald Dahl (1977).\n\nUnfortunately no longer on display",
+        "address": "Appololaan-Beethovenstraat"
       },
       "geometry": {
         "type": "Point",
@@ -191,8 +191,8 @@ const art = {
         "name": "Irma Boom",
         "image": "tunnel.jpg",
         "title": "Cuypers Passage",
-        "extra": "Dutch 17th century seascape, made out of 70.000 hand painted ceramic tiles in traditional dutch Delfts Blue style.",
-        "adress": "Amsterdam Central Station-West"
+        "extra": "Dutch 17th century seascape, made out of 70.000 hand painted ceramic tiles in traditional dutch Delfts Blue style.\nAlong the footpath, the entire wall of the Cuypers passage is covered with a tile tableau designed by Irma Boom Office. It’s inspired by a tile panel from the collection at the Rijksmuseum by Cornelis Boumeester (1652-1733).",
+        "address": "Amsterdam Central Station-West"
       },
       "geometry": {
         "type": "Point",
@@ -210,7 +210,7 @@ const art = {
         "image": "ramses.jpg",
         "title": "Levenslijnen",
         "extra": "Dedicated to the legendary dutch performer Ramses Shaffy.",
-        "adress": "Tubestation Vijzelgracht"
+        "address": "Tubestation Vijzelgracht"
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +229,7 @@ const art = {
         "extra": "Centre of cinematography. EYE Film Institute Netherlands is a Dutch archive and museum in Amsterdam that preserves and presents\
                   both Dutch and foreign films screened in the Netherlands. The museum collection includes 37,000 film titles, 60,000 posters, 700,000 photographs and 20,000 books.\
                   The earliest materials date from the start of the film industry in the Netherlands in 1895.",
-        "adress": "IJpromenade 1",
+        "address": "IJpromenade 1",
         "link": "https://www.eyefilm.nl"
       },
       "geometry": {
@@ -250,7 +250,7 @@ const art = {
 We connect diverse visions and perspectives, inviting everyone to explore. <br />
 Foam makes photography accessible to everyone. We believe in the power of photography to connect people and to stimulate dialogue.<br />
 Foam offers a platform for conversation, reflection, and connection with visual culture and the world around us.`,
-        "adress": "Keizersgracht 609",
+        "address": "Keizersgracht 609",
         "link": "https://www.foam.org"
       },
       "geometry": {
@@ -287,7 +287,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "title": "Man en Schaap",
         "image": "bolink.jpg",
         "extra": "Water fountain, about the relationship between humans and animals. ",
-        "adress": "Zeeburgerdijk/Flevoparkweg"
+        "address": "Zeeburgerdijk/Flevoparkweg"
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +305,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "title": "Angstig Konijn (Anxiety Rabbit)",
         "image": "parra.jpg",
         "extra": "This sculpture has been relocated due to negative criticism to 'Het Hem' for a period of three months.",
-        "adress": "Flevopark"
+        "address": "Flevopark"
       },
       "geometry": {
         "type": "Point",
@@ -321,8 +321,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "properties": {
         "name": "Mark Manders",
         "title": "Rokin Fountain",
-        "image": "mmanders2.jpg",
-        "adress": "Rokin"
+        "image": "mmanders.jpg",
+        "address": "Rokin"
       },
       "geometry": {
         "type": "Point",
@@ -336,9 +336,9 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "type": "Feature",
         "cat": "museum",
       "properties": {
-        "name": "Street Art Museum Amsterdam",
+        "name": "Street Art Museum",
         "image": "streetart.jpg",
-        "adress": "Rokin",
+        "address": "Rokin",
         "extra": "With some 200 art pieces in a growing collection, SAMA frequently introduces internationally acclaimed artists to\
                   streets of Amsterdam Nieuw-West. From a colossal 150 square metre Stinkfish mural to a 10cm wood block by BunnyBrigade, \
                   all art is site specific with a story to tell.",
@@ -359,7 +359,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Het Hem",
         "title": "",
         "image": "hethem.jpg",
-        "adress": "Warmperserij 1, Zaandam",
+        "address": "Warmperserij 1, Zaandam",
         "extra": "Het Hem is a new home for contemporary culture located in a former factory building in Zaandam.",
         "link": "https://www.hethem.nl"
       },
@@ -378,7 +378,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "WOW",
         "title": "",
         "image": "wow.jpg",
-        "adress": "Wiltzanghlaan 60",
+        "address": "Wiltzanghlaan 60",
         "extra": "WOW is a comfortable hostel for urban explorers and a springboard and temporary home for recently graduated artists. WOW runs a contemporary art space with a dynamic programme.",
         "link": "https://www.wow-amsterdam.nl"
       },
@@ -397,7 +397,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "De Appel",
         "title": "",
         "image": "deappel.jpg",
-        "adress": "Schipluidenlaan 12D4",
+        "address": "Schipluidenlaan 12D4",
         "extra": "De Appel is an Amsterdam based contemporary art institute that brings together people, objects and ideas to explore the unknown. \
                   With an experimental, open-minded and inclusive focus, the programs of De Appel serve the intellectually and emotionally curious, \
                   (non-) specialized art enthusiasts as well as seasoned art professionals.",
@@ -418,9 +418,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "W139",
         "title": "",
         "image": "w139a.jpg",
-        "adress": "Warmoesstraat 139",
-        "extra": "W139 is a presentation and production space for contemporary art. W139 was established in 1979 and in 2019 celebrates forty years of providing \
-                  artists time and space for free explorations in the heart of Amsterdam.",
+        "address": "Warmoesstraat 139",
+        "extra": "W139 is a leading production and presentation space for contemporary art in the centre of Amsterdam that has been paving the way for experimentation and new modes of autonomy, self-organisation, and collectivity within the arts for 44 years.\n\nAs an artist-driven organisation, W139 puts experimentation at the forefront—providing space for artists to take risks and realise experimental, urgent, and ambitious projects.",
         "link": "https://www.w139.nl"
       },
       "geometry": {
@@ -438,7 +437,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Cobra Museum",
         "title": "",
         "image": "cobra3.jpg",
-        "adress": "Sandbergplein 1",
+        "address": "Sandbergplein 1",
         "extra": "The museum houses a large Cobra collection comprised of artworks and documentary material that are continuously expanded and from which diverse presentations are created.",
         "link": "https://www.cobra-museum.nl"
       },
@@ -457,7 +456,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Arti et Amicitiae",
         "title": "",
         "image": "arti.jpg",
-        "adress": "Rokin 112",
+        "address": "Rokin 112",
         "extra": "Arti is the oldest visual artist society in the Netherlands where the artists themselves determine policy.\n\nArti\u2019s policies embrace unity coupled with diversity.\nOur identity as a medium transcending platform leads us to embrace the inherent fruitful characteristics.\n\nTradition is coupled with the experimental, the parochial with the cosmopolitan, \
                   the inclusive with the exclusive. As a lively and stable factor in an unstable (art) world, curiosity, friendship and connecting are key issues for Arti.",
         "link": "https://www.arti.nl/"
@@ -477,7 +476,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Greenbox Museum",
         "title": "",
         "image": "greenbox.jpg",
-        "adress": "Leidsedwarsstraat 12",
+        "address": "Leidsedwarsstraat 12",
         "extra": "Greenbox Museum of Contemporary Art from Saudi Arabia is a research institution and collection. \
                   The museum tries to turn people's attention away from what is en vogue in the many White Cube museums of Europe and America.",
         "link": "https://www.greenboxmuseum.com/"
@@ -497,7 +496,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Corridor Project Space",
         "title": "",
         "image": "cps.jpg",
-        "adress": "Veemkade 574",
+        "address": "Veemkade 574",
         "extra": "As Corridor Project Space we are an independent and interdisciplinary contemporary art initiative in Amsterdam. We believe in the \
                   importance of experimental art practices which focus on the creation of new content that are off grid from the institutional and commercial circles.",
         "link": "https://www.amsterdamartspace.nl/"
@@ -518,7 +517,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Keith Haring Mural",
         "title": "Seamonster",
         "image": "haring.jpg",
-        "adress": "Food Center Amsterdam",
+        "address": "Food Center Amsterdam",
         "extra": "A monumental 12-metre-high mural by the late New York artist Keith Haring, it’s the largest of its kind in Europe",
         "link": ""
       },
@@ -537,7 +536,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Huis Marseille",
         "title": "",
         "image": "hm.jpg",
-        "adress": "Keizersgracht 401",
+        "address": "Keizersgracht 401",
         "extra": "Huis Marseille is a museum for photography. The museum offers a rich and varied exhibition programme with changeovers about four times per year. \
                   Since the expansion in 2013, there has been a lot of opportunity to show the museum’s own collection \
                   alongside the exhibition. The collection consists primarily of leading modern (national and international) photography.",
