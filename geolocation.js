@@ -832,7 +832,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "gallery",
       "properties": {
         "name": "Reflex Modern Art Gallery",
-        "image": "reflex,jpg",
+        "image": "reflex.jpg",
         "extra": "Gallery specializing in CoBrA, Fluxus and New Realism.",
         "link": "https://reflexamsterdam.com/",
         "address": "Lijnbaansgracht 290 A"
