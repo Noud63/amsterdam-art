@@ -505,6 +505,7 @@ html {
   padding-top: 10px;
   color: #883d00;
   overflow: auto;
+   white-space: pre-line;
 }
 
 @media only screen and (max-width: 975px) {

@@ -579,10 +579,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Grimm Gallery",
         "title": "",
         "image": "grimm.jpg",
-        "adress": "Keizersgracht 241",
-        "extra": "GRIMM is a contemporary art gallery representing over thirty international artists. \
-                  Since its establishment in 2005, it has been the gallery’s mission to represent and support the work of emerging \
-                  and mid-career artists working in all media. Grimm Gallery is located in Amsterdam, London and New York City.",
+        "address": "Keizersgracht 241, Amsterdam\n43a Duke Street, St James's London,\n54 White Street New York",
+        "extra": "GRIMM is a contemporary art gallery representing over thirty international artists.\nSince its establishment in 2005, it has been the gallery’s mission to represent and support the work of emerging and mid-career artists working in all media. Grimm Gallery is located in Amsterdam, London and New York City.",
         "link": "https://grimmgallery.com/"
        
       },
