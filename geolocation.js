@@ -635,7 +635,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Art Singel 100",
         "image": "artsingel100.jpg",
         "extra": "Contemporary art gallery led by Pepa Santoplaria.",
-        "link": ""
+        "link": "https://www.artxs.nl/",
+        "address": "Singel 100"
       },
       "geometry": { "type": "Point", "coordinates": [4.8896, 52.3741] }
     },
@@ -647,7 +648,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Beeldend Gesproken",
         "image": "beeldendgesproken.jpg",
         "extra": "Gallery working exclusively with professional artists with a psychiatric background.",
-        "link": ""
+        "link": "https://www.beeldendgesproken.nl",
+        "address": "Hannie Dankbaarpassage 23"
       },
       "geometry": { "type": "Point", "coordinates": [4.8672, 52.3663] }
     },
@@ -686,7 +688,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "De Witte Voet",
         "image": "dewittevoet.jpg",
         "extra": "Gallery focused on modern ceramics and experimental clay-based art.",
-        "link": ""
+        "link": "https://www.galeriedewittevoet.nl",
+        "address":"Van Nijenrodeweg 623"
       },
       "geometry": { "type": "Point", "coordinates": [4.8702, 52.3254] }
     },
@@ -701,7 +704,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
           "\n",
           "DOF is specialised in authentic historical and fine art photography. We offer remarkable - and exclusively verified original - prints in genres that vary from the beginning of photography, to family albums, and from landscapes to advertising."
         ],
-        "link": "https://www.dof.amsterdam"
+        "link": "https://www.dof.amsterdam",
+        "address": ""
       },
       "geometry": { "type": "Point", "coordinates": [4.8804, 52.3733] }
     },
@@ -713,7 +717,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Droog",
         "image": "droog.jpg",
         "extra": "Was Droog Design a generation of young designers? That’s what it appeared to be. Or was it a movement? Not really. A collective, perhaps? A label? A manifesto? It was none of the above and all of them at once, but never at the same moment – certainly not for the long term.",
-        "link": "https://www.droog.com"
+        "link": "https://www.droog.com",
+        "address": ""
       },
       "geometry": { "type": "Point", "coordinates": [4.8976, 52.3712] }
     },
@@ -725,7 +730,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Galerie Bart",
         "image": "bart.jpg",
         "extra": "Breeding ground for new talent from Dutch art academies.",
-        "link": "https://www.galeriebart.nl"
+        "link": "https://www.galeriebart.nl",
+        "address": ""
       },
       "geometry": { "type": "Point", "coordinates": [4.8756, 52.3718] }
     },
@@ -737,7 +743,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Gallery Delaive",
         "image": "delaive.jpg",
         "extra": "Commercial gallery presenting major Dutch and international artists.",
-        "link": "https://delaive.com"
+        "link": "https://delaive.com",
+        "address": ""
       },
       "geometry": { "type": "Point", "coordinates": [4.8949, 52.3654] }
     },
@@ -749,7 +756,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Galerie Mokum",
         "image": "mokum.jpg",
         "extra": "Galerie Mokum is in 1962 opgericht en zij was toen de eerste en enige plek in Amsterdam, waar realistische kunst werd getoond, verdedigd en gestimuleerd. Hiermee heeft zij een bepalende rol gespeeld in de ontwikkeling van Nederlandse naoorlogse realistische schilderkunst. Door het consequente beleid dat de galerie door de jaren heen heeft gevoerd is Galerie Mokum ook nu nog toonaangevend op het gebied van figuratieve schilderkunst in Nederland.",
-        "link": "https://www.galeriemokum.com"
+        "link": "https://www.galeriemokum.com",
+        "address": ""
       },
       "geometry": { "type": "Point", "coordinates": [4.8996, 52.3739] }
     },
@@ -761,7 +769,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "GO Gallery",
         "image": "go.jpg",
         "extra": "Gallery focused on street art and urban contemporary culture. Shortly after its foundation, Oscar van der Voorn met his partner Farud Cambatta in Bombay. A few years later, Farud came to Amsterdam and they have the GO Gallery continued together. \nIn the early 2000’s, van der Voorn and Cambatta came in contact with local and international artists who used the street as their canvas and this art form was still called graffiti but soon got the name Street Art.",
-        "link": "https://gogallery.nl"
+        "link": "https://gogallery.nl",
+        "address": ""
       },
       "geometry": { "type": "Point", "coordinates": [4.8769, 52.3692] }
     },
@@ -773,7 +782,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Jaski Art Gallery",
         "image": "jaski.jpg",
         "extra": "Jaski Gallery is situated in the heart of Amsterdam’s Art & Antiques district, where we’ve been since 1988. We specialise in work from the CoBrA movement and contemporary art. The gallery regularly stages exhibitions and takes part in major art fairs such as TEFAF in Maastricht and PAN Amsterdam.",
-        "link": "https://www.jaski.nl"
+        "link": "https://www.jaski.nl",
+        "address": ""
       },
       "geometry": { "type": "Point", "coordinates": [4.8962, 52.3657] }
     },
@@ -798,7 +808,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "KochXBos Gallery",
         "image": "kochxbox.jpg",
         "extra": "KochxBos Gallery is committed to new and cutting edge art.Rewarded by Top Ten independent galeries by The Guardian we provide a stage for artists to explore their ideas of tolerance and liberation in high and low art. With artists like Ray Caesar, Claire artington and Sarah Maple we contribute to some challenging trending topics. When visiting the gallery you will be surprised by high class alienating paintings and figures.",
-        "link": "https://kochxbos.com"
+        "link": "https://kochxbos.com",
+        "address": ""
       },
       "geometry": { "type": "Point", "coordinates": [4.8793, 52.3749] }
     },
@@ -810,7 +821,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Martin van Zomeren",
         "image": "vanzomeren.png",
         "extra": "Gallery for contemporary art and documentary photography.",
-        "link": "https://www.martinvanzomeren.nl"
+        "link": "https://www.martinvanzomeren.nl",
+        "address": ""
       },
       "geometry": { "type": "Point", "coordinates": [4.8837, 52.3699] }
     },
@@ -822,7 +834,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Reflex Modern Art Gallery",
         "image": "noimage.png",
         "extra": "Gallery specializing in CoBrA, Fluxus and New Realism.",
-        "link": ""
+        "link": "https://reflexamsterdam.com/",
+        "address": "Lijnbaansgracht 290 A"
       },
       "geometry": { "type": "Point", "coordinates": [4.8852, 52.3608] }
     },
@@ -834,7 +847,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Torch Gallery",
         "image": "torch.jpg",
         "extra": "In 1984, TORCH Gallery was established by Adriaan van der Have as a stage for Dutch and international contemporary art. Adriaan was among the first to see the potential of photography as an art form. He continued to take risks in new ways of expression, making him a pioneer promoter of photography, veejay art and digital imaging.",
-        "link": "https://www.torchgallery.com"
+        "link": "https://www.torchgallery.com",
+        "address": "Lauriergracht 94"
       },
       "geometry": { "type": "Point", "coordinates": [4.880215, 52.371582] }
     }
