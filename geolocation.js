@@ -192,7 +192,8 @@ const art = {
         "image": "tunnel.jpg",
         "title": "Cuypers Passage",
         "extra": "Dutch 17th century seascape, made out of 70.000 hand painted ceramic tiles in traditional dutch Delfts Blue style.\nAlong the footpath, the entire wall of the Cuypers passage is covered with a tile tableau designed by Irma Boom Office. It’s inspired by a tile panel from the collection at the Rijksmuseum by Cornelis Boumeester (1652-1733).",
-        "address": "Amsterdam Central Station-West"
+        "address": "Amsterdam Central Station-West",
+        "link": "https://irmaboom.nl"
       },
       "geometry": {
         "type": "Point",
@@ -210,7 +211,8 @@ const art = {
         "image": "ramses.jpg",
         "title": "Levenslijnen",
         "extra": "Dedicated to the legendary dutch performer Ramses Shaffy.",
-        "address": "Tubestation Vijzelgracht"
+        "address": "Tubestation Vijzelgracht",
+        "link": "https://www.marjanlaaper.com"
       },
       "geometry": {
         "type": "Point",
@@ -599,9 +601,9 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "OSCAM",
         "title": "",
         "image": "oscam.jpg",
-        "adress": "Bijlmerplein 110-111",
-        "extra": "OSCAM is the museological platform for art, fashion, design, craftsmanship and development in Amsterdam.",
-        "link": "https://www.oscam.nl/"
+        "address": "Bijlmerplein 110-111",
+        "extra": "OSCAM, Open Space Contemporary Art Museum, is the museum for art, fashion, design, craftsmanship and development in Amsterdam.\n\nOSCAM is delighted to introduce the dedicated OSCAM Team, expertly curating, producing, programming, and representing OSCAM with utmost commitment, collaborating with our YOUNG OSCAM team and trainees to elevate OSCAM to new heights.",
+        "link": "https://www.oscam.nl"
        
       },
       "geometry": {
@@ -620,7 +622,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Akinci Gallery",
         "image": "akinci.jpg",
         "extra": "Akinci has a large focus on new developments in contemporary art and is explicitly engaged with artists who incorporate socio-political, ecological and gender questions into their work. Our programme is defined by a diversity of media as well as cross-overs between sound, architecture, painting, sculpture, film and installation.",
-        "link": ""
+        "link": "https://akinci.nl",
+        "address": "Lijnbaansgracht 317"
       },
       "geometry": { "type": "Point", "coordinates": [4.8789, 52.3714] }
     },
@@ -658,7 +661,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "extra": ["Bildhalle is a gallery dedicated to classic and contemporary photography and photo-based art located in Zurich and Amsterdam.\n",
           "The gallery represents a highly curated selection of artists from around the world, with a particular focus on photography of the second half of the 20th century and contemporary artistic positions of the 21st century.\n",
         "In addition to showcasing internationally established artists, Bildhalle's ambitious program also provides space for innovative young and upcoming artists who are pushing the boundaries of the medium of photography by creating a crossover to other visual art forms and are thereby bringing new perspectives to the discourse."],
-        "link": ""
+        "link": "https://www.bildhalle.ch"
       },
       "geometry": { "type": "Point", "coordinates": [4.8574, 52.3556] }
     },
@@ -782,7 +785,8 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Kers gallery",
         "image": "kers.jpg",
         "extra": "Kers gallery is a contemporary art gallery based in Amsterdam, dedicated to artists whose practices are conceptually rigorous, materially attentive, and grounded in lived experience.\nThe gallery’s program brings together poetic, political, and sensorial approaches as interconnected modes of artistic inquiry.",
-        "link": "https://www.kersgallery.com"
+        "link": "https://www.kersgallery.com",
+        "address":"Lindengracht 148"
       },
       "geometry": { "type": "Point", "coordinates": [4.884636, 52.380373] }
     },
