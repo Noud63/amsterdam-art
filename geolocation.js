@@ -851,7 +851,72 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "address": "Lauriergracht 94"
       },
       "geometry": { "type": "Point", "coordinates": [4.880215, 52.371582] }
-    }
+    },
+    {
+      "id": "pakt",
+      "type": "Feature",
+      "cat": "artcentre",
+      "properties": {
+        "name": "P/////akt",
+        "image": "pakt.jpg",
+        "extra": "P////AKT is a non-profit exhibition space for contemporary art that organizes and facilitates large scale solo presentations through which the audience gets the opportunity to gain insight in the thinking space of the artists.",
+        "link": "https://www.pakt.nu",
+        "address": "Groenhoedenveem 2"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.928881, 52.375793] }
+    },
+    {
+      "id": "ontheinside",
+      "type": "Feature",
+      "cat": "artcentre",
+      "properties": {
+        "name": "On The Inside",
+        "image": "ontheinside.jpg",
+        "extra": "'On The Inside' is an independent and international platform for contemporary art situated within the cultural landscape of Amsterdam’s NDSM wharf, just 10 minutes from Central Station via the free ferry.\n\nFounded by Annemarie Galani and Henk Stallinga, ‘On The Inside’ operates as a non-profit, artist-driven exhibition space. The platform showcases curated exhibitions programmed by ‘On The Inside’ and its rotating advisory board.",
+        "link": "https://www.projectspaceontheinside.org",
+        "address": "Melaniaweg 1"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.892606, 52.403862] }
+    },
+    {
+      "id": "nxt",
+      "type": "Feature",
+      "cat": "museum",
+      "properties": {
+        "name": "Nxt Museum",
+        "image": "nxt.jpg",
+        "extra": "Nxt is an experimental art space in Amsterdam dedicated to immersive experiences at the intersection of art, science, and technology. It commissions and presents ground-breaking museum installations by pioneering living artists.\n\nOver the last four years, Nxt has built a portfolio of large-scale exhibitions featuring a new wave of new media artists and developed extensive public programmes focused on music, movement, performance and education. Nxt has emerged as an aspirational global brand in the art world.",
+        "link": "https://nxtmuseum.com",
+        "address": "Asterweg 22"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.904137, 52.391183] }
+    },
+    {
+      "id":"fabrique-lumieres",
+      "type": "Feature",
+      "cat": "museum",
+      "properties": {
+        "name": "Fabrique des Lumières ",
+        "image": "fdl.jpg",
+        "extra": "Noem het een modern museum, of een meeslepende, zinnenprikkelende, audiovisuele totaalervaring. Maar hoe je het ook noemt: Fabrique des Lumières is een belevenis die draait om kunst. Bedoeld om te prikkelen, te raken en overdonderen. Toegankelijk voor iedereen en uniek in z’n soort.",
+        "link": "https://www.fabrique-lumieres.com",
+        "address": "Pazzanistraat 37"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.872144, 52.386107] }
+    },
+    {
+      "id":"oude-kerk",
+      "type": "Feature",
+      "cat": "museum",
+      "properties": {
+        "name": "De Oude Kerk",
+        "image": "oudekerk.jpg",
+        "extra": "Door de eeuwen heen groeide de kerk uit van een kleine houten kapel tot een omvangrijke hallenkerk. Vandaag geldt het gebouw als een belangrijk (inter)nationaal monument. In ons programma worden verleden, heden en toekomst met elkaar verbonden door een samenspel tussen eeuwenoud erfgoed en hedendaagse kunst. Op uitnodiging van de Oude Kerk maken kunstenaars en musici nieuw werk dat alleen hier eenmalig te zien en te horen is. Zo ontstaan nieuwe perspectieven op de geschiedenis van het gebouw, de wereld om ons heen en de toekomst.",
+        "link": "https://www.oudekerk.nl",
+        "address": "Oudekerksplein 23"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.897761, 52.374118] }
+    },
   ]
 }
 
