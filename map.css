@@ -535,7 +535,7 @@ html {
 }
 
 .popUpContent::-webkit-scrollbar {
-  scrollbar-width: 7px;
+  scrollbar-width: thin;
 }
 
 /* Chrome */
