@@ -534,10 +534,11 @@ html {
   
 }
 
-@supports (scrollbar-width: thin) {
-.popUpContent {
-  scrollbar-width: thin;
-}
+@-moz-document url-prefix() {
+  .popUpContent {
+    scrollbar-width: thin;
+    scrollbar-color: #c4aa8d transparent;
+  }
 }
 
 /* Chrome */
