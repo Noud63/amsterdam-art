@@ -537,7 +537,7 @@ html {
 @-moz-document url-prefix() {
   .popUpContent {
     scrollbar-width: thin;
-    scrollbar-color: #c4aa8d transparent;
+    scrollbar-color: transparent;
   }
 }
 
