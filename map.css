@@ -447,6 +447,26 @@ html {
   visibility: hidden;
 }
 
+.popUpContent {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  width: 350px;
+  height: 100vh;
+  padding-left: 10px;
+  padding-right: 7px;
+  padding-top: 10px;
+  color: #883d00;
+  overflow: hidden;
+  white-space: pre-line;
+  scrollbar-gutter: stable;
+}
+
+.popUpContent:hover {
+  overflow: auto;
+  
+}
+
 /*CUSTOM POPUP STYLES*/
 
 .wrapper {
@@ -514,25 +534,7 @@ html {
   }
 }
 
-.popUpContent {
-  display: flex;
-  flex-direction: column;
-  font-size: 14px;
-  width: 350px;
-  height: 100vh;
-  padding-left: 10px;
-  padding-right: 7px;
-  padding-top: 10px;
-  color: #883d00;
-  overflow: hidden;
-  white-space: pre-line;
-  scrollbar-gutter: stable;
-}
 
-.popUpContent:hover {
-  overflow: auto;
-  
-}
 
 @-moz-document url-prefix() {
   .popUpContent {
