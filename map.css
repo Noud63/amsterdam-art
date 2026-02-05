@@ -534,6 +534,10 @@ html {
   
 }
 
+.popUpContent::-webkit-scrollbar {
+  scrollbar-width: 7px;
+}
+
 /* Chrome */
 .popUpContent::-webkit-scrollbar {
   width: 7px;
