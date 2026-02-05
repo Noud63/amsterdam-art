@@ -6,7 +6,7 @@ const art = {
       "cat": "public",
       "properties": {
         "name": "Noud van Dun",
-        "image": "ufo.jpg",
+        "image": "disco.jpg",
         "extra": "Visit the website of the Amsterdam based dutch visual artist and web developer Noud van Dun",
         "link": "http://www.noudvandun.com\nWebdev:https://appcollection.netlify.app"
       },
