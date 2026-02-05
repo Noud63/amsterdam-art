@@ -527,6 +527,8 @@ html {
   }
 }
 
+
+/* Chrome */
 .popUpContent::-webkit-scrollbar {
   width: 7px;
   height: 0px;
@@ -557,6 +559,14 @@ html {
 .popUpContent::-webkit-scrollbar-thumb:hover {
   background: #e6bc8c;
 }
+
+/* Firefox */
+@supports (scrollbar-width: thin) {
+  .popUpContent {
+    scrollbar-width: none;
+  }
+}
+
 
 .puName {
   margin-top: 12px;

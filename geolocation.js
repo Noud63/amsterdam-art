@@ -542,7 +542,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "extra": "Huis Marseille is a museum for photography. The museum offers a rich and varied exhibition programme with changeovers about four times per year. \
                   Since the expansion in 2013, there has been a lot of opportunity to show the museum’s own collection \
                   alongside the exhibition. The collection consists primarily of leading modern (national and international) photography.\n\nHow photographers develop a new visual language that is relevant to the artistic nature of photography, but which also reflects on this time? That is the question which is central to Huis Marseille, and which informs the exhibition programme and collection acquisitions. During an age in which photography has risen to wild popularity, available to all and omnipresent as (mass) medium, photography as an artistic medium is in constant flux. Huis Marseille chooses photography which focuses on a specific visual language and is characterized by a passionate spirit of inquiry, as part of an ongoing investigation into avant-garde innovation. Moreover, photography in Huis Marseille has social relevance and interfaces with the changing spirit of the times.",
-        "link": "https://www.amsterdamartspace.nl/"
+        "link": "https://huismarseille.nl"
        
       },
       "geometry": {
@@ -916,6 +916,32 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "address": "Oudekerksplein 23"
       },
       "geometry": { "type": "Point", "coordinates": [4.897761, 52.374118] }
+    },
+    {
+      "id":"london-police",
+      "type": "Feature",
+      "cat": "public",
+      "properties": {
+        "name": "The London Police",
+        "image": "londonpolice_2.jpg",
+        "extra": "The London Police started in 1998 when big English geezers headed to Amsterdam to help rejuvenate thestreets of Holland’s capital. They were part of a small group of artists at the end of the last century that helped pioneer a new street art movement. After a few years of mixing traveling and making art in the street TLP began to receive worldwide recognition for their contribution to the graffiti/street art movement.",
+        "link": "https://www.thelondonpolice.com",
+        "address": "Zeeburgerdijk"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.928903, 52.3661] }
+    },
+    {
+      "id":"london-police",
+      "type": "Feature",
+      "cat": "public",
+      "properties": {
+        "name": "The London Police",
+        "image": "londonpolice.jpg",
+        "extra": "The London Police started in 1998 when big English geezers headed to Amsterdam to help rejuvenate thestreets of Holland’s capital. They were part of a small group of artists at the end of the last century that helped pioneer a new street art movement. After a few years of mixing traveling and making art in the street TLP began to receive worldwide recognition for their contribution to the graffiti/street art movement.",
+        "link": "https://www.thelondonpolice.com",
+        "address": "Prinsengracht/Tuinstraat"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.885495, 52.377699] }
     },
   ]
 }
