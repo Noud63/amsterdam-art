@@ -561,11 +561,6 @@ html {
 }
 
 /* Firefox */
-@supports (scrollbar-width: thin) {
-  .popUpContent {
-    scrollbar-width: none;
-  }
-}
 
 
 .puName {
