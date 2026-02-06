@@ -943,7 +943,48 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       },
       "geometry": { "type": "Point", "coordinates": [4.885495, 52.377699] }
     },
+    {
+      "id":"ron-mandos",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "Ron Mandos",
+        "image": "ronmandos.jpg",
+        "extra": "For more than 25 years, Galerie Ron Mandos has held a prominent position within the Dutch art scene. First opening its doors in Rotterdam in 1999, it has since accrued a roster of over 30 artists from around the globe, becoming an integral nexus-point for artists at all stages of their careers — from established to recently graduated artists. In 2007, the gallery moved to its current location in the Amsterdam gallery district. Facilitated by its spacious venue, the gallery offers immersive installations and a wide-ranging program of international exhibitions, focusing on innovative developments in contemporary art.",
+        "link": "https://ronmandos.nl",
+        "address": "Prinsengracht 282"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.882162, 52.370606] }
+    },
+    {
+      "id":"upstream",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "Upstream Gallery",
+        "image": "upstream.jpg",
+        "extra": "Upstream Gallery, established in 2003, has quickly gained a credible international reputation among collectors, art institutions and critics, and is a perfect example of Amsterdam’s internationally renowned contribution to contemporary art. With a focus on radical, engaged, conceptual and digital art, Upstream Gallery brings pioneering and critical work from over 20 artists from the Netherlands and abroad. Having worked with artists focussing on digital mediums for the past ten years, Upstream Gallery is currently at the forefront of the Dutch and international digital artscene.",
+        "link": "https://www.upstreamgallery.nl",
+        "address": "Kloveniersburgwal 95"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.897405, 52.369111] }
+    },
+    {
+      "id":"annet-gelink",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "Annet Gelink",
+        "image": "annetgelink.jpg",
+        "extra": "Established in 2000, the Annet Gelink Gallery, located in Amsterdam, has grown into a premier contemporary art gallery in the Netherlands. Representing a dynamic roster of both emerging and established international artists, the gallery showcases a wide range of mediums, including painting, sculpture, photography, video, installation, and performance art. For more than two decades, Annet Gelink Gallery has been deeply committed to nurturing artists from the early stages of their careers to international acclaim, consistently promoting innovative and thought-provoking art.",
+        "link": "https://www.annetgelink.com",
+        "address": "Laurierstraat 187-189"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.877427, 52.371219] }
+    },
   ]
 }
+
+
 
 
