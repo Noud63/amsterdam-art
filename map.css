@@ -447,25 +447,7 @@ html {
   visibility: hidden;
 }
 
-.popUpContent {
-  display: flex;
-  flex-direction: column;
-  font-size: 14px;
-  width: 350px;
-  height: 100vh;
-  padding-left: 10px;
-  padding-right: 7px;
-  padding-top: 10px;
-  color: #883d00;
-  overflow: hidden;
-  white-space: pre-line;
-  scrollbar-gutter: stable;
-}
 
-.popUpContent:hover {
-  overflow: auto;
-  
-}
 
 /*CUSTOM POPUP STYLES*/
 
@@ -502,6 +484,26 @@ html {
 .pic img {
   width: 350px;
   height: 200px;
+}
+
+.popUpContent {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  width: 350px;
+  height: 100vh;
+  padding-left: 10px;
+  padding-right: 7px;
+  padding-top: 10px;
+  color: #883d00;
+  overflow: hidden;
+  white-space: pre-line;
+  scrollbar-gutter: stable;
+}
+
+.popUpContent:hover {
+  overflow: auto;
+  
 }
 
 @media only screen and (max-width: 975px) {
@@ -542,7 +544,7 @@ html {
   }
 }
 
-/* Chrome */
+/* Chrome, Safari, Edge */
 .popUpContent::-webkit-scrollbar {
   width: 7px;
 }
@@ -652,50 +654,3 @@ hr {
 
 /* git add . && git commit -m "update" && git push origin main */
 
-/* The leaflet actual popup */
-/*
-.popup .popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-  }
-  
-   Popup arrow 
-.popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-  }
-  
-Toggle this class - hide and show the popup 
-.popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-  }
-  
-   Add animation (fade in the popup) 
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-  }
-  
-  @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }
-*/

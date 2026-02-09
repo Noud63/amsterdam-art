@@ -288,7 +288,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "Merijn Bolink",
         "title": "Man en Schaap",
         "image": "bolink.jpg",
-        "extra": "Water fountain, about the relationship between humans and animals. ",
+        "extra": "Man en Schaap is gemaakt door kunstenaar Merijn Bolink. Het is een speciale fontein die de relatie tussen mensen en dieren onderzoekt. In een grote vijver steken de kop van een schaap en het hoofd van een man boven het water uit. Waterstralen spuiten uit de ogen van de man in de ogen van het schaap. Ze staan allebei tot aan hun nek in het water.",
         "address": "Zeeburgerdijk/Flevoparkweg"
       },
       "geometry": {
@@ -625,7 +625,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "link": "https://akinci.nl",
         "address": "Lijnbaansgracht 317"
       },
-      "geometry": { "type": "Point", "coordinates": [4.8789, 52.3714] }
+      "geometry": { "type": "Point", "coordinates": [4.892014, 52.360163] }
     },
     {
       "id": "art-singel-100",
@@ -981,6 +981,71 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "address": "Laurierstraat 187-189"
       },
       "geometry": { "type": "Point", "coordinates": [4.877427, 52.371219] }
+    },
+    {
+      "id":"lumen-travo",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "Lumen Travo",
+        "image": "lumentravo.jpg",
+        "extra": "In 1985, Marianne van Tilborg founded Lumen Travo Gallery in her own apartment, above the Athenaeum Bookstore on Spui. From the outset she described it not so much as a conventional commercial gallery but rather “a salon where different disciplines meet.” Theatre‑makers, musicians, filmmakers and fashion designers would come through in the early days alongside visual artists.",
+        "link": "https://www.lumentravo.nl",
+        "address": "Lijnbaansgracht 314"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.891794, 52.360171] }
+    },
+    {
+      "id":"m-simons",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "M.Simons",
+        "image": "msimons.jpg",
+        "extra": "m.simons is a contemporary art gallery based in Amsterdam, founded in 2021. The gallery develops a conceptually driven exhibition program that focuses on the formal and material conditions of the artwork. Through carefully curated, intimate exhibitions, m.simons investigates how a painting, sculpture, or photographic image comes into being, and which choices, gestures, and materials underpin its formation.",
+        "link": "https://www.michielsimons.com",
+        "address": "Lijnbaansgracht 318"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.892102, 52.360155] }
+    },
+    {
+      "id":"stigter-vandoesburg",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "Stigter van Doesburg",
+        "image": "stigtervandoesburg.jpg",
+        "extra": "Stigter van Doesburg, based in the Amsterdam Jordaan area, shows a varied program of contemporary art. We embrace all media - from painting till performance - and have a strong representation of female artists. Although women are picking up in museums, there still is a long way to go. Since its founding in 2001, the gallery has focused on young individuals and their place in the current discourse. What makes an artist truthful, gives it a voice of one own? Being in business for over twenty years the program ranges from mid-career - as we thrive for long term relationships - to new generations of artists and their love for experiment. There always is space for young offspring.",
+        "link": "https://www.stigtervandoesburg.com",
+        "address": "Elandsstraat 90"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.879917, 52.370361] }
+    },
+    {
+      "id":"andriesse-eyck",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "Andriesse-Eyck Gallery",
+        "image": "andriesseeyck.jpg",
+        "extra": "Andriesse Eyck Gallery werkt samen met een breed spectrum van kunstenaars met als doel een ruimte te creëren waar professionele verzamelaars, academici en curatoren elkaar ontmoeten en van elkaar leren. De galerie werkt voornamelijk met kunstenaars die aan het begin van hun carrière staan, maar ook met internationaal gevestigde kunstenaars om uitzonderlijke programma’s te bieden die de hedendaagse kunst inspireren en promoten.",
+        "link": "https://andriesse-eyck.com",
+        "address": "Leliegracht 47"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.884704, 52.375619] }
+    },
+    {
+      "id":"ellen-de-Bruijne",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "Ellen de Bruijne Projects",
+        "image": "ellendebruijne.jpg",
+        "extra": "Ellen de Bruijne PROJECTS is a contemporary art gallery and project space situated in the heart of Amsterdam. Since its first show in October of 1999, the gallery has focused on new tendencies in contemporary art, welcoming a myriad of practices and media by international artists. With an acute interest in artists who challenge artistic paramaters both formally and conceptually, Ellen de Bruijne PROJECTS strives to present high-quality shows that are relevant to our contemporary times whilst offering a diverse range of languages to come to grips with it. The gallery confectionates its programme through ever-expanding approaches to artistic formats to more socially-engaged and feminist practices, in both solo and group shows in its space in Amsterdam and abroad in international art fairs. According to its mission as a multifaceted art space, Ellen de Bruijne PROJECTS  also produces performances, publications, lectures, and screenings.",
+        "link": "https://www.edbprojects.com",
+        "address": "Singel 372"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.887579, 52.369605] }
     },
   ]
 }
