@@ -59,6 +59,7 @@ html {
   justify-content: flex-end;
   align-items: center;
   position: absolute;
+  flex-direction: column;
   top: 0px;
   right: 30px;
   z-index: 9999;

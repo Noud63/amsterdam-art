@@ -117,8 +117,7 @@ const art = {
       "properties": {
         "name": "Stedelijk Museum",
         "image": "stedelijkmuseum.jpg",
-        "extra": " Museum of Modern Art Amsterdam, is a museum for modern art, contemporary art, and design.\
-                  The collection comprises modern and contemporary art and design from the early 20th century up to the 21st century. ",
+        "extra": "Museum of Modern Art Amsterdam, is a museum for modern art, contemporary art, and design.\nThe collection comprises modern and contemporary art and design from the early 20th century up to the 21st century.\nThe aim of the Stedelijk is to enrich people's lives with art. Our collection, exhibitions, publications, research and educational programs offer unique and compelling insights into today’s world and highlight topics that impact our societies and individual lives.\n\nOur interactions between audiences and art are driven by dialogues with artists. We explore complex topics of yesterday, today and tomorrow – as defined by artists and signaled by ourselves – in an adventurous program. This vision is guided by a fresh, energetic approach to displaying, caring for and renewing our world-famous collection. ",
         "address": "Museumplein 10",
         "link": "https://www.stedelijk.nl"
       },
@@ -399,17 +398,15 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "name": "De Appel",
         "title": "",
         "image": "deappel.jpg",
-        "address": "Schipluidenlaan 12D4",
-        "extra": "De Appel is an Amsterdam based contemporary art institute that brings together people, objects and ideas to explore the unknown. \
-                  With an experimental, open-minded and inclusive focus, the programs of De Appel serve the intellectually and emotionally curious, \
-                  (non-) specialized art enthusiasts as well as seasoned art professionals.",
-        "link": "https://www.deappel.nl"
+        "extra": "de Appel is een instelling opgericht in 1975. Het werd al snel internationaal bekend als een alternatief institutioneel model, geboren uit de behoefte van kunstenaars om performance- en videokunst te presenteren. Vandaag de dag fungeert de Appel nog steeds als host voor artistieke en curatoriële experimenten. Door middel van een programma van ingebedde kunst in scholen en de samenleving, een dertig jaar oud Curatorial Programme en een actief archief, brengt de Appel mensen samen om een wederzijdse uitwisseling van kennis te beoefenen door middel van tentoonstellingen en live activaties.",
+        "address:": "Tolstraat 160",
+        "link": "https://www.deappel.nl/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.837964,
-          52.357254
+         4.90632,
+          52.352636		
         ]
       }
     },
@@ -625,7 +622,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "link": "https://akinci.nl",
         "address": "Lijnbaansgracht 317"
       },
-      "geometry": { "type": "Point", "coordinates": [4.892014, 52.360163] }
+      "geometry": { "type": "Point", "coordinates": [4.892114, 52.360163] }
     },
     {
       "id": "art-singel-100",
@@ -1006,7 +1003,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "link": "https://www.michielsimons.com",
         "address": "Lijnbaansgracht 318"
       },
-      "geometry": { "type": "Point", "coordinates": [4.892102, 52.360155] }
+      "geometry": { "type": "Point", "coordinates": [4.892350, 52.360155] }
     },
     {
       "id":"stigter-vandoesburg",
