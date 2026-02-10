@@ -1053,6 +1053,19 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       },
       "geometry": { "type": "Point", "coordinates": [4.902215, 52.365652] }
     },
+    {
+      "id":"gerhard-hofland",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "Gerhard Hofland",
+        "image": "gerhardhofland.jpg",
+        "extra": "Throughout the years, Gerhard Hofland has grown to become one of the largest galleries in Amsterdam, representing a wide variety of art and artists. The gallery both exhibits and represents international artists that work from abstraction, such as Koen Delaere, Koen Doodeman, Thomas Trum and Janine van Oene, as well as those who rather find expression in figuration, such as Marjolijn de Wit, Michael Kirkham, Johan Tahon, Damien Cadio and Robert Seidel. Or artists that use large installations as their medium like Henk Stallinga. Also Gerhard Hofland holds a great interest in ‘Photo Brut’ artists and therefore presents collections of artists Type 42 (Anonymous) and Horst Ademeit.",
+        "link": "https://gerhardhofland.com",
+        "address": "Bilderdijkstraat 165-C"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.871988, 52.367897] }
+    },
   ]
 }
 
