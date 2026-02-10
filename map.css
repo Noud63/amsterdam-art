@@ -119,7 +119,7 @@ html {
 .infowindow {
   display: flex;
   position: fixed;
-  top: 55px;
+  top: 90px;
   right: 30px;
   width: 368px;
   height: auto;
@@ -497,15 +497,15 @@ html {
   padding-right: 7px;
   padding-top: 10px;
   color: #883d00;
-  overflow: hidden;
+  overflow: auto;
   white-space: pre-line;
   scrollbar-gutter: stable;
 }
 
-.popUpContent:hover {
+/* .popUpContent:hover {
   overflow: auto;
   
-}
+} */
 
 @media only screen and (max-width: 975px) {
   .wrapper {
@@ -541,7 +541,7 @@ html {
 
 @-moz-document url-prefix() {
   .popUpContent {
-    scrollbar-width: none;
+    scrollbar-width: thin;
   }
 }
 
