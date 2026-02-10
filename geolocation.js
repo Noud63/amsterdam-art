@@ -135,7 +135,7 @@ const art = {
       "properties": {
         "name": "Moco Museum",
         "image": "mocomuseum.jpg",
-        "extra": "Modern Contemporary Museum The Moco Museum in Amsterdam is a boutique museum with a wide range of inspiring modern and contemporary art.",
+        "extra": "Step into the world of Moco. See iconic works from Warhol, Haring, Banksy, Basquiat, Kusama, and many more.\n\nDiscover one of Amsterdam’s most visited modern art museums showcasing contemporary, immersive, and digital art experiences, offering visitors a unique perspective on global and local artists.\n\nSince opening its doors in 2016, this art museum in Amsterdam has become a cultural hotspot, showcasing iconic masterpieces from renowned modern and contemporary artists alongside cutting-edge works by emerging talents. ",
         "address": "Honthorststraat 20",
         "link" : "https://mocomuseum.com/"
       },
@@ -339,10 +339,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "properties": {
         "name": "Street Art Museum",
         "image": "streetart.jpg",
-        "address": "Rokin",
-        "extra": "With some 200 art pieces in a growing collection, SAMA frequently introduces internationally acclaimed artists to\
-                  streets of Amsterdam Nieuw-West. From a colossal 150 square metre Stinkfish mural to a 10cm wood block by BunnyBrigade, \
-                  all art is site specific with a story to tell.",
+        "extra": "Street Art Museum Amsterdam (SAMA) is a contemporary eco-museum, focused on the identity of the immediate environment in connection with local participation and aimed at improving the development and quality of life of the local community, using art as a tool to social dialogue.\n\nOur unique collection is not housed within traditional walls but is spread across the vibrant streets of Amsterdam, where street art truly belongs. As such, we do not sell tickets. Our outdoor gallery is free and accessible to everyone at any time.",
         "link": "https://www.streetartmuseumamsterdam.com"
       },
       "geometry": {
@@ -1042,6 +1039,19 @@ Foam offers a platform for conversation, reflection, and connection with visual 
         "address": "Singel 372"
       },
       "geometry": { "type": "Point", "coordinates": [4.887579, 52.369605] }
+    },
+    {
+      "id":"h-art",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "H'ART Museum",
+        "image": "hart.jpg",
+        "extra": "H’ART Museum is een kunstmuseum waar beroemde kunstwerken en verhalen van over de hele wereld worden samengebracht in unieke tentoonstellingen. Onze tentoonstellingen zijn altijd tijdelijk te zien, maar blijven je voor altijd bij. Het museum is gevestigd in een historisch monument, in het hart van de Nederlandse hoofdstad. Een culturele oase – met een unieke binnentuin en een bruisend Grand Café – waar voortdurend veel interessants te doen is, van concerten, lezingen en filmavonden tot kunsteducatie voor kinderen en jongeren.",
+        "link": "https://www.hartmuseum.nl",
+        "address": "Amstel 51"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.902215, 52.365652] }
     },
   ]
 }
