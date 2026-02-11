@@ -118,6 +118,6 @@ document.addEventListener("click", (e) => {
   }
 });
 
-
+// Update list length in the info box
 const length = art.features.length
 listLength.textContent = length
