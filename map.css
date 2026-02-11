@@ -507,6 +507,7 @@ html {
   overflow: auto;
   white-space: pre-line;
   scrollbar-gutter: stable;
+  /* text-wrap: wrap; */
 }
 
 /* .popUpContent:hover {

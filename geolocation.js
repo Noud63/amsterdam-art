@@ -1131,6 +1131,19 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       },
       "geometry": { "type": "Point", "coordinates": [4.879812, 52.370636] }
     },
+    {
+      "id":"tegenboschvanvreden",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "Tegenboschvanvreden",
+        "image": "tegenboschvanvreden.jpg",
+        "extra": "Tegenboschvanvreden is a contemporary art gallery, situated in the centre of Amsterdam. The gallery represents a group of eighteen international artists. In our view the gallery has no fixed formula; it is a distinctly dynamic platform which constantly requires the revision of conceptual points of departure. Since the gallery's inception we have been striving to realize specific projects and collaborations with tegenboschvanvreden. The gallery functions, ideally speaking, as a 'laboratory for new ideas'.",
+        "link": "https://www.tegenboschvanvreden.com",
+        "address": "Bloemgracht 57"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.8810299, 52.374596] }
+    },
   ]
 }
 
