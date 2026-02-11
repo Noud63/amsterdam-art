@@ -1105,6 +1105,32 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       },
       "geometry": { "type": "Point", "coordinates": [4.875341, 52.386150] }
     },
+    {
+      "id":"wouter-van-leeuwen",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "Wouter van Leeuwen",
+        "image": "woutervanleeuwen.jpg",
+        "extra": "Galerie Wouter van Leeuwen is a minimalist gallery that specializes in photography, showcasing the works of renowned contemporary photographers. The collection mainly consists of striking black and white photographs, offering visitors the chance to view original prints of famous images. The gallery represents acclaimed photographers such as Sam Haskins, Frank Horvat, Melvin Sokolsky, and Ellen von Unwerth. Additionally, it features mixed media and photo-based exhibitions from artists exploring intersections with other art forms.",
+        "link": "https://www.woutervanleeuwen.com",
+        "address": "Hazenstraat 26"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.879916, 52.370511] }
+    },
+    {
+      "id":"lang",
+      "type": "Feature",
+      "cat": "gallery",
+      "properties": {
+        "name": "Lang gallery",
+        "image": "lang.jpg",
+        "extra": "LANG, located at Hazenstraat 18 in the vibrant Amsterdam-Centrum, is a unique art gallery that seamlessly blends Dutch and Italian cultures. Founded by passionate gallerists Sara and Ron, this space has become a haven for art lovers since its inception. The gallery is known for its warm hospitality and a keen eye for emerging artists, making it a must-visit for anyone exploring the local art scene.",
+        "link": "https://langgallery.com",
+        "address": "Hazenstraat 18"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.879812, 52.370636] }
+    },
   ]
 }
 

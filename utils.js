@@ -6,6 +6,7 @@ const info = document.querySelector(".informatie");
 const infowindow = document.querySelector(".infowindow");
 const hamburger = document.querySelector(".hamburger");
 const menubar = document.querySelector(".menubar");
+const listLength = document.querySelector(".listLength")
 
 //Reset map to initial state
 document.querySelectorAll(".reset").forEach((btn) => {
@@ -118,3 +119,5 @@ document.addEventListener("click", (e) => {
 });
 
 
+const length = art.features.length
+listLength.textContent = length
