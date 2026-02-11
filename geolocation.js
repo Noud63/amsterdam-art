@@ -1066,6 +1066,45 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       },
       "geometry": { "type": "Point", "coordinates": [4.871988, 52.367897] }
     },
+    {
+      "id":"ndsm-fuse",
+      "type": "Feature",
+      "cat": "artcentre",
+      "properties": {
+        "name": "NDSM-Fuse",
+        "image": "ndsmfuse.jpeg",
+        "extra": "NDSM FUSE is an independent, artist-run presentation floor for contemporary art in the NDSM hangar in Amsterdam North. The stage for research and experiment by artists and makers at the NDSM. Under the title NDSM XPO, they show their work in the front part of the presentation floor. In the rear section and in the KINO, the SALON and the WUNDERKAMMER, five large presentation showcases, NDSM FUSE programmes different guest exhibitions throughout the year.",
+        "link": "https://www.ndsm-fuse.eu",
+        "address": "NDSM-Plein 29"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.894956, 52.401175] }
+    },
+    {
+      "id":"straat-museum",
+      "type": "Feature",
+      "cat": "artcentre",
+      "properties": {
+        "name": "Straat Museum",
+        "image": "straatmuseum.jpg",
+        "extra": "Enter STRAAT: the museum for street art and graffiti. We aim to share our passion for this radical art movement with the public, showcasing some of the biggest names and upcoming talent from all over the world. STRAAT is a street art and graffiti museum for everyone, made possible by a dedicated team of enthusiasts.\n\nOur current exhibition displays more than 180 artworks by 170+ artists. The artworks were created on-site and most of these mind blowing visual experiences are as big as outdoor walls. As a museum, we provide the added value of context and information. Here’s your chance to get to know the stories that remain untold in the streets!\n\nSTRAAT resides in an 8000 m2 former warehouse on the NDSM wharf, both a national monument and the biggest outdoor playground for street art and graffiti in Amsterdam. We offer a total museal experience, as well as educational opportunities and guided tours to answer all your street art questions. Visiting our museum in Amsterdam is guaranteed to make you look at your surroundings with a refreshed pair of eyes.",
+        "link": "https://www.straatmuseum.com",
+        "address": "NDSM-Plein 1"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.893652, 52.401910] }
+    },
+    {
+      "id":"museum-villa",
+      "type": "Feature",
+      "cat": "artcentre",
+      "properties": {
+        "name": "Museum Villa",
+        "image": "museumvilla.jpg",
+        "extra": "Wij geloven dat kunst bijdraagt aan een mooiere en betere wereld, hier en nu. Kunst inspireert, raakt en verbindt mensen. En is simpelweg heel leuk. Soms kan het ingewikkeld voelen. Alsof je het eerst moet begrijpen voordat je ervan kan genieten. Wij kiezen voor kunst die je direct raakt.\n\nVilla is een nieuw thuis voor speelse, zintuiglijke, hedendaagse kunst. Bij Villa draait het om liefde op het eerste gezicht. Eerst de vlinders, daarna de verhalen achter de kunstenaars en hun werk. Niet andersom.",
+        "link": "https://www.museumvilla.com",
+        "address": "Haarlemmerweg 4"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.875341, 52.386150] }
+    },
   ]
 }
 
