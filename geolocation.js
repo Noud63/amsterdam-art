@@ -748,11 +748,11 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "properties": {
         "name": "Galerie Bart",
         "image": "bart.jpg",
-        "extra": "Breeding ground for new talent from Dutch art academies.",
+        "extra": "Galerie Bart is a contemporary art gallery in Amsterdam with a focus on both established and young artists who have graduated in the Netherlands, excelling through their innovative craftsmanship. At Bart’s you will find artists who make either work that is playful and fresh, solid and sharp, serene and light-hearted or serious with a touch of humour. They seek out the limits of their medium and question them, with the aim of pushing the boundaries. The artists that Galerie Bart collaborates with include painters, draughtsmen, photographers, sculptors and installation artists, but they rarely allow themselves to be captured within those classifications. All have in common that they not only work conceptually, but that the work results in a strong visual imagery, whether abstract or figurative.  We alternately organize about 10 solo exhibitions per year. In addition, we offer a diverse program of small-scale events, including other art disciplines, such as film, word art, music and performance.",
         "link": "https://www.galeriebart.nl",
-        "address": ""
+        "address": "Elandsgracht 16"
       },
-      "geometry": { "type": "Point", "coordinates": [4.8756, 52.3718] }
+      "geometry": { "type": "Point", "coordinates": [4.881815, 52.370160] }
     },
     {
       "id": "gallery-delaive",
@@ -1073,7 +1073,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "properties": {
         "name": "H'ART Museum",
         "image": "hart.jpg",
-        "extra": "H’ART Museum is een kunstmuseum waar beroemde kunstwerken en verhalen van over de hele wereld worden samengebracht in unieke tentoonstellingen. Onze tentoonstellingen zijn altijd tijdelijk te zien, maar blijven je voor altijd bij. Het museum is gevestigd in een historisch monument, in het hart van de Nederlandse hoofdstad. Een culturele oase – met een unieke binnentuin en een bruisend Grand Café – waar voortdurend veel interessants te doen is, van concerten, lezingen en filmavonden tot kunsteducatie voor kinderen en jongeren.",
+        "extra": "H’ART Museum is a an art museum where famous works of art and stories from around the world are brought together in one-of-a-kind exhibitions.  Our exhibitions are always temporarily on show but will stay with you forever. The museum is located in a historical landmark, at the heart of the Dutch capital. A cultural oasis – with a unique indoor garden and a bustling Grand Café – where constantly many interesting things are going on, from concerts, lectures and movie nights to art education for children and young adults.",
         "link": "https://www.hartmuseum.nl",
         "address": "Amstel 51"
       },
