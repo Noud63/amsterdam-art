@@ -1,4 +1,4 @@
-//Elements
+//HTML Elements
 const wrapper = document.querySelector(".wrapper");
 const hideSidebar = document.querySelector(".hideSidebar");
 const sidebar = document.querySelector(".sidebar");
@@ -8,15 +8,15 @@ const hamburger = document.querySelector(".hamburger");
 const menubar = document.querySelector(".menubar");
 const listLength = document.querySelector(".listLength")
 
-//Reset map to initial state
+// Initial load
+createArtLayer(art.features);
+
+//Button resets map to initial state
 document.querySelectorAll(".reset").forEach((btn) => {
   btn.addEventListener("click", () => createArtLayer(art.features));
 });
 
-// Initial load
-createArtLayer(art.features);
-
-// Filter listitems by category
+// Filter list-items by category
 function filterByCategory(cat) {
   const filtered = art.features.filter((f) => f.cat === cat); // create filtered array
   createArtLayer(filtered); // rebuild map and sidebar
@@ -37,7 +37,7 @@ function handleMenuClick(e) {
   }
 }
 
-// Attach once to both menus
+// Attach handler once to both menus
 document.querySelector(".menu").addEventListener("click", handleMenuClick);
 document.querySelector(".menubar").addEventListener("click", handleMenuClick);
 

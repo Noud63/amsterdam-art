@@ -184,6 +184,32 @@ const art = {
       }
     },
     {
+      "id":"roland-schimmel",
+      "type": "Feature",
+      "cat": "public",
+      "properties": {
+        "name": "Roland Schimmel",
+        "image": "rolandschimmel.jpg",
+        "extra": "Roland Schimmel is known for his (wall) paintings, installations, and animations in which he experiments with the workings of the halo effect. As a result, his static paintings can be described as interactive. Only by looking carefully can they be fully experienced. The black holes and colored spots are recurring elements in his work. Schimmel exhibits both nationally and internationally. In addition, his work is included in various art collections of museums and companies. He has also created murals for public spaces.",
+        "link": "https://www.rolandschimmel.com",
+        "address": "Vinkenstraat 83"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.886064, 52.382397] }
+    },
+    {
+      "id":"thom-puckey",
+      "type": "Feature",
+      "cat": "public",
+      "properties": {
+        "name": "Thom Puckey",
+        "image": "thompuckey.jpg",
+        "extra": "In de zeven meter hoge sculptuur 3 bomen, 6 lenzen dragen drie figuratieve, bronzen bomen zes lenzen tussen hun takken. Door de lenzen zie je een ondersteboven reflectie van de omgeving. Daarmee past het kunstwerk bij de universiteitsgebouwen waar het door omringd wordt. De universiteit is een plek van reflectie waar je vanuit nieuwe perspectieven kunt leren kijken naar de wereld om je heen.",
+        "link": "https://www.rolandschimmel.com",
+        "address": "Binnengasthuisstraat"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.894327, 52.368671] }
+    },
+    {
       "type": "Feature",
       "cat": "public",
       "properties": {
@@ -1072,7 +1098,7 @@ Foam offers a platform for conversation, reflection, and connection with visual 
       "cat": "artcentre",
       "properties": {
         "name": "NDSM-Fuse",
-        "image": "ndsmfuse.jpeg",
+        "image": "ndsmfuse.jpg",
         "extra": "NDSM FUSE is an independent, artist-run presentation floor for contemporary art in the NDSM hangar in Amsterdam North. The stage for research and experiment by artists and makers at the NDSM. Under the title NDSM XPO, they show their work in the front part of the presentation floor. In the rear section and in the KINO, the SALON and the WUNDERKAMMER, five large presentation showcases, NDSM FUSE programmes different guest exhibitions throughout the year.",
         "link": "https://www.ndsm-fuse.eu",
         "address": "NDSM-Plein 29"
