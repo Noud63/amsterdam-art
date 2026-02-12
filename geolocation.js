@@ -724,9 +724,9 @@ Foam offers a platform for conversation, reflection, and connection with visual 
           "DOF is specialised in authentic historical and fine art photography. We offer remarkable - and exclusively verified original - prints in genres that vary from the beginning of photography, to family albums, and from landscapes to advertising."
         ],
         "link": "https://www.dof.amsterdam",
-        "address": ""
+        "address": "Hazenstraat 28"
       },
-      "geometry": { "type": "Point", "coordinates": [4.8804, 52.3733] }
+      "geometry": { "type": "Point", "coordinates": [4.879931, 52.370475] }
     },
     {
       "id": "droog",
