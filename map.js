@@ -18,5 +18,4 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_M
 // Tiles styles:
 //'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}' (Esri)
 //'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}' (default)
-// Token: pk.eyJ1Ijoibm91ZCIsImEiOiJjanYyY291OHgxMGh3NGVvazlneWV0MnhsIn0.qQ8Thc6rxi03CybmIomvmQ
 
