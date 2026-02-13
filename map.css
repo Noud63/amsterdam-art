@@ -203,7 +203,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: rgb(180, 118, 48);
+  background-color: #b47630;
   top: 0;
   left: 0;
   width: 350px;
@@ -232,10 +232,6 @@ html {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
-  background: linear-gradient(
-    to top,
- rgb(180, 118, 48), rgb(180, 118, 48)
-  );
 }
 
 #pic {

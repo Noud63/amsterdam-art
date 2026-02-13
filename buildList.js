@@ -29,7 +29,7 @@ function buildItemList(features) {
     
     // Highlight list item on hover
     const res = Array.from(document.querySelectorAll(".item"));
-    // highLightItem(res);
+    highLightItem(res);
 
     listing.innerHTML = `
       <div class="content">
