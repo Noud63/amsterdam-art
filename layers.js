@@ -50,7 +50,7 @@ function createArtLayer(features) {
           <div class='pic'>
             <img src="images/${feature.properties.image}" class="puImage"/>
           </div>
-          <div class="popUpContent" style="background-color:#fffdee">
+          <div class="popUpContent" >
             <div class="puName">${feature.properties.name}</div>
             ${feature.properties.title ? `<div class="puTitle">"${feature.properties.title}"</div>` : ""}
             ${feature.properties.extra ? `<div class="extra3">${feature.properties.extra}</div>` : ""}

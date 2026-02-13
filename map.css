@@ -74,7 +74,7 @@ html {
   border-radius: 25px;
   border: none;
   font-family: "Google Sans", Roboto, Arial, sans-serif;
-  font-size: .85rem;
+  font-size: 0.85rem;
   letter-spacing: 0.04rem;
   font-weight: 600;
   color: #854109;
@@ -106,9 +106,9 @@ html {
   border-radius: 25px;
   border: none;
   font-family: "Google Sans", Roboto, Arial, sans-serif;
-    font-size: 12px;
-    letter-spacing: 0.04rem;
-    line-height: 1.25rem;
+  font-size: 12px;
+  letter-spacing: 0.04rem;
+  line-height: 1.25rem;
   font-weight: 600;
   font-weight: 600;
   color: #682f00;
@@ -146,7 +146,7 @@ html {
 .infowindowTitle {
   font-size: 1rem;
   font-weight: bold;
-   margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -154,8 +154,8 @@ html {
     flex-direction: column;
     right: 30px;
     gap: 5px;
-  } 
-/* .infowindow {
+  }
+  /* .infowindow {
     margin-top: 5px;
   } */
 }
@@ -203,7 +203,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #b47630;
+  background-color: rgb(180, 118, 48);
   top: 0;
   left: 0;
   width: 350px;
@@ -232,6 +232,10 @@ html {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
+  background: linear-gradient(
+    to top,
+ rgb(180, 118, 48), rgb(180, 118, 48)
+  );
 }
 
 #pic {
@@ -270,10 +274,10 @@ html {
 }
 
 .extra {
-  font-family: "Google Sans", Roboto, Arial, sans-serif;;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
   color: rgb(255, 255, 255);
   font-size: 0.75rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   white-space: normal;
   font-weight: 400;
   float: left;
@@ -312,7 +316,7 @@ html {
 .space {
   font-family: "Google Sans", Roboto, Arial, sans-serif;
   font-size: 14px;
-  letter-spacing: .07rem;
+  letter-spacing: 0.07rem;
   font-weight: bold;
   color: #ffffff;
   padding-bottom: 3px;
@@ -364,7 +368,7 @@ html {
   .hideSidebar {
     left: 270px;
     height: 60px;
-    width: 24px
+    width: 24px;
   }
   .sidebar.hidden {
     transform: translateX(-270px);
@@ -398,11 +402,11 @@ html {
   }
   .listPopUpWrapper {
     width: 200px;
-}
-.hideSidebar {
+  }
+  .hideSidebar {
     left: 200px;
     height: 60px;
-    width: 24px
+    width: 24px;
   }
   .sidebar.hidden {
     transform: translateX(-200px);
@@ -457,8 +461,6 @@ html {
   visibility: hidden;
 }
 
-
-
 /*CUSTOM POPUP STYLES*/
 
 .wrapper {
@@ -475,7 +477,7 @@ html {
   height: 100vh;
   float: left;
   z-index: 999;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .wrapper.left {
@@ -594,8 +596,8 @@ html {
 
 .extra3 {
   margin-top: 10px;
-  font-size: .85rem;
-  text-align:left;
+  font-size: 0.85rem;
+  text-align: left;
   padding: 5px;
   white-space: pre-line;
   line-height: 1.1rem;
@@ -607,7 +609,7 @@ html {
 }
 
 .check {
-  font-size: .85em;
+  font-size: 0.85em;
   font-weight: bold;
 }
 
