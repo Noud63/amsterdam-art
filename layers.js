@@ -8,7 +8,7 @@ var redFlag = L.icon({
   iconAnchor: [14, 42],
 });
 
-let myLayer;
+let myLayer = L.layerGroup();
 
 // --- Create map markers and sidebar ---
 function createArtLayer(features) {
