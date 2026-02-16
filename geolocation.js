@@ -1004,7 +1004,8 @@ const art = {
 			"image": "eye.jpg",
 			"extra": "Centre of cinematography. EYE Film Institute Netherlands is a Dutch archive and museum in Amsterdam that preserves and presents both Dutch and foreign films screened in the Netherlands. The museum collection includes 37,000 film titles, 60,000 posters, 700,000 photographs and 20,000 books.The earliest materials date from the start of the film industry in the Netherlands in 1895.",
 			"address": "IJpromenade 1",
-			"link": "https://www.eyefilm.nl"
+			"link": "https://www.eyefilm.nl",
+			"open": ["Tuesday:10:00 to 19:00","Wednesday:10:00 to 19:00","Thursdayy:10:00 to 19:00","Friday:10:00 to 19:00","Saturday:10:00 to 19:00","Sunday:10:00 to 19:00"]
 		},
 		"geometry": {
 			"type": "Point",
