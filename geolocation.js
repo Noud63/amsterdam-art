@@ -494,7 +494,7 @@ const art = {
 			"image": "delaive.jpg",
 			"extra": "Commercial gallery presenting major Dutch and international artists.",
 			"link": "https://delaive.com",
-			"address": ""
+			"address": "Spiegelstraat 23"
 		},
 		"geometry": {
 			"type": "Point",
@@ -513,13 +513,13 @@ const art = {
 			"image": "mokum.jpg",
 			"extra": "Galerie Mokum is in 1962 opgericht en zij was toen de eerste en enige plek in Amsterdam, waar realistische kunst werd getoond, verdedigd en gestimuleerd. Hiermee heeft zij een bepalende rol gespeeld in de ontwikkeling van Nederlandse naoorlogse realistische schilderkunst. Door het consequente beleid dat de galerie door de jaren heen heeft gevoerd is Galerie Mokum ook nu nog toonaangevend op het gebied van figuratieve schilderkunst in Nederland.",
 			"link": "https://www.galeriemokum.com",
-			"address": ""
+			"address": "Oudezijds Voorburgwal 334"
 		},
 		"geometry": {
 			"type": "Point",
 			"coordinates": [
-				4.8996,
-				52.3739
+				4.893970,
+				52.369373
 			]
 		}
 	},
@@ -532,13 +532,14 @@ const art = {
 			"image": "go.jpg",
 			"extra": "Gallery focused on street art and urban contemporary culture. Shortly after its foundation, Oscar van der Voorn met his partner Farud Cambatta in Bombay. A few years later, Farud came to Amsterdam and they have the GO Gallery continued together. \nIn the early 2000’s, van der Voorn and Cambatta came in contact with local and international artists who used the street as their canvas and this art form was still called graffiti but soon got the name Street Art.",
 			"link": "https://gogallery.nl",
-			"address": ""
+			"address": "Marnixstraat 127",
+			"open": ["Permanently closed"]
 		},
 		"geometry": {
 			"type": "Point",
 			"coordinates": [
-				4.8769,
-				52.3692
+				4.880740,
+				52.380680
 			]
 		}
 	},
@@ -551,13 +552,15 @@ const art = {
 			"image": "jaski.jpg",
 			"extra": "Jaski Gallery is situated in the heart of Amsterdam’s Art & Antiques district, where we’ve been since 1988. We specialise in work from the CoBrA movement and contemporary art. The gallery regularly stages exhibitions and takes part in major art fairs such as TEFAF in Maastricht and PAN Amsterdam.",
 			"link": "https://www.jaski.nl",
-			"address": ""
+			"address": "Nieuwe Spiegelstraat 29",
+			"open": ["Tuesday:12:00 to 18:00","Wednesday:12:00 to 18:00","Thursdayy:12:00 to 18:00","Friday:12:00 to 18:00","Saturday:12:00 to 18:00","Sunday:12:00 to 18:00"]
+
 		},
 		"geometry": {
 			"type": "Point",
 			"coordinates": [
-				4.8962,
-				52.3657
+				4.889154,
+				52.363800
 			]
 		}
 	},
@@ -589,13 +592,13 @@ const art = {
 			"image": "vanzomeren.png",
 			"extra": "Gallery for contemporary art and documentary photography.",
 			"link": "https://www.martinvanzomeren.nl",
-			"address": ""
+			"address": "Hazenstraat 20"
 		},
 		"geometry": {
 			"type": "Point",
 			"coordinates": [
-				4.8837,
-				52.3699
+				4.879842,
+				 52.370601
 			]
 		}
 	},
@@ -893,7 +896,8 @@ const art = {
 			"image": "rijks.png",
 			"extra": "Collection of Dutch Art and History. One of the most celebrated museums in the world and home to Rembrandt's world famous painting 'De Nachtwacht'.The museum has on display 8,000 objects of art and history, from their total collection of 1 million objects from the years 1200 - 2000",
 			"address": "Museumstraat 1",
-			"link": "https://www.rijksmuseum.nl"
+			"link": "https://www.rijksmuseum.nl",
+			"open": ["Monday:09:00 to 17:00","Tuesday:09:00 to 17:00","Wednesday:09:00 to 17:00","Thursdayy:09:00 to 17:00","Friday:09:00 to 17:00","Saturday:09:00 to 17:00","Sunday:09:00 to 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -975,7 +979,14 @@ const art = {
 			"image": "rembrandthuis.jpg",
 			"extra": " (Dutch: Museum Het Rembrandthuis) is a historic house and art museum in Amsterdam. Here, in the heart of Amsterdam,Painter Rembrandt lived and worked in the house between 1639 and 1656. The house where he started full of ambition, but which he had to leave due to financial problems.\n\n Nearly 400 years later, The Rembrandt House Museum is the only museum in the world entirely dedicated to Rembrandt. Each room in Rembrandt’s house has its own story. Here he experienced joy and sorrow. Here he collected art and rarities from all over the world, educated his students and received his customers. Here he looked out over a rapidly changing city. Here he made his masterpieces. Here he became the greatest.",
 			"address": "Jodenbreestraat 4",
-			"link": "https://www.rembrandthuis.nl"
+			"link": "https://www.rembrandthuis.nl",
+			"open": ["Monday 5 Jan – Friday 13 Feb:10:00 to 17:00",
+				"Saturday 14 Feb – Friday 27 Mar:10:00 to 18:00",
+				"Saturday 28 Mar – Sunday 10 May:10:00 to 19:00",
+				"Monday 11 May – Sunday 1 Nov:10:00 to 18:00",
+				"Monday 2 Nov – Friday 18 Dec:10:00 to 17:00",
+				"Saturday 19 Dec – Tuesday 31 Dec:10:00 to 18:00"
+			]
 		},
 		"geometry": {
 			"type": "Point",
