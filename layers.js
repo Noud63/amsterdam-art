@@ -10,7 +10,7 @@ var redFlag = L.icon({
 
 let myLayer = L.layerGroup();
 
-// --- Create map markers and sidebar ---
+// --- Create map markers and pop-up ---
 function createArtLayer(features) {
   if (myLayer) {
     mymap.removeLayer(myLayer);
