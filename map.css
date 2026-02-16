@@ -610,7 +610,7 @@ html {
 }
 
 .puLink {
-  margin-top: 10px;
+  margin-top: 8px;
   padding: 0 5px;
 }
 
@@ -618,6 +618,16 @@ html {
   color: #883d00;
   font-size: 0.9rem;
   text-decoration-color: #883d00;
+}
+
+.popupSectionTitle {
+ font-weight: bold;
+}
+
+.openingHours {
+  margin-top: 8px;
+  padding: 0 5px;
+  line-height: 1.2rem;
 }
 
 .link a {
@@ -640,7 +650,7 @@ hr {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 80px;
+  margin: 20px 0 80px 0;
 }
 .closeIcon {
   margin-top: 40px;

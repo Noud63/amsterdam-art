@@ -45,6 +45,11 @@ function createArtLayer(features) {
         }
         element.classList.add("active");
 
+        // Render aaray of openings hours
+        const openingHours = feature.properties.open
+          ? feature.properties.open.map((day) => `<div>${day}</div>`).join("")
+          : "";
+
         // popup rendering logic
         element.innerHTML = `
           <div class='pic'>
@@ -54,13 +59,12 @@ function createArtLayer(features) {
             <div class="puName">${feature.properties.name}</div>
             ${feature.properties.title ? `<div class="puTitle">"${feature.properties.title}"</div>` : ""}
             ${feature.properties.extra ? `<div class="extra3">${feature.properties.extra}</div>` : ""}
-             ${feature.properties.address ? `<div class="address">Address: ${feature.properties.address}</div>` : ""}
-            ${feature.properties.link ? `<div class="puLink"><a href=${feature.properties.link} target="_blank" rel="noopener" style="text-decoration:none">Website: ${feature.properties.link}</a></div>`: ""}
-            
+            ${feature.properties.address ? `<div class="address"><span class="popupSectionTitle">Address:</span> ${feature.properties.address}</div>` : ""}
+            ${feature.properties.link ? `<div class="puLink"><a href=${feature.properties.link} target="_blank" rel="noopener" style="text-decoration:none"><span class="popupSectionTitle">Website</span> ${feature.properties.link}</a></div>` : ""}
+           ${feature.properties.open ? `<div class="openingHours"><span class="popupSectionTitle">Opening hours:</span>${openingHours}</div>` : ""}
             <div class="close">
               <img src="images/close.png" class="closeIcon"/>
-              <div class="closeText">close</div>
-            </div>
+             </div>
           </div>
         `;
       });

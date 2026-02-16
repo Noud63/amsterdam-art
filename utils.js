@@ -61,7 +61,7 @@ hideSidebar.addEventListener("click", () => {
 });
 
 // Hide sidebar on mobile
-if(window.innerWidth <= 665){
+if(window.innerWidth <= 550){
    sidebar.classList.add("hidden")
 }
 
@@ -121,3 +121,5 @@ document.addEventListener("click", (e) => {
 // Update list length in the info box
 const length = art.features.length
 listLength.textContent = length
+
+

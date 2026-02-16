@@ -162,13 +162,14 @@ const art = {
 			"image": "droog.jpg",
 			"extra": "Was Droog Design a generation of young designers? That’s what it appeared to be. Or was it a movement? Not really. A collective, perhaps? A label? A manifesto? It was none of the above and all of them at once, but never at the same moment – certainly not for the long term.",
 			"link": "https://www.droog.com",
-			"address": ""
+			"address": "Staalstraat 7-B",
+			"open": ["Monday:10:00 to 17:00","Tuesday:10:00 to 17:00","Wednesday:10:00 to 17:00","Thursdayy:10:00 to 17:00","Friday:10:00 to 17:00","Saturday:10:00 to 17:00","Sunday:10:00 to 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
 			"coordinates": [
-				4.8976,
-				52.3712
+				4.897091,
+				52.368345
 			]
 		}
 	},
@@ -179,15 +180,16 @@ const art = {
 		"properties": {
 			"name": "KochXBos Gallery",
 			"image": "kochxbox.jpg",
-			"extra": "KochxBos Gallery is committed to new and cutting edge art.Rewarded by Top Ten independent galeries by The Guardian we provide a stage for artists to explore their ideas of tolerance and liberation in high and low art. With artists like Ray Caesar, Claire artington and Sarah Maple we contribute to some challenging trending topics. When visiting the gallery you will be surprised by high class alienating paintings and figures.",
+			"extra": "KochxBos Gallery is committed to new and cutting edge art.Rewarded by Top Ten independent galeries by The Guardian we provide a stage for artists to explore their ideas of tolerance and liberation in high and low art. With artists like Ray Caesar, Claire artington and Sarah Maple we contribute to some challenging trending topics. When visiting the gallery you will be surprised by high class alienating paintings and figures.\n\nKochxBos Gallery aims to serve and promote artists that add an intellectual and/or aesthetic value to present time. This can be a search in the of (un)conscious motives of human nature (Ray Caesar, Meryl Donoghue, Zoé Byland), the emancipation of our society (Sarah Maple, Claire Partington, Dadara) or experiments in visual perception (Bethany de Forest, Ciou). The gallery tries to astonish its audience with different and surprising views on who we are as human beings.",
 			"link": "https://kochxbos.com",
-			"address": ""
+			"address": "Eerste Anjeliersdwarsstraat 36",
+			"open": ["Wednesday:13:00 to 18:00","Thursdayy:13:00 to 18:00","Friday:13:00 to 18:00","Saturday:13:00 to 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
 			"coordinates": [
-				4.8793,
-				52.3749
+				4.883489,
+				52.377851
 			]
 		}
 	},
@@ -739,7 +741,8 @@ const art = {
 			"image": "stigtervandoesburg.jpg",
 			"extra": "Stigter van Doesburg, based in the Amsterdam Jordaan area, shows a varied program of contemporary art. We embrace all media - from painting till performance - and have a strong representation of female artists. Although women are picking up in museums, there still is a long way to go. Since its founding in 2001, the gallery has focused on young individuals and their place in the current discourse. What makes an artist truthful, gives it a voice of one own? Being in business for over twenty years the program ranges from mid-career - as we thrive for long term relationships - to new generations of artists and their love for experiment. There always is space for young offspring.",
 			"link": "https://www.stigtervandoesburg.com",
-			"address": "Elandsstraat 90"
+			"address": "Elandsstraat 90",
+			"open": ['Monday:Closed','Tuesday:Closed', 'Wednesday:12:00-18:00', 'Thursday:12:00-18:00', 'Friday:12:00-18:00', 'Saturday:13:00-18:00','Sunday:Closed'],
 		},
 		"geometry": {
 			"type": "Point",
@@ -909,8 +912,15 @@ const art = {
 			"image": "vangoghmuseum.jpg",
 			"extra": "Museum dedicated to the dutch painter Vincent van Gogh. It accomodates the biggest collection of his paintings in the world.It is one of the many art museums in the Netherlands dedicated to the works of Vincent van Gogh and his contemporaries",
 			"address": "Museumplein 6",
-			"link": "https://www.vangoghmuseum.nl"
-		},
+			"link": "https://www.vangoghmuseum.nl",
+			"open": [
+               "February: 1 to 13 February: 9 AM to 5 PM, on Fridays until 9 PM. 14 to 28 February: 9 AM to 6 PM. On Fridays until 9 PM, except 27 February.\n\n",
+               "March through September: Open daily from 9 AM to 6 PM. On Fridays until 9 PM, except 27 March, 29 May, 31 July and 25 September.\n\n",
+               "October: 1 to 11 October: 9 AM to 6 PM, on Fridays until 9 PM. 12 to 18 October: 9 AM to 5 PM, on Fridays until 9 PM, on Saturday and Sunday until 6 PM. 19 to 31 October: 9 AM to 6 PM, on Fridays until 9 PM.\n\n",
+               "November: 1 November: open from 9 AM to 6 PM. 2 to 30 November: 9 AM to 5 PM. On Fridays until 9 PM, except 27 November.\n\n",
+               "December: 1 to 18 December: 9 AM to 5 PM, on Fridays until 9 PM. 19 to 23 December: 9 AM to 6 PM. 24, 25 and 26 December (Christmas Days): 9 AM to 5 PM. 27 to 30 December: 9 AM to 6 PM. 31 December (New Year's Eve): 9 AM to 5 PM."
+]
+},
 		"geometry": {
 			"type": "Point",
 			"coordinates": [
@@ -927,7 +937,8 @@ const art = {
 			"image": "stedelijkmuseum.jpg",
 			"extra": "Museum of Modern Art Amsterdam, is a museum for modern art, contemporary art, and design.\nThe collection comprises modern and contemporary art and design from the early 20th century up to the 21st century.\nThe aim of the Stedelijk is to enrich people's lives with art. Our collection, exhibitions, publications, research and educational programs offer unique and compelling insights into today’s world and highlight topics that impact our societies and individual lives.\n\nOur interactions between audiences and art are driven by dialogues with artists. We explore complex topics of yesterday, today and tomorrow – as defined by artists and signaled by ourselves – in an adventurous program. This vision is guided by a fresh, energetic approach to displaying, caring for and renewing our world-famous collection. ",
 			"address": "Museumplein 10",
-			"link": "https://www.stedelijk.nl"
+			"link": "https://www.stedelijk.nl",
+			"open": ["Monday:10:00 to 18:00","Tuesday:10:00 to 18:00","Wednesday:10:00 to 18:00","Thursdayy:10:00 to 18:00","Friday:10:00 to 18:00","Saturday:10:00 to 18:00","Sunday:10:00 to 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -945,7 +956,8 @@ const art = {
 			"image": "mocomuseum.jpg",
 			"extra": "Step into the world of Moco. See iconic works from Warhol, Haring, Banksy, Basquiat, Kusama, and many more.\n\nDiscover one of Amsterdam’s most visited modern art museums showcasing contemporary, immersive, and digital art experiences, offering visitors a unique perspective on global and local artists.\n\nSince opening its doors in 2016, this art museum in Amsterdam has become a cultural hotspot, showcasing iconic masterpieces from renowned modern and contemporary artists alongside cutting-edge works by emerging talents. ",
 			"address": "Honthorststraat 20",
-			"link": "https://mocomuseum.com/"
+			"link": "https://mocomuseum.com/",
+			"open":["Monday:09:00 to 21:00","Tuesday:09:00 to 21:00","Wednesday:09:00 to 21:00","Thursdayy:09:00 to 21:00","Friday:09:00 to 21:00","Saturday:09:00 to 21:00","Sunday:09:00 to 21:00"]
 		},
 		"geometry": {
 			"type": "Point",
