@@ -149,7 +149,8 @@ const art = {
 			"image": "oscam.jpg",
 			"address": "Bijlmerplein 110-111",
 			"extra": "OSCAM, Open Space Contemporary Art Museum, is the museum for art, fashion, design, craftsmanship and development in Amsterdam.\n\nOSCAM is delighted to introduce the dedicated OSCAM Team, expertly curating, producing, programming, and representing OSCAM with utmost commitment, collaborating with our YOUNG OSCAM team and trainees to elevate OSCAM to new heights.",
-			"link": "https://www.oscam.nl"
+			"link": "https://www.oscam.nl",
+			"open": ["Tuesday:10:00 - 18:00","Wednesday:10:00 - 18:00","Thursday:10:00 - 18:00","Friday:10:00 - 18:00","Saturday:10:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -208,7 +209,8 @@ const art = {
 			"image": "pakt.jpg",
 			"extra": "P////AKT is a non-profit exhibition space for contemporary art that organizes and facilitates large scale solo presentations through which the audience gets the opportunity to gain insight in the thinking space of the artists.",
 			"link": "https://www.pakt.nu",
-			"address": "Groenhoedenveem 2"
+			"address": "Groenhoedenveem 2",
+			"open": ["Thursday:14:00 - 18:00","Friday:14:00 - 18:00","Saturday:14:00 - 18:00","Sunday:14:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -227,7 +229,8 @@ const art = {
 			"image": "ontheinside.jpg",
 			"extra": "'On The Inside' is an independent and international platform for contemporary art situated within the cultural landscape of Amsterdam’s NDSM wharf, just 10 minutes from Central Station via the free ferry.\n\nFounded by Annemarie Galani and Henk Stallinga, ‘On The Inside’ operates as a non-profit, artist-driven exhibition space. The platform showcases curated exhibitions programmed by ‘On The Inside’ and its rotating advisory board.",
 			"link": "https://www.projectspaceontheinside.org",
-			"address": "Melaniaweg 1"
+			"address": "Melaniaweg 1",
+			"open": ["Wednesday:10:00 - 17:00","Thursday:10:00 - 17:00","Friday:10:00 - 17:00","Saturday:11:00 - 17:00","Sunday:11:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -246,7 +249,8 @@ const art = {
 			"image": "ndsmfuse.jpg",
 			"extra": "NDSM FUSE is an independent, artist-run presentation floor for contemporary art in the NDSM hangar in Amsterdam North. The stage for research and experiment by artists and makers at the NDSM. Under the title NDSM XPO, they show their work in the front part of the presentation floor. In the rear section and in the KINO, the SALON and the WUNDERKAMMER, five large presentation showcases, NDSM FUSE programmes different guest exhibitions throughout the year.",
 			"link": "https://www.ndsm-fuse.eu",
-			"address": "NDSM-Plein 29"
+			"address": "NDSM-Plein 29",
+			"open": ["Thursday:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00","Sunday:12:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -265,7 +269,8 @@ const art = {
 			"image": "straatmuseum.jpg",
 			"extra": "Enter STRAAT: the museum for street art and graffiti. We aim to share our passion for this radical art movement with the public, showcasing some of the biggest names and upcoming talent from all over the world. STRAAT is a street art and graffiti museum for everyone, made possible by a dedicated team of enthusiasts.\n\nOur current exhibition displays more than 180 artworks by 170+ artists. The artworks were created on-site and most of these mind blowing visual experiences are as big as outdoor walls. As a museum, we provide the added value of context and information. Here’s your chance to get to know the stories that remain untold in the streets!\n\nSTRAAT resides in an 8000 m2 former warehouse on the NDSM wharf, both a national monument and the biggest outdoor playground for street art and graffiti in Amsterdam. We offer a total museal experience, as well as educational opportunities and guided tours to answer all your street art questions. Visiting our museum in Amsterdam is guaranteed to make you look at your surroundings with a refreshed pair of eyes.",
 			"link": "https://www.straatmuseum.com",
-			"address": "NDSM-Plein 1"
+			"address": "NDSM-Plein 1",
+			"open": ["Monday:12:00 - 17:00","Tuesday:10:00 - 17:00","Wednesday:10:00 - 17:00","Thursday:10:00 - 17:00","Friday:10:00 - 17:00","Saturday:10:00 - 17:00","Sunday:10:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -284,7 +289,8 @@ const art = {
 			"image": "museumvilla.jpg",
 			"extra": "Wij geloven dat kunst bijdraagt aan een mooiere en betere wereld, hier en nu. Kunst inspireert, raakt en verbindt mensen. En is simpelweg heel leuk. Soms kan het ingewikkeld voelen. Alsof je het eerst moet begrijpen voordat je ervan kan genieten. Wij kiezen voor kunst die je direct raakt.\n\nVilla is een nieuw thuis voor speelse, zintuiglijke, hedendaagse kunst. Bij Villa draait het om liefde op het eerste gezicht. Eerst de vlinders, daarna de verhalen achter de kunstenaars en hun werk. Niet andersom.",
 			"link": "https://www.museumvilla.com",
-			"address": "Haarlemmerweg 4"
+			"address": "Haarlemmerweg 4",
+			"open": ["Monday:closed","Tuesday:closed","Wednesday:11:00 - 17:00","Thursday:11:00 - 20:00","Friday:11:00 - 17:00","Saturday:11:00 - 17:00","Sunday:11:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -302,8 +308,9 @@ const art = {
 			"title": "",
 			"image": "fons.jpg",
 			"adress": "Bloemstraat 140",
-			"extra": "Galerie Fons Welters is a gallery for emerging contemporary art. The gallery opened its doors in 1989 and has ever since been one of the leading galleries in Holland",
-			"link": "https://www.fonswelters.nl"
+			"extra": "Galerie Fons Welters was a gallery presenting exhibitions by emerging and mid-career contemporary artists. Located in the center of Amsterdam, the gallery presented both national and international artists. The gallery’s origin dates back to 1984 when Fons Welters opened a gallery space in the Jordaan area. Opening Galerie Fons Welters in 1989 in a former garage in Amsterdam’s Bloemstraat, the gallery has been praised for its distinctive quality of showing young, talented artists when they are still relatively unknown. Since its start, the gallery established itself nationally and internationally with its particular focus on installation art and sculptural approaches, a presence still strongly embedded in the program. Maintaining a diverse exhibition programme, Galerie Fons Welters presented solo exhibitions and group shows of gallery artists as well as special projects. The gallery had a dual exhibition format with its front and back space; often presenting two shows simultaneously.\n\nThroughout the years, the gallery has worked with different generations of artists, always by starting to work with each one of them in an early and precious moment of their careers. ",
+			"link": "https://www.fonswelters.nl",
+			"open": ["Closed"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -322,7 +329,8 @@ const art = {
 			"image": "grimm.jpg",
 			"address": "Keizersgracht 241, Amsterdam\n43a Duke Street, St James's London,\n54 White Street New York",
 			"extra": "GRIMM is a contemporary art gallery representing over thirty international artists.\nSince its establishment in 2005, it has been the gallery’s mission to represent and support the work of emerging and mid-career artists working in all media. Grimm Gallery is located in Amsterdam, London and New York City.",
-			"link": "https://grimmgallery.com/"
+			"link": "https://grimmgallery.com/",
+			"open": ["Monday:closed","Tuesday:11:00 - 18:00","Wednesday:11:00 - 18:00","Thursday:11:00 - 18:00","Friday:11:00 - 18:00","Saturday:11:00 - 18:00","Sunday:closed"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -341,7 +349,8 @@ const art = {
 			"image": "akinci.jpg",
 			"extra": "Akinci has a large focus on new developments in contemporary art and is explicitly engaged with artists who incorporate socio-political, ecological and gender questions into their work. Our programme is defined by a diversity of media as well as cross-overs between sound, architecture, painting, sculpture, film and installation.",
 			"link": "https://akinci.nl",
-			"address": "Lijnbaansgracht 317"
+			"address": "Lijnbaansgracht 317",
+			"open": ["Wednesday:13:00 - 18:00","Thursday:13:00 - 18:00","Friday:13:00 - 18:00","Saturday:13:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -360,7 +369,8 @@ const art = {
 			"image": "artsingel100.jpg",
 			"extra": "Contemporary art gallery led by Pepa Santoplaria.",
 			"link": "https://www.artxs.nl/",
-			"address": "Singel 100"
+			"address": "Singel 100",
+			"open": ["Friday:14:00 - 17:00","Saturday:14:00 - 17:00","Sunday:14:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -379,7 +389,8 @@ const art = {
 			"image": "beeldendgesproken.jpg",
 			"extra": "Gallery working exclusively with professional artists with a psychiatric background.",
 			"link": "https://www.beeldendgesproken.nl",
-			"address": "Hannie Dankbaarpassage 23"
+			"address": "Hannie Dankbaarpassage 23",
+			"open": ["Wednesday:13:00 - 17:00","Thursday:13:00 - 17:00","Friday:13:00 - 17:00","Saturday:13:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -401,7 +412,8 @@ const art = {
 				"The gallery represents a highly curated selection of artists from around the world, with a particular focus on photography of the second half of the 20th century and contemporary artistic positions of the 21st century.\n",
 				"In addition to showcasing internationally established artists, Bildhalle's ambitious program also provides space for innovative young and upcoming artists who are pushing the boundaries of the medium of photography by creating a crossover to other visual art forms and are thereby bringing new perspectives to the discourse."
 			],
-			"link": "https://www.bildhalle.ch"
+			"link": "https://www.bildhalle.ch",
+			"open": ["Wednesday:12:00 - 18:30","Thursdayy:12:00 - 18:30","Friday:12:00 - 18:30","Saturday:11:00 - 16:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -420,7 +432,8 @@ const art = {
 			"image": "borzo.jpg",
 			"extra": "Borzo Gallery is one of the oldest established art galleries in the Netherlands and is a leading gallery in NUL/Zero, Minimal art and Conceptual art.\n\nArtists such as Jan Schoonhoven, Jan Henderikse, herman de vries, Ad Dekkers, Carel Visser, Constant and Ger van Elk are represented in the collection.\n\nThe gallery produces an ongoing series of publications to accompany its gallery exhibitions.",
 			"address": "Keizersgracht 321",
-			"link": "https://www.borzo.com"
+			"link": "https://www.borzo.com",
+			"open": ["Wednesday:13:00 - 17:00","Thursdayy:13:00 - 17:00","Friday:13:00 - 17:00","Saturday:10:00 - 17:00 during exhibitions"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -439,7 +452,8 @@ const art = {
 			"image": "dewittevoet.jpg",
 			"extra": "Gallery focused on modern ceramics and experimental clay-based art.",
 			"link": "https://www.galeriedewittevoet.nl",
-			"address": "Van Nijenrodeweg 623"
+			"address": "Van Nijenrodeweg 623",
+			"open": ["By appointment (mail)"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -462,7 +476,8 @@ const art = {
 				"DOF is specialised in authentic historical and fine art photography. We offer remarkable - and exclusively verified original - prints in genres that vary from the beginning of photography, to family albums, and from landscapes to advertising."
 			],
 			"link": "https://www.dof.amsterdam",
-			"address": "Hazenstraat 28"
+			"address": "Hazenstraat 28",
+			"open": []
 		},
 		"geometry": {
 			"type": "Point",
@@ -481,7 +496,8 @@ const art = {
 			"image": "bart.jpg",
 			"extra": "Galerie Bart is a contemporary art gallery in Amsterdam with a focus on both established and young artists who have graduated in the Netherlands, excelling through their innovative craftsmanship. At Bart’s you will find artists who make either work that is playful and fresh, solid and sharp, serene and light-hearted or serious with a touch of humour. They seek out the limits of their medium and question them, with the aim of pushing the boundaries. The artists that Galerie Bart collaborates with include painters, draughtsmen, photographers, sculptors and installation artists, but they rarely allow themselves to be captured within those classifications. All have in common that they not only work conceptually, but that the work results in a strong visual imagery, whether abstract or figurative.  We alternately organize about 10 solo exhibitions per year. In addition, we offer a diverse program of small-scale events, including other art disciplines, such as film, word art, music and performance.",
 			"link": "https://www.galeriebart.nl",
-			"address": "Elandsgracht 16"
+			"address": "Elandsgracht 16",
+			"open": ["We look forward to welcoming you back in early spring 2026 with new exhibitions at Galerie Bart. More information will follow soon!\n\nIn between exhibitions, the gallery is only open on appointment."]
 		},
 		"geometry": {
 			"type": "Point",
