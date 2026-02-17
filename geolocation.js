@@ -516,7 +516,8 @@ const art = {
 			"image": "delaive.jpg",
 			"extra": "Commercial gallery presenting major Dutch and international artists.",
 			"link": "https://delaive.com",
-			"address": "Spiegelstraat 23"
+			"address": "Spiegelstraat 23",
+			"open": ["Tuesday:10:00 - 17:30","Wednesday:10:00 - 17:30","Thursday:10:00 - 17:30","Friday:10:00 - 17:30","Saturday:11:00 - 17:30", "Monday by appointment only"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -535,7 +536,8 @@ const art = {
 			"image": "mokum.jpg",
 			"extra": "Galerie Mokum is in 1962 opgericht en zij was toen de eerste en enige plek in Amsterdam, waar realistische kunst werd getoond, verdedigd en gestimuleerd. Hiermee heeft zij een bepalende rol gespeeld in de ontwikkeling van Nederlandse naoorlogse realistische schilderkunst. Door het consequente beleid dat de galerie door de jaren heen heeft gevoerd is Galerie Mokum ook nu nog toonaangevend op het gebied van figuratieve schilderkunst in Nederland.",
 			"link": "https://www.galeriemokum.com",
-			"address": "Oudezijds Voorburgwal 334"
+			"address": "Oudezijds Voorburgwal 334",
+			"open": ["Wednesday:12:00 - 17:00","Thursday:12:00 - 17:00","Friday:12:00 - 17:00","Saturday:12:00 - 17:00","Or by appointment"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -595,7 +597,8 @@ const art = {
 			"image": "kers.jpg",
 			"extra": "Kers gallery is a contemporary art gallery based in Amsterdam, dedicated to artists whose practices are conceptually rigorous, materially attentive, and grounded in lived experience.\nThe gallery’s program brings together poetic, political, and sensorial approaches as interconnected modes of artistic inquiry.",
 			"link": "https://www.kersgallery.com",
-			"address": "Lindengracht 148"
+			"address": "Lindengracht 148",
+		"open": ["Everyday by appointment", "Saturday: 12:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -614,7 +617,8 @@ const art = {
 			"image": "vanzomeren.png",
 			"extra": "Gallery for contemporary art and documentary photography.",
 			"link": "https://www.martinvanzomeren.nl",
-			"address": "Hazenstraat 20"
+			"address": "Hazenstraat 20",
+			 "open": ["Wednesday:13:00 - 18:00","Thursday:13:00 - 18:00","Friday:13:00 - 18:00","Saturday:13:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -633,7 +637,8 @@ const art = {
 			"image": "reflex.jpg",
 			"extra": "Gallery specializing in CoBrA, Fluxus and New Realism.",
 			"link": "https://reflexamsterdam.com/",
-			"address": "Lijnbaansgracht 290 A"
+			"address": "Lijnbaansgracht 290 A",
+			"open": ["Saturday:14:00 - 18:00 & by appointment"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -652,7 +657,8 @@ const art = {
 			"image": "torch.jpg",
 			"extra": "In 1984, TORCH Gallery was established by Adriaan van der Have as a stage for Dutch and international contemporary art. Adriaan was among the first to see the potential of photography as an art form. He continued to take risks in new ways of expression, making him a pioneer promoter of photography, veejay art and digital imaging.",
 			"link": "https://www.torchgallery.com",
-			"address": "Lauriergracht 94"
+			"address": "Lauriergracht 94",
+			"open": ["Thursday:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -671,7 +677,8 @@ const art = {
 			"image": "ronmandos.jpg",
 			"extra": "For more than 25 years, Galerie Ron Mandos has held a prominent position within the Dutch art scene. First opening its doors in Rotterdam in 1999, it has since accrued a roster of over 30 artists from around the globe, becoming an integral nexus-point for artists at all stages of their careers — from established to recently graduated artists. In 2007, the gallery moved to its current location in the Amsterdam gallery district. Facilitated by its spacious venue, the gallery offers immersive installations and a wide-ranging program of international exhibitions, focusing on innovative developments in contemporary art.",
 			"link": "https://ronmandos.nl",
-			"address": "Prinsengracht 282"
+			"address": "Prinsengracht 282",
+			"open": ["Wednesday:12:00 - 18:00","Thursdayy:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00","Sunday:12:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -690,7 +697,8 @@ const art = {
 			"image": "upstream.jpg",
 			"extra": "Upstream Gallery, established in 2003, has quickly gained a credible international reputation among collectors, art institutions and critics, and is a perfect example of Amsterdam’s internationally renowned contribution to contemporary art. With a focus on radical, engaged, conceptual and digital art, Upstream Gallery brings pioneering and critical work from over 20 artists from the Netherlands and abroad. Having worked with artists focussing on digital mediums for the past ten years, Upstream Gallery is currently at the forefront of the Dutch and international digital artscene.",
 			"link": "https://www.upstreamgallery.nl",
-			"address": "Kloveniersburgwal 95"
+			"address": "Kloveniersburgwal 95",
+			"open": ["Wednesday:13:00 - 18:00","Thursdayy:13:00 - 18:00","Friday:13:00 - 18:00","Saturday:13:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -709,7 +717,8 @@ const art = {
 			"image": "annetgelink.jpg",
 			"extra": "Established in 2000, the Annet Gelink Gallery, located in Amsterdam, has grown into a premier contemporary art gallery in the Netherlands. Representing a dynamic roster of both emerging and established international artists, the gallery showcases a wide range of mediums, including painting, sculpture, photography, video, installation, and performance art. For more than two decades, Annet Gelink Gallery has been deeply committed to nurturing artists from the early stages of their careers to international acclaim, consistently promoting innovative and thought-provoking art.",
 			"link": "https://www.annetgelink.com",
-			"address": "Laurierstraat 187-189"
+			"address": "Laurierstraat 187-189",
+			"open": ["Wednesday:10:00 - 18:00","Thursdayy:10:00 - 18:00","Friday:10:00 - 18:00","Saturday:13:00 - 18:00", "Or by appointment"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -728,7 +737,8 @@ const art = {
 			"image": "lumentravo.jpg",
 			"extra": "In 1985, Marianne van Tilborg founded Lumen Travo Gallery in her own apartment, above the Athenaeum Bookstore on Spui. From the outset she described it not so much as a conventional commercial gallery but rather “a salon where different disciplines meet.” Theatre‑makers, musicians, filmmakers and fashion designers would come through in the early days alongside visual artists.",
 			"link": "https://www.lumentravo.nl",
-			"address": "Lijnbaansgracht 314"
+			"address": "Lijnbaansgracht 314",
+			"open": ["Thursdayy:13:00 - 18:00","Friday:13:00 - 18:00","Saturday:13:00 - 18:00", "Or by appointment"]
 		},
 		"geometry": {
 			"type": "Point",
