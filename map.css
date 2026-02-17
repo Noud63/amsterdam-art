@@ -155,9 +155,6 @@ html {
     right: 30px;
     gap: 5px;
   }
-  /* .infowindow {
-    margin-top: 5px;
-  } */
 }
 
 #mapid {
@@ -348,10 +345,6 @@ html {
 }
 
 @media only screen and (max-width: 975px) {
-  /* .infowindow {
-    top: 280px;
-    right: 20px;
-  } */
   .sidebar {
     width: 270px;
   }
@@ -417,8 +410,6 @@ html {
   border-left: 0;
 }
 
-/* .listings:hover::-webkit-scrollbar */
-
 .listings::-webkit-scrollbar-track {
   background: none;
 }
@@ -440,10 +431,6 @@ html {
   box-shadow: inset 0px 0px 5px #53310a;
   background-color: #cf9451;
 }
-
-/* .listings:hover::-webkit-scrollbar-thumb {
-  background: #b47630;
-} */
 
 .clearfix {
   display: block;
@@ -507,13 +494,7 @@ html {
   overflow: auto;
   white-space: pre-line;
   scrollbar-gutter: stable;
-  /* text-wrap: wrap; */
 }
-
-/* .popUpContent:hover {
-  overflow: auto;
-  
-} */
 
 @media only screen and (max-width: 975px) {
   .wrapper {
@@ -527,6 +508,7 @@ html {
   .pic {
     width: 270px;
     height: 170px;
+    
   }
 
   .pic img {
@@ -621,7 +603,7 @@ html {
 }
 
 .popupSectionTitle {
- font-weight: bold;
+  font-weight: bold;
 }
 
 .openingHours {

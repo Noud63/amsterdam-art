@@ -678,7 +678,7 @@ const art = {
 			"extra": "For more than 25 years, Galerie Ron Mandos has held a prominent position within the Dutch art scene. First opening its doors in Rotterdam in 1999, it has since accrued a roster of over 30 artists from around the globe, becoming an integral nexus-point for artists at all stages of their careers — from established to recently graduated artists. In 2007, the gallery moved to its current location in the Amsterdam gallery district. Facilitated by its spacious venue, the gallery offers immersive installations and a wide-ranging program of international exhibitions, focusing on innovative developments in contemporary art.",
 			"link": "https://ronmandos.nl",
 			"address": "Prinsengracht 282",
-			"open": ["Wednesday:12:00 - 18:00","Thursdayy:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00","Sunday:12:00 - 17:00"]
+			"open": ["Wednesday:12:00 - 18:00","Thursday:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00","Sunday:12:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -698,7 +698,7 @@ const art = {
 			"extra": "Upstream Gallery, established in 2003, has quickly gained a credible international reputation among collectors, art institutions and critics, and is a perfect example of Amsterdam’s internationally renowned contribution to contemporary art. With a focus on radical, engaged, conceptual and digital art, Upstream Gallery brings pioneering and critical work from over 20 artists from the Netherlands and abroad. Having worked with artists focussing on digital mediums for the past ten years, Upstream Gallery is currently at the forefront of the Dutch and international digital artscene.",
 			"link": "https://www.upstreamgallery.nl",
 			"address": "Kloveniersburgwal 95",
-			"open": ["Wednesday:13:00 - 18:00","Thursdayy:13:00 - 18:00","Friday:13:00 - 18:00","Saturday:13:00 - 18:00"]
+			"open": ["Wednesday:13:00 - 18:00","Thursday:13:00 - 18:00","Friday:13:00 - 18:00","Saturday:13:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -718,7 +718,7 @@ const art = {
 			"extra": "Established in 2000, the Annet Gelink Gallery, located in Amsterdam, has grown into a premier contemporary art gallery in the Netherlands. Representing a dynamic roster of both emerging and established international artists, the gallery showcases a wide range of mediums, including painting, sculpture, photography, video, installation, and performance art. For more than two decades, Annet Gelink Gallery has been deeply committed to nurturing artists from the early stages of their careers to international acclaim, consistently promoting innovative and thought-provoking art.",
 			"link": "https://www.annetgelink.com",
 			"address": "Laurierstraat 187-189",
-			"open": ["Wednesday:10:00 - 18:00","Thursdayy:10:00 - 18:00","Friday:10:00 - 18:00","Saturday:13:00 - 18:00", "Or by appointment"]
+			"open": ["Wednesday:10:00 - 18:00","Thursday:10:00 - 18:00","Friday:10:00 - 18:00","Saturday:13:00 - 18:00", "Or by appointment"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -738,7 +738,7 @@ const art = {
 			"extra": "In 1985, Marianne van Tilborg founded Lumen Travo Gallery in her own apartment, above the Athenaeum Bookstore on Spui. From the outset she described it not so much as a conventional commercial gallery but rather “a salon where different disciplines meet.” Theatre‑makers, musicians, filmmakers and fashion designers would come through in the early days alongside visual artists.",
 			"link": "https://www.lumentravo.nl",
 			"address": "Lijnbaansgracht 314",
-			"open": ["Thursdayy:13:00 - 18:00","Friday:13:00 - 18:00","Saturday:13:00 - 18:00", "Or by appointment"]
+			"open": ["Thursday:13:00 - 18:00","Friday:13:00 - 18:00","Saturday:13:00 - 18:00", "Or by appointment"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -757,7 +757,8 @@ const art = {
 			"image": "msimons.jpg",
 			"extra": "m.simons is a contemporary art gallery based in Amsterdam, founded in 2021. The gallery develops a conceptually driven exhibition program that focuses on the formal and material conditions of the artwork. Through carefully curated, intimate exhibitions, m.simons investigates how a painting, sculpture, or photographic image comes into being, and which choices, gestures, and materials underpin its formation.",
 			"link": "https://www.michielsimons.com",
-			"address": "Lijnbaansgracht 318"
+			"address": "Lijnbaansgracht 318",
+			"open": ["Thursday:13:00 - 18:00","Friday:13:00 - 18:00","Saturday:13:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -796,7 +797,8 @@ const art = {
 			"image": "andriesseeyck.jpg",
 			"extra": "Andriesse Eyck Gallery werkt samen met een breed spectrum van kunstenaars met als doel een ruimte te creëren waar professionele verzamelaars, academici en curatoren elkaar ontmoeten en van elkaar leren. De galerie werkt voornamelijk met kunstenaars die aan het begin van hun carrière staan, maar ook met internationaal gevestigde kunstenaars om uitzonderlijke programma’s te bieden die de hedendaagse kunst inspireren en promoten.",
 			"link": "https://andriesse-eyck.com",
-			"address": "Leliegracht 47"
+			"address": "Leliegracht 47",
+			"open": ['Thursday:12:00-18:00', 'Friday:12:00-18:00', 'Saturday:13:00-18:00'],
 		},
 		"geometry": {
 			"type": "Point",
@@ -815,7 +817,8 @@ const art = {
 			"image": "ellendebruijne.jpg",
 			"extra": "Ellen de Bruijne PROJECTS is a contemporary art gallery and project space situated in the heart of Amsterdam. Since its first show in October of 1999, the gallery has focused on new tendencies in contemporary art, welcoming a myriad of practices and media by international artists. With an acute interest in artists who challenge artistic paramaters both formally and conceptually, Ellen de Bruijne PROJECTS strives to present high-quality shows that are relevant to our contemporary times whilst offering a diverse range of languages to come to grips with it. The gallery confectionates its programme through ever-expanding approaches to artistic formats to more socially-engaged and feminist practices, in both solo and group shows in its space in Amsterdam and abroad in international art fairs. According to its mission as a multifaceted art space, Ellen de Bruijne PROJECTS  also produces performances, publications, lectures, and screenings.",
 			"link": "https://www.edbprojects.com",
-			"address": "Singel 372"
+			"address": "Singel 372",
+			"open": ['Wednesday:11:00-18:00', 'Thursday:11:00-18:00', 'Friday:11:00-18:00', 'Saturday:13:00-18:00'],
 		},
 		"geometry": {
 			"type": "Point",
@@ -834,7 +837,8 @@ const art = {
 			"image": "hart.jpg",
 			"extra": "H’ART Museum is a an art museum where famous works of art and stories from around the world are brought together in one-of-a-kind exhibitions.Our exhibitions are always temporarily on show but will stay with you forever. The museum is located in a historical landmark, at the heart of the Dutch capital. A cultural oasis – with a unique indoor garden and a bustling Grand Café – where constantly many interesting things are going on, from concerts, lectures and movie nights to art education for children and young adults.",
 			"link": "https://www.hartmuseum.nl",
-			"address": "Amstel 51"
+			"address": "Amstel 51",
+			"open": ['Monday:10:00 - 17:00','Tuesday:10:00 - 17:00', 'Wednesday:10:00 - 17:00', 'Thursday:10:00 - 17:00', 'Friday:10:00 - 17:00', 'Saturday:10:00 - 17:00','Sunday:10:00 - 17:00'],
 		},
 		"geometry": {
 			"type": "Point",
@@ -853,7 +857,8 @@ const art = {
 			"image": "gerhardhofland.jpg",
 			"extra": "Throughout the years, Gerhard Hofland has grown to become one of the largest galleries in Amsterdam, representing a wide variety of art and artists. The gallery both exhibits and represents international artists that work from abstraction, such as Koen Delaere, Koen Doodeman, Thomas Trum and Janine van Oene, as well as those who rather find expression in figuration, such as Marjolijn de Wit, Michael Kirkham, Johan Tahon, Damien Cadio and Robert Seidel. Or artists that use large installations as their medium like Henk Stallinga. Also Gerhard Hofland holds a great interest in ‘Photo Brut’ artists and therefore presents collections of artists Type 42 (Anonymous) and Horst Ademeit.",
 			"link": "https://gerhardhofland.com",
-			"address": "Bilderdijkstraat 165-C"
+			"address": "Bilderdijkstraat 165-C",
+			"open": ['Thursday:13:00 - 17:00', 'Friday:13:00 - 17:00', 'Saturday:13:00 - 17:00']
 		},
 		"geometry": {
 			"type": "Point",
@@ -872,7 +877,8 @@ const art = {
 			"image": "woutervanleeuwen.jpg",
 			"extra": "Galerie Wouter van Leeuwen is a minimalist gallery that specializes in photography, showcasing the works of renowned contemporary photographers. The collection mainly consists of striking black and white photographs, offering visitors the chance to view original prints of famous images. The gallery represents acclaimed photographers such as Sam Haskins, Frank Horvat, Melvin Sokolsky, and Ellen von Unwerth. Additionally, it features mixed media and photo-based exhibitions from artists exploring intersections with other art forms.",
 			"link": "https://www.woutervanleeuwen.com",
-			"address": "Hazenstraat 26"
+			"address": "Hazenstraat 26",
+			"open": ['Thursday:12:00 - 18:00', 'Friday:12:00 - 18:00', 'Saturday:12:00 - 18:00'],
 		},
 		"geometry": {
 			"type": "Point",
@@ -891,7 +897,8 @@ const art = {
 			"image": "lang.jpg",
 			"extra": "LANG, located at Hazenstraat 18 in the vibrant Amsterdam-Centrum, is a unique art gallery that seamlessly blends Dutch and Italian cultures. Founded by passionate gallerists Sara and Ron, this space has become a haven for art lovers since its inception. The gallery is known for its warm hospitality and a keen eye for emerging artists, making it a must-visit for anyone exploring the local art scene.",
 			"link": "https://langgallery.com",
-			"address": "Hazenstraat 18"
+			"address": "Hazenstraat 18",
+			"open": ['Wednesday:13:00 - 18:00', 'Thursday:13:00 - 18:00', 'Friday:13:00 - 18:00', 'Saturday:13:00 - 18:00'],
 		},
 		"geometry": {
 			"type": "Point",
@@ -910,7 +917,8 @@ const art = {
 			"image": "tegenboschvanvreden.jpg",
 			"extra": "Tegenboschvanvreden is a contemporary art gallery, situated in the centre of Amsterdam. The gallery represents a group of eighteen international artists. In our view the gallery has no fixed formula; it is a distinctly dynamic platform which constantly requires the revision of conceptual points of departure. Since the gallery's inception we have been striving to realize specific projects and collaborations with tegenboschvanvreden. The gallery functions, ideally speaking, as a 'laboratory for new ideas'.",
 			"link": "https://www.tegenboschvanvreden.com",
-			"address": "Bloemgracht 57"
+			"address": "Bloemgracht 57",
+			"open": ['Thursday:13:00 - 18:00', 'Friday:13:00 - 18:00', 'Saturday:13:00 - 18:00','Sunday:13:00 - 18:00'],
 		},
 		"geometry": {
 			"type": "Point",

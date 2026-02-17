@@ -46,9 +46,7 @@ function createArtLayer(features) {
         element.classList.add("active");
 
         // Array of openings hours
-        const openingHours = feature.properties.open
-          ? feature.properties.open.map((day) => `<div>${day}</div>`).join("")
-          : "";
+        const openingHours = feature.properties.open ? feature.properties.open.map((day) => `<div>${day}</div>`).join("") : "";
 
         // popup rendering logic
         element.innerHTML = `
