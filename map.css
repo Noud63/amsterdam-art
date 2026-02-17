@@ -200,7 +200,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: linear-gradient(#b47630);
+  background: #b47630;
   top: 0;
   left: 0;
   width: 350px;
