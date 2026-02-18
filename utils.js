@@ -94,6 +94,7 @@ info.addEventListener("click", function () {
   infowindow.classList.toggle("active");
 });
 
+
 //Close info when clicking map
 mymap.on("click", () => {
   infowindow.classList.remove("active");

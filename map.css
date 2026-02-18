@@ -22,7 +22,7 @@ html {
   position: absolute;
   background-color: transparent;
   top: 3px;
-  right: 26px;
+  right: 50px;
   z-index: 12;
   gap: 15px;
   width: 40px;
@@ -88,36 +88,48 @@ html {
 }
 
 .menubar {
-  display: none;
+  display: flex;
+  position: fixed;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50px;
-  right: 10px;
-  z-index: 9999;
-  margin-top: 20px;
-  gap: 8px;
+  gap: 10px;
+  top: 45px;
+  right: 0px;
+  width: 145px;
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(73, 39, 0, 0.8), rgba(211, 142, 64, 0.8)), url("images/sunflowers.jpg");
+  background-position: left;
+  z-index: 7;
+  padding: 20px;
+  -webkit-box-shadow: 5px 0 5px -2px #2a4763;
+  -moz-box-shadow: 5px 0 5px -2px #2a4763;
+  box-shadow: -2px 0 5px 2px #866e52;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.1rem;
+  color: #ffffff;
+  text-shadow: #492910 5px;
+  transform: translateX(160px);
+  transition: transform 0.3s ease-in-out;
+  pointer-events: none;
 }
 
 .menubar.active {
-  display: flex;
+   transform: translateX(0px);
 }
 
 .menubar button {
-  background-color: #fff;
-  width: 100px;
-  padding: 8px;
+  background: linear-gradient(to top, #b47732, transparent);
+  width: 110px;
+  padding: 6px;
   border-radius: 25px;
   border: none;
   font-family: "Google Sans", Roboto, Arial, sans-serif;
   font-size: 12px;
-  letter-spacing: 0.04rem;
-  line-height: 1.25rem;
+  letter-spacing: 0.07rem;
   font-weight: 600;
-  font-weight: 600;
-  color: #682f00;
-  box-shadow: 0 2px 3px #725238;
+  color: #ffffff;
+  box-shadow: 0 1px 1px #492910;
+  border-top: 1px solid #eeb472;
   cursor: pointer;
 }
 
@@ -182,15 +194,33 @@ html {
   width: 70px;
 }
 
+.artinamsterdam  {
+display: none;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 12;
+  padding: 10px 14px;
+}
+
+.artinamsterdam img {
+display: flex;
+  width: 240px;
+}
+
 @media only screen and (max-width: 975px) {
   .amsterdam_logo, .amsterdam_logo_right  {
      display: none;
   }
+  
 }
 
 @media only screen and (max-width: 800px) {
   .menuTop button {
     display: none;
+  }
+  .artinamsterdam {
+    display: flex;
   }
 }
 
