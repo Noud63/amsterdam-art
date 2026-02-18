@@ -1307,7 +1307,6 @@ const art = {
 			"name": "Thom Puckey",
 			"image": "thompuckey.jpg",
 			"extra": "In de zeven meter hoge sculptuur 3 bomen, 6 lenzen dragen drie figuratieve, bronzen bomen zes lenzen tussen hun takken. Door de lenzen zie je een ondersteboven reflectie van de omgeving. Daarmee past het kunstwerk bij de universiteitsgebouwen waar het door omringd wordt. De universiteit is een plek van reflectie waar je vanuit nieuwe perspectieven kunt leren kijken naar de wereld om je heen.",
-			"link": "https://www.rolandschimmel.com",
 			"address": "Binnengasthuisstraat"
 		},
 		"geometry": {

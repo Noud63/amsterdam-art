@@ -4,7 +4,7 @@
 // 	}).setView([52.371534, 4.862805], 14);
 // mymap.zoomControl.setPosition('bottomright');		
 		
-// L.tileLayer('https://api.mapbox.com/styles/v1/noud/cmlku6k95002601sf8p344580/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibm91ZCIsImEiOiJjanYyY291OHgxMGh3NGVvazlneWV0MnhsIn0.qQ8Thc6rxi03CybmIomvmQ&v=', 
+// L.tileLayer('https://api.mapbox.com/styles/v1/noud/cmlkvqoo5003u01seernb5loz/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibm91ZCIsImEiOiJjanYyY291OHgxMGh3NGVvazlneWV0MnhsIn0.qQ8Thc6rxi03CybmIomvmQ&v=', 
 // 		{
 //     tileSize: 512,
 //     zoomOffset: -1,

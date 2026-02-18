@@ -20,26 +20,24 @@ html {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 0;
+  background-color: transparent;
+  top: 3px;
   right: 26px;
-  z-index: 9999;
-  margin-top: 20px;
+  z-index: 12;
   gap: 15px;
-  background: #fff;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
-  box-shadow: 0 2px 3px #583f2b;
   border: none;
 }
 
+
 .icon-closed {
-  width: 24px;
+  width: 40px;
 }
 
 .icon-open {
-  width: 14px;
+  width: 24px;
 }
 
 .hamburger .icon-open {
@@ -53,6 +51,13 @@ html {
 .hamburger.active .icon-open {
   display: flex;
 }
+
+@media only screen and (max-width: 800px) {
+  .hamburger {
+    display: flex;
+  }
+}
+
 
 .menu {
   display: flex;
@@ -116,24 +121,102 @@ html {
   cursor: pointer;
 }
 
+.menuTop {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position:fixed;
+  top: 0;
+  left:0;
+   /* background-color: #b47630; */
+   background-image: linear-gradient(to top, rgba(211, 142, 64, 0.8), rgba(211, 142, 64, 0.8)), url("images/sunflowers.jpg");
+  background-position: center;
+   height: 45px;
+   z-index: 10;
+   box-shadow: 0 2px 2px #69503a;
+}
+
+.menuTop button {
+  background: linear-gradient(to top, #b47732, transparent);
+  width: 120px;
+  padding: 6px;
+  border-radius: 25px;
+  border: none;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.07rem;
+  font-weight: 600;
+  color: #ffffff;
+  box-shadow: 0 1px 1px #492910;
+  border-top: 1px solid #eeb472;
+  cursor: pointer;
+}
+
+.amsterdam_logo {
+  display: flex;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 12;
+  padding: 14px 20px;
+}
+
+.amsterdam_logo_right {
+  display: flex;
+  position: absolute;
+  top:0;
+  right: 0;
+  z-index: 12;
+  padding: 14px 20px;
+}
+
+.amsterdam_logo img {
+   display: flex;
+  width: 70px;
+}
+
+.amsterdam_logo_right img {
+   display: flex;
+  width: 70px;
+}
+
+@media only screen and (max-width: 975px) {
+  .amsterdam_logo, .amsterdam_logo_right  {
+     display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .menuTop button {
+    display: none;
+  }
+}
+
 .infowindow {
   display: flex;
   position: fixed;
   flex-direction: column;
-  top: 90px;
-  right: 30px;
-  width: 368px;
-  height: auto;
-  background-color: #fff;
-  border-radius: 10px;
-  z-index: 9999;
+  top: 45px;
+  right: 0px;
+  width: 320px;
+  height: 100vh;
+  /* background-color: #fff; */
+  background-image: linear-gradient(to top, rgba(73, 39, 0, 0.8), rgba(211, 142, 64, 0.8)), url("images/sunflowers.jpg");
+  background-position: center;
+  /* border-radius: 10px; */
+  z-index: 7;
   padding: 20px;
-  box-shadow: 0 2px 3px #725238;
+  -webkit-box-shadow: 5px 0 5px -2px #2a4763;
+  -moz-box-shadow: 5px 0 5px -2px #2a4763;
+  box-shadow: -2px 0 5px 2px #866e52;
   font-family: "Google Sans", Roboto, Arial, sans-serif;
   font-size: 0.85rem;
   line-height: 1.1rem;
-  color: #5f2b00;
-  transform: translateX(398px);
+  color: #ffffff;
+  text-shadow: #492910 5px;
+  transform: translateX(325px);
   transition: transform 0.3s ease-in-out;
   pointer-events: none;
 }
@@ -162,6 +245,7 @@ html {
   position: relative;
   width: 100%;
   float: left;
+  z-index: 5;
 }
 
 /* SIDEBAR AND LISTING STYLES */
@@ -185,7 +269,7 @@ html {
   width: 22px;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: #b47630;
+  background-color: #9b6527;
   -webkit-box-shadow: 5px 0 5px -2px #2a4763;
   -moz-box-shadow: 5px 0 5px -2px #2a4763;
   box-shadow: 5px 0 5px -2px #4b647c;
@@ -200,12 +284,16 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #b47630;
-  top: 0;
+  /* background-color: #b47630; */
+  background-image: linear-gradient(to top, rgba(73, 39, 0, 0.8), rgba(211, 142, 64, 0.8)), url("images/sunflowers.jpg");
+  background-position: center;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  top: 45px;
   left: 0;
   width: 350px;
   height: 100%;
-  z-index: 999;
+  z-index: 5;
   transform: translateX(0);
   transition: transform 0.3s ease-in-out;
 }
@@ -236,8 +324,7 @@ html {
   height: auto;
   margin-bottom: 4%;
   margin-right: 15px;
-  border-bottom: 1px solid rgb(168, 103, 72);
-  border-left: 1px solid rgb(168, 103, 72);
+  box-shadow: 0px 2px 2px rgb(128, 79, 33);
 }
 
 .info {
@@ -331,10 +418,6 @@ html {
 @media only screen and (max-width: 960px) {
   .menu {
     display: none;
-  }
-  .hamburger {
-    display: flex;
-    right: 40px;
   }
 }
 
@@ -454,12 +537,12 @@ html {
   position: relative;
   display: none;
   flex-direction: column;
-  top: 0;
+  top: 45px;
   left: 350px;
   width: 350px;
   height: 100vh;
   float: left;
-  z-index: 999;
+  z-index: 5;
   background-color: #ffffff;
 }
 

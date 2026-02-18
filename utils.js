@@ -5,6 +5,7 @@ const sidebar = document.querySelector(".sidebar");
 const info = document.querySelector(".informatie");
 const infowindow = document.querySelector(".infowindow");
 const hamburger = document.querySelector(".hamburger");
+const menuTop = document.querySelector(".menuTop");
 const menubar = document.querySelector(".menubar");
 const listLength = document.querySelector(".listLength")
 
@@ -38,7 +39,7 @@ function handleMenuClick(e) {
 }
 
 // Attach handler once to both menus
-document.querySelector(".menu").addEventListener("click", handleMenuClick);
+document.querySelector(".menuTop").addEventListener("click", handleMenuClick);
 document.querySelector(".menubar").addEventListener("click", handleMenuClick);
 
 //Add attribute to sidebar tag on initial load
