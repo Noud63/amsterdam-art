@@ -731,6 +731,12 @@ hr {
   cursor: pointer;
 }
 
+.closeIcon_white {
+  margin-top: 40px;
+  width: 26px;
+  cursor: pointer;
+}
+
 .closeText {
   color: #883d00;
   font-size: 14px;
