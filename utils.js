@@ -7,7 +7,7 @@ const infowindow = document.querySelector(".infowindow");
 const hamburger = document.querySelector(".hamburger");
 const menuTop = document.querySelector(".menuTop");
 const menubar = document.querySelector(".menubar");
-const listLength = document.querySelector(".listLength")
+const listLength = document.querySelector(".listLength");
 
 // Initial load
 createArtLayer(art.features);
@@ -16,6 +16,16 @@ createArtLayer(art.features);
 document.querySelectorAll(".reset").forEach((btn) => {
   btn.addEventListener("click", () => createArtLayer(art.features));
 });
+
+function openInfo() {
+  infowindow.classList.add("active");
+  hamburger.disabled = true;
+}
+
+function closeInfo() {
+  infowindow.classList.remove("active");
+  hamburger.disabled = false;
+}
 
 // Filter list-items by category
 function filterByCategory(cat) {
@@ -35,6 +45,11 @@ function handleMenuClick(e) {
     filterByCategory("public");
   } else if (btn.classList.contains("artcentre")) {
     filterByCategory("artcentre");
+  } else if (btn.classList.contains("informatie")) {
+    openInfo();
+
+    hamburger.classList.remove("active");
+    menubar.classList.remove("active");
   }
 }
 
@@ -54,8 +69,6 @@ wrapper.addEventListener("click", () => {
   wrapper.classList.remove("active");
 });
 
-
-
 // Hide sidbar on click and toggle title attribute text
 hideSidebar.addEventListener("click", () => {
   sidebar.classList.toggle("hidden");
@@ -64,8 +77,8 @@ hideSidebar.addEventListener("click", () => {
 });
 
 // Hide sidebar on mobile
-if(window.innerWidth <= 550){
-   sidebar.classList.add("hidden")
+if (window.innerWidth <= 550) {
+  sidebar.classList.add("hidden");
 }
 
 // Highlight list item on hover
@@ -96,7 +109,6 @@ info.addEventListener("click", function () {
   infowindow.classList.toggle("active");
 });
 
-
 //Close info when clicking map
 mymap.on("click", () => {
   infowindow.classList.remove("active");
@@ -118,12 +130,11 @@ document.addEventListener("click", (e) => {
   if (!clickedInsideMenu && !clickedHamburger) {
     menubar.classList.remove("active");
     hamburger.classList.remove("active");
+    hamburger.disabled = false;
     hamburger.setAttribute("aria-expanded", "false");
   }
 });
 
 // Update list length in the info box
-const length = art.features.length
-listLength.textContent = length
-
-
+const length = art.features.length;
+listLength.textContent = length;
