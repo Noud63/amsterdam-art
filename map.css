@@ -412,12 +412,6 @@ display: flex;
   align-items: center;
 }
 
-@media only screen and (max-width: 960px) {
-  .menu {
-    display: none;
-  }
-}
-
 @media only screen and (min-width: 960px) {
   .menubar.active {
     display: none;
@@ -452,15 +446,32 @@ display: flex;
     width: 270px;
     height: 170px;
     position: fixed;
-    display: none;
+    /* display: none; */
   }
   .listings {
-    margin-top: 0px;
+    margin-top: 170px;
   }
   #pic {
     display: none;
   }
+  .infowindow {
+     width: 270px;
+       transform: translateX(275px);
+  }
 }
+
+@media only screen and (max-width: 800px) {
+  #adam {
+    width: 270px;
+    height: 170px;
+    position: fixed;
+    display: none;
+  }
+  .listings {
+    margin-top:0px;
+  }
+}
+
 
 @media only screen and (max-width: 400px) {
   .listings {
