@@ -21,19 +21,19 @@ html {
   align-items: center;
   position: absolute;
   background-color: transparent;
-  top: 3px;
-  right: 50px;
+  top: 5px;
+  right: 15px;
   z-index: 12;
   gap: 15px;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
   border: none;
 }
 
 
 .icon-closed {
-  width: 40px;
+  width: 35px;
 }
 
 .icon-open {
@@ -84,7 +84,6 @@ html {
 }
 
 .menubar.active {
-  pointer-events: auto;
   transform: translateX(0px);
 }
 
@@ -233,13 +232,13 @@ display: flex;
   margin-bottom: 5px;
 }
 
-@media only screen and (max-width: 1150px) {
+/* @media only screen and (max-width: 1150px) {
   .menu {
     flex-direction: column;
     right: 30px;
     gap: 5px;
   }
-}
+} */
 
 #mapid {
   height: 100%;

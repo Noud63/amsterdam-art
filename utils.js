@@ -54,6 +54,8 @@ wrapper.addEventListener("click", () => {
   wrapper.classList.remove("active");
 });
 
+
+
 // Hide sidbar on click and toggle title attribute text
 hideSidebar.addEventListener("click", () => {
   sidebar.classList.toggle("hidden");
