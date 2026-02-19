@@ -58,35 +58,6 @@ html {
   }
 }
 
-
-.menu {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: absolute;
-  flex-direction: column;
-  top: 0px;
-  right: 30px;
-  z-index: 9999;
-  margin-top: 15px;
-  gap: 5px;
-}
-
-.menu button {
-  background-color: #fff;
-  width: 120px;
-  padding: 8px;
-  border-radius: 25px;
-  border: none;
-  font-family: "Google Sans", Roboto, Arial, sans-serif;
-  font-size: 0.85rem;
-  letter-spacing: 0.04rem;
-  font-weight: 600;
-  color: #854109;
-  box-shadow: 0 2px 3px #725238;
-  cursor: pointer;
-}
-
 .menubar {
   display: flex;
   position: fixed;
@@ -110,11 +81,11 @@ html {
   text-shadow: #492910 5px;
   transform: translateX(160px);
   transition: transform 0.3s ease-in-out;
-  pointer-events: none;
 }
 
 .menubar.active {
-   transform: translateX(0px);
+  pointer-events: auto;
+  transform: translateX(0px);
 }
 
 .menubar button {
@@ -236,7 +207,7 @@ display: flex;
   background-image: linear-gradient(to top, rgba(73, 39, 0, 0.8), rgba(211, 142, 64, 0.8)), url("images/sunflowers.jpg");
   background-position: center;
   /* border-radius: 10px; */
-  z-index: 7;
+  z-index: 9;
   padding: 20px;
   -webkit-box-shadow: 5px 0 5px -2px #2a4763;
   -moz-box-shadow: 5px 0 5px -2px #2a4763;
@@ -248,7 +219,7 @@ display: flex;
   text-shadow: #492910 5px;
   transform: translateX(325px);
   transition: transform 0.3s ease-in-out;
-  pointer-events: none;
+  /* pointer-events: auto; */
 }
 
 .infowindow.active {
@@ -314,11 +285,8 @@ display: flex;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* background-color: #b47630; */
   background-image: linear-gradient(to top, rgba(73, 39, 0, 0.8), rgba(211, 142, 64, 0.8)), url("images/sunflowers.jpg");
   background-position: center;
-  /* background-repeat: no-repeat;
-  background-size: cover; */
   top: 45px;
   left: 0;
   width: 350px;
