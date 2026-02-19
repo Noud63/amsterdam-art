@@ -19,11 +19,13 @@ document.querySelectorAll(".reset").forEach((btn) => {
 
 function openInfo() {
   infowindow.classList.add("active");
+  hamburger.classList.remove("active");
   hamburger.disabled = true;
 }
 
 function closeInfo() {
   infowindow.classList.remove("active");
+  hamburger.classList.add("active");
   hamburger.disabled = false;
 }
 
@@ -46,11 +48,18 @@ function handleMenuClick(e) {
   } else if (btn.classList.contains("artcentre")) {
     filterByCategory("artcentre");
   } else if (btn.classList.contains("informatie")) {
-    openInfo();
-
-    hamburger.classList.remove("active");
-    menubar.classList.remove("active");
-  }
+    if (
+      infowindow.classList.contains("active") ||
+      menuTop.classList.contains("active")
+    ) {
+      closeInfo();
+    } else if (
+      !infowindow.classList.contains("active") ||
+      !menuTop.classList.contains("active")
+    ) {
+      openInfo();
+    }
+    }
 }
 
 // Attach handler once to both menus
@@ -103,11 +112,6 @@ function highLightItem(res) {
     }
   }
 }
-
-// Toggle info box
-info.addEventListener("click", function () {
-  infowindow.classList.toggle("active");
-});
 
 //Close info when clicking map
 mymap.on("click", () => {
