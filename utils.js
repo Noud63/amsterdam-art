@@ -101,9 +101,9 @@ hideSidebar.addEventListener("click", () => {
 });
 
 // Hide sidebar on mobile
-if (window.matchMedia("(width <= 550px)").matches) {
-  sidebar.classList.add("hidden");
-}
+// if (window.matchMedia("(width <= 550px)").matches) {
+//   sidebar.classList.add("hidden");
+// }
 
 // Highlight list item on hover
 function highLightItem(res) {
