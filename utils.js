@@ -22,12 +22,16 @@ document.querySelectorAll(".reset").forEach((btn) => {
 // close infowindow on button click
 document.querySelector(".closeIcon_info").addEventListener("click", () => {
   closeInfo();
-})
+});
 
 function openInfo() {
   infowindow.classList.add("active");
   hamburger.classList.remove("active");
   hamburger.disabled = true;
+
+  if (window.matchMedia("(max-width: 400px)").matches) {
+    sidebar.classList.add("hidden");
+  }
 }
 
 function closeInfo() {
@@ -66,7 +70,7 @@ function handleMenuClick(e) {
     ) {
       openInfo();
     }
-    }
+  }
 }
 
 // Attach handler once to both menus
@@ -90,6 +94,10 @@ hideSidebar.addEventListener("click", () => {
   sidebar.classList.toggle("hidden");
   const isHidden = sidebar.classList.contains("hidden");
   hideSidebar.title = isHidden ? "Show sidebar" : "Hide sidebar";
+
+  if (window.matchMedia("(max-width: 400px)").matches) {
+    infowindow.classList.remove("active");
+  }
 });
 
 // Hide sidebar on mobile
