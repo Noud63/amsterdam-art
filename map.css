@@ -160,17 +160,17 @@ html {
 }
 
 .amsterdam_logo_right img {
-   display: flex;
+  display: flex;
   width: 70px;
 }
 
 .artinamsterdam  {
-display: none;
+  display: none;
   position: absolute;
   top:0;
   left: 0;
   z-index: 12;
-  padding: 10px 14px;
+  padding: 12px 14px;
 }
 
 .artinamsterdam img {
@@ -182,7 +182,6 @@ display: flex;
   .amsterdam_logo, .amsterdam_logo_right  {
      display: none;
   }
-  
 }
 
 @media only screen and (max-width: 800px) {
