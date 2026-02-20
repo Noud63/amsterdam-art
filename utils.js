@@ -29,7 +29,7 @@ function openInfo() {
   hamburger.classList.remove("active");
   hamburger.disabled = true;
 
-  if (window.matchMedia("(max-width: 400px)").matches) {
+  if (window.matchMedia("(max-width: 420px)").matches) {
     sidebar.classList.add("hidden");
   }
 }
@@ -95,7 +95,7 @@ hideSidebar.addEventListener("click", () => {
   const isHidden = sidebar.classList.contains("hidden");
   hideSidebar.title = isHidden ? "Show sidebar" : "Hide sidebar";
 
-  if (window.matchMedia("(max-width: 400px)").matches) {
+  if (window.matchMedia("(max-width: 420px)").matches) {
     infowindow.classList.remove("active");
   }
 });
