@@ -8,6 +8,7 @@ const hamburger = document.querySelector(".hamburger");
 const menuTop = document.querySelector(".menuTop");
 const menubar = document.querySelector(".menubar");
 const listLength = document.querySelector(".listLength");
+const closeInfoBtn = document.querySelector(".closeIcon_info");
 
 // Initial load
 createArtLayer(art.features);
@@ -16,6 +17,12 @@ createArtLayer(art.features);
 document.querySelectorAll(".reset").forEach((btn) => {
   btn.addEventListener("click", () => createArtLayer(art.features));
 });
+
+
+// close infowindow on button click
+document.querySelector(".closeIcon_info").addEventListener("click", () => {
+  closeInfo();
+})
 
 function openInfo() {
   infowindow.classList.add("active");
@@ -86,7 +93,7 @@ hideSidebar.addEventListener("click", () => {
 });
 
 // Hide sidebar on mobile
-if (window.innerWidth <= 550) {
+if (window.matchMedia("(width <= 550px)").matches) {
   sidebar.classList.add("hidden");
 }
 
