@@ -18,7 +18,6 @@ document.querySelectorAll(".reset").forEach((btn) => {
   btn.addEventListener("click", () => createArtLayer(art.features));
 });
 
-
 // close infowindow on button click
 document.querySelector(".closeIcon_info").addEventListener("click", () => {
   closeInfo();
@@ -29,7 +28,7 @@ function openInfo() {
   hamburger.classList.remove("active");
   hamburger.disabled = true;
 
-  if (window.matchMedia("(max-width: 420px)").matches) {
+  if (window.matchMedia("(max-width: 430px)").matches) {
     sidebar.classList.add("hidden");
   }
 }
@@ -95,7 +94,7 @@ hideSidebar.addEventListener("click", () => {
   const isHidden = sidebar.classList.contains("hidden");
   hideSidebar.title = isHidden ? "Show sidebar" : "Hide sidebar";
 
-  if (window.matchMedia("(max-width: 420px)").matches) {
+  if (window.matchMedia("(max-width: 430px)").matches) {
     infowindow.classList.remove("active");
   }
 });

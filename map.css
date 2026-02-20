@@ -202,10 +202,8 @@ display: flex;
   right: 0px;
   width: 320px;
   height: 100vh;
-  /* background-color: #fff; */
   background-image: linear-gradient(to top, rgba(73, 39, 0, 0.8), rgba(211, 142, 64, 0.8)), url("images/sunflowers.jpg");
   background-position: center;
-  /* border-radius: 10px; */
   z-index: 9;
   padding: 20px;
   -webkit-box-shadow: 5px 0 5px -2px #2a4763;
@@ -218,7 +216,6 @@ display: flex;
   text-shadow: #492910 5px;
   transform: translateX(325px);
   transition: transform 0.3s ease-in-out;
-  /* pointer-events: auto; */
 }
 
 .infowindow.active {
@@ -231,14 +228,6 @@ display: flex;
   font-weight: bold;
   margin-bottom: 5px;
 }
-
-/* @media only screen and (max-width: 1150px) {
-  .menu {
-    flex-direction: column;
-    right: 30px;
-    gap: 5px;
-  }
-} */
 
 #mapid {
   height: 100%;
@@ -458,7 +447,7 @@ display: flex;
   }
   .infowindow {
      width: 270px;
-       transform: translateX(275px);
+    transform: translateX(275px);
   }
 }
 
@@ -475,7 +464,7 @@ display: flex;
 }
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
   .listings {
     width: 200px;
   }
@@ -495,7 +484,8 @@ display: flex;
   }
 }
 
-/* CUSTOM SCROLLBAR */
+
+/* ------------ CUSTOM SCROLLBAR ------------- */
 
 .listings::-webkit-scrollbar {
   width: 7px;
@@ -537,7 +527,8 @@ display: flex;
   visibility: hidden;
 }
 
-/*CUSTOM POPUP STYLES*/
+
+/* ------------- CUSTOM POPUP STYLES -------------- */
 
 .wrapper {
   font-family: "Google Sans", Roboto, Arial, sans-serif;
@@ -625,32 +616,6 @@ display: flex;
   .popUpContent {
     scrollbar-width: thin;
   }
-}
-
-/* Chrome, Safari, Edge */
-.popUpContent::-webkit-scrollbar {
-  width: 7px;
-}
-
-.popUpContent::-webkit-scrollbar-track {
-  background: none;
-}
-
-.popUpContent:hover::-webkit-scrollbar-thumb {
-  border-radius: 7px;
-  min-height: 40px;
-  background-color: #fff;
-  background-image: -webkit-linear-gradient(
-    90deg,
-    #c4aa8d 10%,
-    #ffffff 35%,
-    transparent 100%,
-    #ffffff 65%,
-    transparent
-  );
-  -webkit-box-shadow: inset 0px 0px 5px #53310a;
-  box-shadow: inset 0px 0px 5px #a17a4e;
-  background-color: #ffffff;
 }
 
 .puName {
@@ -741,15 +706,30 @@ hr {
   cursor: pointer;
 }
 
-.closeText {
-  color: #883d00;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 80px;
-  cursor: pointer;
+/* Chrome, Safari, Edge */
+.popUpContent::-webkit-scrollbar {
+  width: 7px;
+}
+
+.popUpContent::-webkit-scrollbar-track {
+  background: none;
+}
+
+.popUpContent:hover::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  min-height: 40px;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    #c4aa8d 10%,
+    #ffffff 35%,
+    transparent 100%,
+    #ffffff 65%,
+    transparent
+  );
+  -webkit-box-shadow: inset 0px 0px 5px #53310a;
+  box-shadow: inset 0px 0px 5px #a17a4e;
+  background-color: #ffffff;
 }
 
 /* git add . && git commit -m "update" && git push origin main */
