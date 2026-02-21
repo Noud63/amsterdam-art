@@ -485,6 +485,18 @@ display: flex;
   }
 }
 
+@media only screen and (min-width: 360px) {
+  .sidebar {
+    width: 180px
+  }
+  .hideSidebar {
+    left: 180px
+  }
+  .sidebar.hidden {
+    transform: translateX(-180px);
+  }
+}
+
 
 /* ------------ CUSTOM SCROLLBAR ------------- */
 
