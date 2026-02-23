@@ -829,26 +829,6 @@ const art = {
 		}
 	},
 	{
-		"id": "h-art",
-		"type": "Feature",
-		"cat": "museum",
-		"properties": {
-			"name": "H'ART Museum",
-			"image": "hart.jpg",
-			"extra": "H’ART Museum is a an art museum where famous works of art and stories from around the world are brought together in one-of-a-kind exhibitions.Our exhibitions are always temporarily on show but will stay with you forever. The museum is located in a historical landmark, at the heart of the Dutch capital. A cultural oasis – with a unique indoor garden and a bustling Grand Café – where constantly many interesting things are going on, from concerts, lectures and movie nights to art education for children and young adults.",
-			"link": "https://www.hartmuseum.nl",
-			"address": "Amstel 51",
-			"open": ['Monday:10:00 - 17:00','Tuesday:10:00 - 17:00', 'Wednesday:10:00 - 17:00', 'Thursday:10:00 - 17:00', 'Friday:10:00 - 17:00', 'Saturday:10:00 - 17:00','Sunday:10:00 - 17:00'],
-		},
-		"geometry": {
-			"type": "Point",
-			"coordinates": [
-				4.902215,
-				52.365652
-			]
-		}
-	},
-	{
 		"id": "gerhard-hofland",
 		"type": "Feature",
 		"cat": "gallery",
@@ -1029,6 +1009,26 @@ const art = {
 			"coordinates": [
 				4.879852,
 				52.357899
+			]
+		}
+	},
+	{
+		"id": "h-art",
+		"type": "Feature",
+		"cat": "museum",
+		"properties": {
+			"name": "H'ART Museum",
+			"image": "hart.jpg",
+			"extra": "H’ART Museum is a an art museum where famous works of art and stories from around the world are brought together in one-of-a-kind exhibitions.Our exhibitions are always temporarily on show but will stay with you forever. The museum is located in a historical landmark, at the heart of the Dutch capital. A cultural oasis – with a unique indoor garden and a bustling Grand Café – where constantly many interesting things are going on, from concerts, lectures and movie nights to art education for children and young adults.",
+			"link": "https://www.hartmuseum.nl",
+			"address": "Amstel 51",
+			"open": ['Monday:10:00 - 17:00','Tuesday:10:00 - 17:00', 'Wednesday:10:00 - 17:00', 'Thursday:10:00 - 17:00', 'Friday:10:00 - 17:00', 'Saturday:10:00 - 17:00','Sunday:10:00 - 17:00'],
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4.902215,
+				52.365652
 			]
 		}
 	},
