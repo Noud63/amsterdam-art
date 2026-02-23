@@ -24,7 +24,7 @@ function buildItemList(features) {
 
     // Bounce marker on hover
     listing.addEventListener("mouseenter", () => {
-      if (marker) marker.bounce(1);
+      if (marker) marker.bounce(2);
     });
     
     // Highlight list item on hover

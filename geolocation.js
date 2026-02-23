@@ -929,6 +929,26 @@ const art = {
 		}
 	},
 	{
+		"id": "fontana",
+		"type": "Feature",
+		"cat": "gallery",
+		"properties": {
+			"name": "Galerie Fontana",
+			"image": "fontana.jpg",
+			"extra": "At Galerie Fontana we reflect on the state of contemporary art today. We seek to show how the world appears and actually is, despite its, sometimes, sharp edges and dystopian character. Founded in 2011, we embrace all art media where the key ingredient determining our choice is a strong personal connection with the artwork and artist. Permanently based in a former chocolate factory of 300 sqm covering two floors on the Lauriergracht, one of the many charming canals of Amsterdam, Fontana is also a gallery on the move. In the past have occupied and shared spaces in Amsterdam, Berlin, Brussels and Paris. In the summer of 2015 we exhibited the work of the well-known Dutch photographer Jan Banning during the 56th Venice Biennale. In April 2025 we opend our second gallery space in Brussels Belgium in a beautiful late 19th-century residence in the charming Grand Sablon quarter, which also houses the intriguing gallery Jonathan F. Kugel.",
+			"link": "https://www.galeriefontana.com",
+			"address": "Lauriergracht 142",
+			"open": ['Wednesday:13:00 - 18:00 ','Thursday:13:00 - 18:00', 'Friday:13:00 - 18:00', 'Saturday:13:00 - 18:00'],
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4.878018,
+				52.370835
+			]
+		}
+	},
+	{
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -1188,6 +1208,44 @@ const art = {
 			"coordinates": [
 				4.897761,
 				52.374118
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"cat": "museum",
+		"properties": {
+			"name": "Museum Van De Geest",
+			"image": "museumvandegeest.jpg",
+			"extra": "Museum of the Mind: discover the artwork between your ears\nWe are the Museum of the Mind. We are fascinated by the artwork between your ears. Nothing is as diverse, unique, powerful, and at the same time as vulnerable as the human mind. Anyone who has had a poor night’s sleep can tell you how thin the line is between feeling normal and feeling different.",
+			"address": "Amstel 51",
+			"link": "https://museumvandegeest.nl/amsterdam",
+			"open": ["Tuesday:10:00 - 17:00","Wednesday:10:00 - 17:00","Thursdayy:10:00 - 17:00","Friday:10:00 - 17:00","Saturday:10:00 - 17:00","Sunday:10:00 - 17:00"]
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4.902559,
+				52.364800
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"cat": "museum",
+		"properties": {
+			"name": "Buro Stedelijk",
+			"image": "burostedelijk.jpg",
+			"extra": "Buro Stedelijk is a versatile art space that celebrates community and encourages innovative and boundary-pushing art.\nAs a decentralized observatory, it is attentive to community needs and promotes artistic expression. By fostering collaboration between artists, communities, and institutions, Buro Stedelijk aims to inspire new perspectives and active civic participation. You can visit Buro Stedelijk during the opening times of Stedelijk Museum Amsterdam, at Museumplein 10. For evening events Buro Stedelijk has its entrance on the Paulus Potterstraat 13. Buro Stedelijk is hybrid, make sure to check the location per manifestation on our website.",
+			"address": "Museumplein 10",
+			"link": "https://burostedelijk.nl",
+			"open": ["Museumplein 10:", "Tuesday:10:00 - 18:00","Wednesday:10:00 - 18:00","Thursdayy:10:00 - 18:00","Friday:10:00 - 18:00","Saturday:10:00 - 18:00","Sunday:10:00 - 18:00","Paulus Potterstraat 13:\n 18:30 - 20:30 on the days of events.\nCheck website for more information."]
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4.881137,
+				52.358835
 			]
 		}
 	},
