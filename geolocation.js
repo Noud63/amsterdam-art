@@ -831,7 +831,7 @@ const art = {
 	{
 		"id": "h-art",
 		"type": "Feature",
-		"cat": "gallery",
+		"cat": "museum",
 		"properties": {
 			"name": "H'ART Museum",
 			"image": "hart.jpg",
