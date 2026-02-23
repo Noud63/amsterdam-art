@@ -274,7 +274,7 @@ display: flex;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: linear-gradient(to top, rgba(73, 39, 0, 0.78), rgba(211, 142, 64, 0.78)), url("images/sunflowers.jpg");
+  background-image: linear-gradient(to top, rgba(73, 39, 0, 0.76), rgba(211, 142, 64, 0.76)), url("images/sunflowers.jpg");
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -321,13 +321,14 @@ display: flex;
   display: flex;
   flex-direction: column;
   width: 95%;
+  color: #ffffff;
 }
 
 .item {
   border-bottom: 1px dotted #ffffff;
   font-family: "Times";
   font-size: 1rem;
-  color: rgb(99, 13, 13);
+  /* color: rgb(99, 13, 13); */
   width: 100%;
   height: auto;
   text-overflow: hidden;
@@ -339,13 +340,13 @@ display: flex;
   font-family: "Times";
   font-size: 1vw;
   font-weight: bold;
-  color: rgb(99, 13, 13);
+  /* color: rgb(99, 13, 13); */
   text-decoration: none;
 }
 
 .extra {
   font-family: "Google Sans", Roboto, Arial, sans-serif;
-  color: rgb(255, 255, 255);
+  /* color: #ffffff; */
   font-size: 0.75rem;
   letter-spacing: 0.1rem;
   white-space: normal;
@@ -359,7 +360,7 @@ display: flex;
 .extra2 {
   margin-top: 2%;
   font-family: "times";
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
   white-space: normal;
   height: auto;
   background: transparent;
@@ -388,7 +389,7 @@ display: flex;
   font-size: 14px;
   letter-spacing: 0.07rem;
   font-weight: bold;
-  color: #ffffff;
+  /* color: #ffffff; */
   padding-bottom: 3px;
 }
 

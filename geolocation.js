@@ -949,6 +949,26 @@ const art = {
 		}
 	},
 	{
+		"id": "madevankrimpen",
+		"type": "Feature",
+		"cat": "gallery",
+		"properties": {
+			"name": "Madé van Krimpen",
+			"image": "madevankrimpen.jpg",
+			"extra": "Madé van Krimpen is an Amsterdam based gallery dedicated to contemporary art, with a program that moves fluidly between experimentation and established practices. Founded in 2021, the gallery embraces a wide range of media, from painting to performance and sound, photography, and installation, fostering projects that are curious, tactile, and sometimes unexpected.\n\nWith a base in Amsterdam and projects that extend through international collaborations, Madé van Krimpen maintains an approach that is open and playful committed to creating meaningful encounters with art across disciplines.",
+			"link": "https://madevankrimpen.com",
+			"address": "Prinsengracht 615 H",
+			"open": ['Thursday:12:00 - 18:00', 'Friday:12:00 - 18:00', 'Saturday:12:00 - 18:00'],
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4.882902,
+				52.367622
+			]
+		}
+	},
+	{
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {

@@ -28,7 +28,7 @@ function buildItemList(features) {
     });
     
     // Highlight list item on hover
-    const res = Array.from(document.querySelectorAll(".item"));
+    const res = Array.from(document.querySelectorAll(".info"));
     // highLightItem(res);
 
     listing.innerHTML = `
