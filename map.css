@@ -666,6 +666,7 @@ display: flex;
 
 .address {
   margin-top: 10px;
+  margin-bottom: 8px;
   padding: 0 5px;
 }
 
@@ -689,10 +690,20 @@ display: flex;
   font-weight: bold;
 }
 
+.category {
+  padding: 0 5px;
+  line-height: 1.2rem;
+  font-weight: bold;
+}
+
 .openingHours {
   margin-top: 8px;
   padding: 0 5px;
   line-height: 1.2rem;
+}
+
+.closedOpen {
+  color: rgb(255, 0, 0);
 }
 
 .link a {

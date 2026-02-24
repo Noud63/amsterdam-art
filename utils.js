@@ -152,3 +152,38 @@ document.addEventListener("click", (e) => {
 // Update list length in the info box
 const length = art.features.length;
 listLength.textContent = length;
+
+const closedOpen = (art) => {
+  const now = new Date();
+
+  const today = now.toLocaleDateString("en-US", { weekday: "long" });
+
+  const currentTime = now.toLocaleTimeString([], {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false
+  });
+
+const schedule = art.properties?.open;
+    if (!schedule) return;
+
+    const isOpen = schedule.some(entry => {
+
+      const colonIndex = entry.indexOf(":");
+
+      const day = entry.slice(0, colonIndex);
+      const times = entry.slice(colonIndex + 1);
+
+      if (day !== today) return false;
+
+      const [openTime, closeTime] = times.split(" - ");
+
+      return currentTime >= openTime && currentTime <= closeTime;
+    });
+    return isOpen
+    // console.log(`${art.properties.name} is ${isOpen ? "OPEN" : "CLOSED"}`);
+};
+
+// closedOpen(art);
+
+

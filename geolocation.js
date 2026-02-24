@@ -2,6 +2,7 @@ const art = {
   "type": "FeatureCollection",
   "features": [
 	{
+		"id": "hethem",
 		"type": "Feature",
 		"cat": "artcentre",
 		"properties": {
@@ -22,6 +23,7 @@ const art = {
 		}
 	},
 	{
+		"id": "wow",
 		"type": "Feature",
 		"cat": "artcentre",
 		"properties": {
@@ -41,6 +43,7 @@ const art = {
 		}
 	},
 	{
+		"id": "de-appel",
 		"type": "Feature",
 		"cat": "artcentre",
 		"properties": {
@@ -61,6 +64,7 @@ const art = {
 		}
 	},
 	{
+		"id": "w139",
 		"type": "Feature",
 		"cat": "artcentre",
 		"properties": {
@@ -81,6 +85,7 @@ const art = {
 		}
 	},
 	{
+			"id": "arti-et-amicitiae",
 		"type": "Feature",
 		"cat": "artcentre",
 		"properties": {
@@ -101,6 +106,7 @@ const art = {
 		}
 	},
 	{
+		"id": "corridor-project-space",
 		"type": "Feature",
 		"cat": "artcentre",
 		"properties": {
@@ -121,6 +127,7 @@ const art = {
 		}
 	},
 	{
+		"id": "huis-marseille",
 		"type": "Feature",
 		"cat": "artcentre",
 		"properties": {
@@ -141,6 +148,7 @@ const art = {
 		}
 	},
 	{
+		"id": "oscam",
 		"type": "Feature",
 		"cat": "artcentre",
 		"properties": {
@@ -301,6 +309,7 @@ const art = {
 		}
 	},
 	{
+		"id": "fons-welters",
 		"type": "Feature",
 		"cat": "gallery",
 		"properties": {
@@ -309,8 +318,7 @@ const art = {
 			"image": "fons.jpg",
 			"adress": "Bloemstraat 140",
 			"extra": "Galerie Fons Welters was a gallery presenting exhibitions by emerging and mid-career contemporary artists. Located in the center of Amsterdam, the gallery presented both national and international artists. The gallery’s origin dates back to 1984 when Fons Welters opened a gallery space in the Jordaan area. Opening Galerie Fons Welters in 1989 in a former garage in Amsterdam’s Bloemstraat, the gallery has been praised for its distinctive quality of showing young, talented artists when they are still relatively unknown. Since its start, the gallery established itself nationally and internationally with its particular focus on installation art and sculptural approaches, a presence still strongly embedded in the program. Maintaining a diverse exhibition programme, Galerie Fons Welters presented solo exhibitions and group shows of gallery artists as well as special projects. The gallery had a dual exhibition format with its front and back space; often presenting two shows simultaneously.\n\nThroughout the years, the gallery has worked with different generations of artists, always by starting to work with each one of them in an early and precious moment of their careers. ",
-			"link": "https://www.fonswelters.nl",
-			"open": ["Closed"]
+			"link": "https://www.fonswelters.nl"
 		},
 		"geometry": {
 			"type": "Point",
@@ -321,6 +329,7 @@ const art = {
 		}
 	},
 	{
+		"id": "grimm-gallery",
 		"type": "Feature",
 		"cat": "gallery",
 		"properties": {
@@ -330,7 +339,7 @@ const art = {
 			"address": "Keizersgracht 241, Amsterdam\n43a Duke Street, St James's London,\n54 White Street New York",
 			"extra": "GRIMM is a contemporary art gallery representing over thirty international artists.\nSince its establishment in 2005, it has been the gallery’s mission to represent and support the work of emerging and mid-career artists working in all media. Grimm Gallery is located in Amsterdam, London and New York City.",
 			"link": "https://grimmgallery.com/",
-			"open": ["Monday:closed","Tuesday:11:00 - 18:00","Wednesday:11:00 - 18:00","Thursday:11:00 - 18:00","Friday:11:00 - 18:00","Saturday:11:00 - 18:00","Sunday:closed"]
+			"open": ["Tuesday:11:00 - 18:00","Wednesday:11:00 - 18:00","Thursday:11:00 - 18:00","Friday:11:00 - 18:00","Saturday:11:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -778,7 +787,7 @@ const art = {
 			"extra": "Stigter van Doesburg, based in the Amsterdam Jordaan area, shows a varied program of contemporary art. We embrace all media - from painting till performance - and have a strong representation of female artists. Although women are picking up in museums, there still is a long way to go. Since its founding in 2001, the gallery has focused on young individuals and their place in the current discourse. What makes an artist truthful, gives it a voice of one own? Being in business for over twenty years the program ranges from mid-career - as we thrive for long term relationships - to new generations of artists and their love for experiment. There always is space for young offspring.",
 			"link": "https://www.stigtervandoesburg.com",
 			"address": "Elandsstraat 90",
-			"open": ['Monday:Closed','Tuesday:Closed', 'Wednesday:12:00-18:00', 'Thursday:12:00-18:00', 'Friday:12:00-18:00', 'Saturday:13:00-18:00','Sunday:Closed'],
+			"open": ['Wednesday:12:00-18:00', 'Thursday:12:00-18:00', 'Friday:12:00-18:00', 'Saturday:13:00-18:00',],
 		},
 		"geometry": {
 			"type": "Point",
@@ -949,6 +958,7 @@ const art = {
 		}
 	},
 	{
+		"id": "rijksmuseum",
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -968,6 +978,7 @@ const art = {
 		}
 	},
 	{
+		"id": "vangogh-museum",
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -994,6 +1005,7 @@ const art = {
 		}
 	},
 	{
+		"id": "stedelijk-museum",
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -1033,6 +1045,7 @@ const art = {
 		}
 	},
 	{
+		"id": "moco-museum",
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -1052,6 +1065,7 @@ const art = {
 		}
 	},
 	{
+		"id": "rembrandt-house",
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -1077,6 +1091,7 @@ const art = {
 		}
 	},
 	{
+		"id": "eye-film-museum",
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -1096,6 +1111,7 @@ const art = {
 		}
 	},
 	{
+		"id": "foam",
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -1115,6 +1131,7 @@ const art = {
 		}
 	},
 	{
+		"id": "street-art-museum",
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -1132,6 +1149,7 @@ const art = {
 		}
 	},
 	{
+		"id": "cobra-museum",
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -1152,6 +1170,7 @@ const art = {
 		}
 	},
 	{
+		"id": "greenbox-museum",
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -1232,6 +1251,7 @@ const art = {
 		}
 	},
 	{
+		"id": "museumvandegeest",
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -1251,6 +1271,7 @@ const art = {
 		}
 	},
 	{
+		"id": "buro-stedelijk",
 		"type": "Feature",
 		"cat": "museum",
 		"properties": {
@@ -1270,6 +1291,7 @@ const art = {
 		}
 	},
 	{
+		"id": "noudvandun",
 		"type": "Feature",
 		"cat": "public",
 		"properties": {
@@ -1287,6 +1309,7 @@ const art = {
 		}
 	},
 	{
+		"id": "pablo-picasso",
 		"type": "Feature",
 		"cat": "public",
 		"properties": {
@@ -1305,6 +1328,7 @@ const art = {
 		}
 	},
 	{
+		"id": "frank-mandersloot",
 		"type": "Feature",
 		"cat": "public",
 		"properties": {
@@ -1323,6 +1347,7 @@ const art = {
 		}
 	},
 	{
+		"id": "mblok-blugthorst",
 		"type": "Feature",
 		"cat": "public",
 		"properties": {
@@ -1341,6 +1366,7 @@ const art = {
 		}
 	},
 	{
+		"id": "jan-fabre",
 		"type": "Feature",
 		"cat": "public",
 		"properties": {
@@ -1396,6 +1422,7 @@ const art = {
 		}
 	},
 	{
+		"id": "irma-boom",
 		"type": "Feature",
 		"cat": "public",
 		"properties": {
@@ -1415,6 +1442,7 @@ const art = {
 		}
 	},
 	{
+		"id": "marjan-laaper",
 		"type": "Feature",
 		"cat": "public",
 		"properties": {
@@ -1434,6 +1462,7 @@ const art = {
 		}
 	},
 	{
+		"id": "nicolas-dings",
 		"type": "Feature",
 		"cat": "public",
 		"properties": {
@@ -1452,6 +1481,7 @@ const art = {
 		}
 	},
 	{
+		"id": "merijn-bolink",
 		"type": "Feature",
 		"cat": "public",
 		"properties": {
@@ -1470,6 +1500,7 @@ const art = {
 		}
 	},
 	{
+		"id": "piet-parra",
 		"type": "Feature",
 		"cat": "public",
 		"properties": {
@@ -1488,6 +1519,7 @@ const art = {
 		}
 	},
 	{
+		"id": "mark-manders",
 		"type": "Feature",
 		"cat": "public",
 		"properties": {
@@ -1505,6 +1537,7 @@ const art = {
 		}
 	},
 	{
+		"id": "keith-haring",
 		"type": "Feature",
 		"cat": "public",
 		"properties": {

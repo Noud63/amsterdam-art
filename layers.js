@@ -69,11 +69,14 @@ function createArtLayer(features) {
             ${feature.properties.title ? `<div class="puTitle">"${feature.properties.title}"</div>` : ""}
             ${feature.properties.extra ? `<div class="extra3">${feature.properties.extra}</div>` : ""}
             ${feature.properties.address ? `<div class="address"><span class="popupSectionTitle">Address:</span> ${feature.properties.address}</div>` : ""}
+            ${feature.cat !== "public" && feature.properties.name !== "Van Gogh Museum" ? `<div class="openOrClosed"><span class="category">${feature.cat.charAt(0).toUpperCase() + feature.cat.slice(1)} is:</span> ${closedOpen(feature) ? `<span class="closedOpen">Open</span>` : `<span class="closedOpen">Closed</span>`}</div>` : ""}
             ${feature.properties.link ? `<div class="puLink"><a href=${feature.properties.link} target="_blank" rel="noopener" style="text-decoration:none"><span class="popupSectionTitle">Website</span> ${feature.properties.link}</a></div>` : ""}
             ${feature.properties.open ? `<div class="openingHours"><span class="popupSectionTitle">Opening hours:</span>${openingHours}</div>` : ""}
+           
             <div class="close">
               <img src="images/close.png" class="closeIcon"/>
              </div>
+           
           </div>
         `;
       });
