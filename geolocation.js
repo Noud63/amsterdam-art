@@ -1200,7 +1200,7 @@ const art = {
 			"extra": "Nxt is an experimental art space in Amsterdam dedicated to immersive experiences at the intersection of art, science, and technology. It commissions and presents ground-breaking museum installations by pioneering living artists.\n\nOver the last four years, Nxt has built a portfolio of large-scale exhibitions featuring a new wave of new media artists and developed extensive public programmes focused on music, movement, performance and education. Nxt has emerged as an aspirational global brand in the art world.",
 			"link": "https://nxtmuseum.com",
 			"address": "Asterweg 22",
-			"open": ["Monday:closed","Tuesday:closed","Wednesday:11:00 - 20:30","Thursdayy:11:00 - 20:30","Friday:11:00 - 22:30","Saturday:11:00 - 22:30","Sunday:11:00 - 20:30"]
+			"open": ["Wednesday:11:00 - 20:30","Thursdayy:11:00 - 20:30","Friday:11:00 - 22:30","Saturday:11:00 - 22:30","Sunday:11:00 - 20:30"]
 		},
 		"geometry": {
 			"type": "Point",

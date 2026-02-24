@@ -99,7 +99,6 @@ hideSidebar.addEventListener("click", () => {
   }
 });
 
-
 // Highlight list item on hover
 function highLightItem(res) {
   for (const el of res) {
@@ -153,6 +152,7 @@ document.addEventListener("click", (e) => {
 const length = art.features.length;
 listLength.textContent = length;
 
+// Function to check if a venue is currently open or closed based on its opening hours
 const closedOpen = (art) => {
   const now = new Date();
 
@@ -161,29 +161,23 @@ const closedOpen = (art) => {
   const currentTime = now.toLocaleTimeString([], {
     hour: "2-digit",
     minute: "2-digit",
-    hour12: false
+    hour12: false,
   });
 
-const schedule = art.properties?.open;
-    if (!schedule) return;
+  const schedule = art.properties?.open;
+  if (!schedule) return;
 
-    const isOpen = schedule.some(entry => {
+  const isOpen = schedule.some((entry) => {
+    const colonIndex = entry.indexOf(":");
 
-      const colonIndex = entry.indexOf(":");
+    const day = entry.slice(0, colonIndex);
+    const times = entry.slice(colonIndex + 1);
 
-      const day = entry.slice(0, colonIndex);
-      const times = entry.slice(colonIndex + 1);
+    if (day !== today) return false;
 
-      if (day !== today) return false;
+    const [openTime, closeTime] = times.split(" - ");
 
-      const [openTime, closeTime] = times.split(" - ");
-
-      return currentTime >= openTime && currentTime <= closeTime;
-    });
-    return isOpen
-    // console.log(`${art.properties.name} is ${isOpen ? "OPEN" : "CLOSED"}`);
+    return currentTime >= openTime && currentTime <= closeTime;
+  });
+  return isOpen;
 };
-
-// closedOpen(art);
-
-
