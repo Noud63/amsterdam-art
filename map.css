@@ -216,6 +216,7 @@ display: flex;
   text-shadow: #492910 5px;
   transform: translateX(325px);
   transition: transform 0.3s ease-in-out;
+  overflow: auto;
 }
 
 .infowindow.active {
