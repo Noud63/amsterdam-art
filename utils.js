@@ -164,13 +164,14 @@ const closedOpen = (venue) => {
     hour12: false,
   });
 
-  const schedule = venue.properties?.open;
+  const schedule = venue.properties?.open; // Array of strings like "Tuesday:10:00 - 17:00"
+
   if (!schedule) return;
 
-  const isOpen = schedule.some((entry) => {
-    const colonIndex = entry.indexOf(":");
+  const isOpen = schedule.some((entry) => {  // entry = "Tuesday:10:00 - 17:00"
+    const colonIndex = entry.indexOf(":");  // index of first : = 7
 
-    const day = entry.slice(0, colonIndex);
+    const day = entry.slice(0, colonIndex); 
     const times = entry.slice(colonIndex + 1);
 
     if (day !== today) return false;
