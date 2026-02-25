@@ -153,7 +153,7 @@ const length = art.features.length;
 listLength.textContent = length;
 
 // Function to check if a venue is currently open or closed based on its opening hours
-const closedOpen = (art) => {
+const closedOpen = (venue) => {
   const now = new Date();
 
   const today = now.toLocaleDateString("en-US", { weekday: "long" });
@@ -164,7 +164,7 @@ const closedOpen = (art) => {
     hour12: false,
   });
 
-  const schedule = art.properties?.open;
+  const schedule = venue.properties?.open;
   if (!schedule) return;
 
   const isOpen = schedule.some((entry) => {
