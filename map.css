@@ -217,6 +217,7 @@ display: flex;
   transform: translateX(325px);
   transition: transform 0.3s ease-in-out;
   overflow: auto;
+  padding-bottom: 80px;
 }
 
 .infowindow.active {
@@ -228,6 +229,12 @@ display: flex;
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 5px;
+}
+
+.closeIcon_info {
+  margin-top: 40px;
+  width: 26px;
+  cursor: pointer;
 }
 
 #mapid {
@@ -731,12 +738,6 @@ hr {
 }
 
 .closeIcon {
-  margin-top: 40px;
-  width: 26px;
-  cursor: pointer;
-}
-
-.closeIcon_info {
   margin-top: 40px;
   width: 26px;
   cursor: pointer;
