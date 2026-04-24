@@ -958,6 +958,26 @@ const art = {
 		}
 	},
 	{
+		"id": "Millen House",
+		"type": "Feature",
+		"cat": "gallery",
+		"properties": {
+			"name": "Millen House",
+			"image": "millenhouse.jpg",
+			"extra": "The Millen House, founded in 2022 by architect and curator Niek Schoenmakers, is a gallery and project space dedicated to uniting 20th-century and contemporary art, design, and architecture. Inspired by the raw beauty of  modernist architecture—the gallery’s collection emphasizes sculptural form and functional artistry. Each piece is chosen not just for its visual appeal but for the concept and narrative it conveys, reflecting a commitment to both craftsmanship and innovation. With our concept HOUSEGUEST we give way for the creative industry to experiment, reflect and intervene with our collection and space.",
+			"link": "https://themillenhouse.com",
+			"address": "Fannius Scholtenstraat 89",
+			"open":  ["Tuesday:10:00 - 18:00","Wednesday:10:00 - 18:00","Thursday:10:00 - 18:00","Friday:10:00 - 18:00","Saturday:10:00 - 18:00", "by appointment"],
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4.875104,
+				52.383004
+			]
+		}
+	},
+	{
 		"id": "rijksmuseum",
 		"type": "Feature",
 		"cat": "museum",
@@ -1296,15 +1316,15 @@ const art = {
 		"cat": "public",
 		"properties": {
 			"name": "Noud van Dun",
-			"image": "disco.jpg",
+			"image": "ufo.jpg",
 			"extra": "Visit the website of the Amsterdam based dutch visual artist and web developer Noud van Dun",
 			"link": "http://www.noudvandun.com\nWebdev:https://appcollection.netlify.app"
 		},
 		"geometry": {
 			"type": "Point",
 			"coordinates": [
-				4.874853,
-				52.382839
+				4.874605,
+				52.383054
 			]
 		}
 	},
