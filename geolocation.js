@@ -1318,7 +1318,7 @@ const art = {
 			"name": "Noud van Dun",
 			"image": "ufo.jpg",
 			"extra": "Visit the website of the Amsterdam based dutch visual artist and web developer Noud van Dun",
-			"link": "http://www.noudvandun.com\nWebdev:https://appcollection.netlify.app"
+			"link": "http://www.noudvandun.nl\nWebdev:https://appcollection.netlify.app"
 		},
 		"geometry": {
 			"type": "Point",
