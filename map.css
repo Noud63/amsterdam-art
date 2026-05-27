@@ -415,6 +415,12 @@ display: flex;
   align-items: center;
 }
 
+@media only screen and (max-width: 768px) {
+  #pic {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 960px) {
   .menubar.active {
     display: none;
@@ -454,9 +460,9 @@ display: flex;
   .listings {
     margin-top: 170px;
   }
-  #pic {
+  /* #pic {
     display: none;
-  }
+  } */
   .infowindow {
      width: 270px;
     transform: translateX(275px);

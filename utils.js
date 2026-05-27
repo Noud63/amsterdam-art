@@ -25,8 +25,9 @@ document.querySelector(".closeIcon_info").addEventListener("click", () => {
 
 function openInfo() {
   infowindow.classList.add("active");
-  hamburger.classList.remove("active");
-  hamburger.disabled = true;
+  hamburger.classList.add("active");
+  hamburger.disabled = false;
+  menubar.classList.remove("active");
 
   if (window.matchMedia("(max-width: 430px)").matches) {
     sidebar.classList.add("hidden");
@@ -35,7 +36,7 @@ function openInfo() {
 
 function closeInfo() {
   infowindow.classList.remove("active");
-  hamburger.classList.add("active");
+  hamburger.classList.remove("active");
   hamburger.disabled = false;
 }
 
@@ -88,7 +89,7 @@ wrapper.addEventListener("click", () => {
   wrapper.classList.remove("active");
 });
 
-// Hide sidbar on click and toggle title attribute text
+// Hide sidebar on click and toggle title attribute text
 hideSidebar.addEventListener("click", () => {
   sidebar.classList.toggle("hidden");
   const isHidden = sidebar.classList.contains("hidden");
@@ -127,23 +128,29 @@ mymap.on("click", () => {
   infowindow.classList.remove("active");
 });
 
-hamburger.addEventListener("click", () => {
-  const isOpen = menubar.classList.toggle("active");
-  hamburger.classList.toggle("active", isOpen);
 
-  hamburger.setAttribute("aria-expanded", isOpen);
-  hamburger.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+//EventHandler for hamburger menu
+hamburger.addEventListener("click", () => {
+  if (infowindow.classList.contains("active")) {
+    closeInfo();  // Close the infowindow and remove active class
+  } else {
+    const isOpen = menubar.classList.toggle("active");
+    hamburger.classList.toggle("active", isOpen);
+
+    hamburger.setAttribute("aria-expanded", isOpen);
+    hamburger.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+  }
 });
 
 //Close menu and change x to hamburger when clicking map
 document.addEventListener("click", (e) => {
   const clickedInsideMenu = menubar.contains(e.target);
   const clickedHamburger = hamburger.contains(e.target);
+  const clickedInsideInfowindow = infowindow.contains(e.target);
 
-  if (!clickedInsideMenu && !clickedHamburger) {
+  if (!clickedInsideMenu && !clickedHamburger && !clickedInsideInfowindow) {
     menubar.classList.remove("active");
     hamburger.classList.remove("active");
-    hamburger.disabled = false;
     hamburger.setAttribute("aria-expanded", "false");
   }
 });
