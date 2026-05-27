@@ -53,7 +53,7 @@ const art = {
 			"extra": "de Appel is een instelling opgericht in 1975. Het werd al snel internationaal bekend als een alternatief institutioneel model, geboren uit de behoefte van kunstenaars om performance- en videokunst te presenteren. Vandaag de dag fungeert de Appel nog steeds als host voor artistieke en curatoriële experimenten. Door middel van een programma van ingebedde kunst in scholen en de samenleving, een dertig jaar oud Curatorial Programme en een actief archief, brengt de Appel mensen samen om een wederzijdse uitwisseling van kennis te beoefenen door middel van tentoonstellingen en live activaties.",
 			"address:": "Tolstraat 160",
 			"link": "https://www.deappel.nl/",
-			"open": ["Wednesday:12:00 - 18:00","Thursdayy:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00","Sunday:12:00 - 18:00"]
+			"open": ["Wednesday:12:00 - 18:00","Thursday:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00","Sunday:12:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -74,7 +74,7 @@ const art = {
 			"address": "Warmoesstraat 139",
 			"extra": "W139 is a leading production and presentation space for contemporary art in the centre of Amsterdam that has been paving the way for experimentation and new modes of autonomy, self-organisation, and collectivity within the arts for 44 years.\n\nAs an artist-driven organisation, W139 puts experimentation at the forefront—providing space for artists to take risks and realise experimental, urgent, and ambitious projects.",
 			"link": "https://www.w139.nl",
-			"open": ["Wednesday:12:00 - 18:00","Thursdayy:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00","Sunday:12:00 - 18:00"]
+			"open": ["Wednesday:12:00 - 18:00","Thursday:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00","Sunday:12:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -95,7 +95,7 @@ const art = {
 			"address": "Rokin 112",
 			"extra": "Arti is the oldest visual artist society in the Netherlands where the artists themselves determine policy.\n\nArti’s policies embrace unity coupled with diversity.\nOur identity as a medium transcending platform leads us to embrace the inherent fruitful characteristics.\n\nTradition is coupled with the experimental, the parochial with the cosmopolitan, the inclusive with the exclusive. As a lively and stable factor in an unstable (art) world, curiosity, friendship and connecting are key issues for Arti.",
 			"link": "https://www.arti.nl/",
-			"open": ["Tuesday:12:00 - 18:00","Wednesday:12:00 - 18:00","Thursdayy:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00","Sunday:12:00 - 18:00"]
+			"open": ["Tuesday:12:00 - 18:00","Wednesday:12:00 - 18:00","Thursday:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00","Sunday:12:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -178,7 +178,7 @@ const art = {
 			"extra": "Was Droog Design a generation of young designers? That’s what it appeared to be. Or was it a movement? Not really. A collective, perhaps? A label? A manifesto? It was none of the above and all of them at once, but never at the same moment – certainly not for the long term.",
 			"link": "https://www.droog.com",
 			"address": "Staalstraat 7-B",
-			"open": ["Monday:10:00 - 17:00","Tuesday:10:00 - 17:00","Wednesday:10:00 - 17:00","Thursdayy:10:00 - 17:00","Friday:10:00 - 17:00","Saturday:10:00 - 17:00","Sunday:10:00 - 17:00"]
+			"open": ["Monday:10:00 - 17:00","Tuesday:10:00 - 17:00","Wednesday:10:00 - 17:00","Thursday:10:00 - 17:00","Friday:10:00 - 17:00","Saturday:10:00 - 17:00","Sunday:10:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -422,7 +422,7 @@ const art = {
 				"In addition to showcasing internationally established artists, Bildhalle's ambitious program also provides space for innovative young and upcoming artists who are pushing the boundaries of the medium of photography by creating a crossover to other visual art forms and are thereby bringing new perspectives to the discourse."
 			],
 			"link": "https://www.bildhalle.ch",
-			"open": ["Wednesday:12:00 - 18:30","Thursdayy:12:00 - 18:30","Friday:12:00 - 18:30","Saturday:11:00 - 16:00"]
+			"open": ["Wednesday:12:00 - 18:30","Thursday:12:00 - 18:30","Friday:12:00 - 18:30","Saturday:11:00 - 16:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -442,7 +442,7 @@ const art = {
 			"extra": "Borzo Gallery is one of the oldest established art galleries in the Netherlands and is a leading gallery in NUL/Zero, Minimal art and Conceptual art.\n\nArtists such as Jan Schoonhoven, Jan Henderikse, herman de vries, Ad Dekkers, Carel Visser, Constant and Ger van Elk are represented in the collection.\n\nThe gallery produces an ongoing series of publications to accompany its gallery exhibitions.",
 			"address": "Keizersgracht 321",
 			"link": "https://www.borzo.com",
-			"open": ["Wednesday:13:00 - 17:00","Thursdayy:13:00 - 17:00","Friday:13:00 - 17:00","Saturday:10:00 - 17:00 during exhibitions"]
+			"open": ["Wednesday:13:00 - 17:00","Thursday:13:00 - 17:00","Friday:13:00 - 17:00","Saturday:10:00 - 17:00 during exhibitions"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -586,7 +586,7 @@ const art = {
 			"extra": "Jaski Gallery is situated in the heart of Amsterdam’s Art & Antiques district, where we’ve been since 1988. We specialise in work from the CoBrA movement and contemporary art. The gallery regularly stages exhibitions and takes part in major art fairs such as TEFAF in Maastricht and PAN Amsterdam.",
 			"link": "https://www.jaski.nl",
 			"address": "Nieuwe Spiegelstraat 29",
-			"open": ["Tuesday:12:00 - 18:00","Wednesday:12:00 - 18:00","Thursdayy:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00","Sunday:12:00 - 18:00"]
+			"open": ["Tuesday:12:00 - 18:00","Wednesday:12:00 - 18:00","Thursday:12:00 - 18:00","Friday:12:00 - 18:00","Saturday:12:00 - 18:00","Sunday:12:00 - 18:00"]
 
 		},
 		"geometry": {
@@ -987,7 +987,7 @@ const art = {
 			"extra": "Collection of Dutch Art and History. One of the most celebrated museums in the world and home to Rembrandt's world famous painting 'De Nachtwacht'.The museum has on display 8,000 objects of art and history, from their total collection of 1 million objects from the years 1200 - 2000",
 			"address": "Museumstraat 1",
 			"link": "https://www.rijksmuseum.nl",
-			"open": ["Monday:09:00 - 17:00","Tuesday:09:00 - 17:00","Wednesday:09:00 - 17:00","Thursdayy:09:00 - 17:00","Friday:09:00 - 17:00","Saturday:09:00 - 17:00","Sunday:09:00 - 17:00"]
+			"open": ["Monday:09:00 - 17:00","Tuesday:09:00 - 17:00","Wednesday:09:00 - 17:00","Thursday:09:00 - 17:00","Friday:09:00 - 17:00","Saturday:09:00 - 17:00","Sunday:09:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -1034,7 +1034,7 @@ const art = {
 			"extra": "Museum of Modern Art Amsterdam, is a museum for modern art, contemporary art, and design.\nThe collection comprises modern and contemporary art and design from the early 20th century up to the 21st century.\nThe aim of the Stedelijk is to enrich people's lives with art. Our collection, exhibitions, publications, research and educational programs offer unique and compelling insights into today’s world and highlight topics that impact our societies and individual lives.\n\nOur interactions between audiences and art are driven by dialogues with artists. We explore complex topics of yesterday, today and tomorrow – as defined by artists and signaled by ourselves – in an adventurous program. This vision is guided by a fresh, energetic approach to displaying, caring for and renewing our world-famous collection. ",
 			"address": "Museumplein 10",
 			"link": "https://www.stedelijk.nl",
-			"open": ["Monday:10:00 - 18:00","Tuesday:10:00 - 18:00","Wednesday:10:00 - 18:00","Thursdayy:10:00 - 18:00","Friday:10:00 - 18:00","Saturday:10:00 - 18:00","Sunday:10:00 - 18:00"]
+			"open": ["Monday:10:00 - 18:00","Tuesday:10:00 - 18:00","Wednesday:10:00 - 18:00","Thursday:10:00 - 18:00","Friday:10:00 - 18:00","Saturday:10:00 - 18:00","Sunday:10:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -1074,7 +1074,7 @@ const art = {
 			"extra": "Step into the world of Moco. See iconic works from Warhol, Haring, Banksy, Basquiat, Kusama, and many more.\n\nDiscover one of Amsterdam’s most visited modern art museums showcasing contemporary, immersive, and digital art experiences, offering visitors a unique perspective on global and local artists.\n\nSince opening its doors in 2016, this art museum in Amsterdam has become a cultural hotspot, showcasing iconic masterpieces from renowned modern and contemporary artists alongside cutting-edge works by emerging talents. ",
 			"address": "Honthorststraat 20",
 			"link": "https://mocomuseum.com/",
-			"open":["Monday:09:00 - 21:00","Tuesday:09:00 - 21:00","Wednesday:09:00 - 21:00","Thursdayy:09:00 - 21:00","Friday:09:00 - 21:00","Saturday:09:00 - 21:00","Sunday:09:00 - 21:00"]
+			"open":["Monday:09:00 - 21:00","Tuesday:09:00 - 21:00","Wednesday:09:00 - 21:00","Thursday:09:00 - 21:00","Friday:09:00 - 21:00","Saturday:09:00 - 21:00","Sunday:09:00 - 21:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -1120,7 +1120,7 @@ const art = {
 			"extra": "Centre of cinematography. EYE Film Institute Netherlands is a Dutch archive and museum in Amsterdam that preserves and presents both Dutch and foreign films screened in the Netherlands. The museum collection includes 37,000 film titles, 60,000 posters, 700,000 photographs and 20,000 books.The earliest materials date from the start of the film industry in the Netherlands in 1895.",
 			"address": "IJpromenade 1",
 			"link": "https://www.eyefilm.nl",
-			"open": ["Tuesday:10:00 - 19:00","Wednesday:10:00 - 19:00","Thursdayy:10:00 - 19:00","Friday:10:00 - 19:00","Saturday:10:00 - 19:00","Sunday:10:00 - 19:00"]
+			"open": ["Tuesday:10:00 - 19:00","Wednesday:10:00 - 19:00","Thursday:10:00 - 19:00","Friday:10:00 - 19:00","Saturday:10:00 - 19:00","Sunday:10:00 - 19:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -1140,7 +1140,7 @@ const art = {
 			"extra": "Foam is an international and versatile photography museum based in Amsterdam.We connect diverse visions and perspectives, inviting everyone to explore.Foam makes photography accessible to everyone. We believe in the power of photography to connect people and to stimulate dialogue.Foam offers a platform for conversation, reflection, and connection with visual culture and the world around us.",
 			"address": "Keizersgracht 609",
 			"link": "https://www.foam.org",
-			"open": ["Monday:10:00 - 18:00","Tuesday:10:00 - 18:00","Wednesday:10:00 - 18:00","Thursdayy:11:00 - 21:00","Friday:11:00 - 21:00","Saturday:10:00 - 18:00","Sunday:10:00 - 18:00"]
+			"open": ["Monday:10:00 - 18:00","Tuesday:10:00 - 18:00","Wednesday:10:00 - 18:00","Thursday:11:00 - 21:00","Friday:11:00 - 21:00","Saturday:10:00 - 18:00","Sunday:10:00 - 18:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -1179,7 +1179,7 @@ const art = {
 			"address": "Sandbergplein 1",
 			"extra": "The museum houses a large Cobra collection comprised of artworks and documentary material that are continuously expanded and from which diverse presentations are created.",
 			"link": "https://www.cobra-museum.nl",
-			"open": ["Monday:closed","Tuesday:10:00 - 17:00","Wednesday:10:00 - 17:00","Thursdayy:11:00 - 17:00","Friday:11:00 - 17:00","Saturday:10:00 - 17:00","Sunday:10:00 - 17:00"]
+			"open": ["Monday:closed","Tuesday:10:00 - 17:00","Wednesday:10:00 - 17:00","Thursday:11:00 - 17:00","Friday:11:00 - 17:00","Saturday:10:00 - 17:00","Sunday:10:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -1220,7 +1220,7 @@ const art = {
 			"extra": "Nxt is an experimental art space in Amsterdam dedicated to immersive experiences at the intersection of art, science, and technology. It commissions and presents ground-breaking museum installations by pioneering living artists.\n\nOver the last four years, Nxt has built a portfolio of large-scale exhibitions featuring a new wave of new media artists and developed extensive public programmes focused on music, movement, performance and education. Nxt has emerged as an aspirational global brand in the art world.",
 			"link": "https://nxtmuseum.com",
 			"address": "Asterweg 22",
-			"open": ["Wednesday:11:00 - 20:30","Thursdayy:11:00 - 20:30","Friday:11:00 - 22:30","Saturday:11:00 - 22:30","Sunday:11:00 - 20:30"]
+			"open": ["Wednesday:11:00 - 20:30","Thursday:11:00 - 20:30","Friday:11:00 - 22:30","Saturday:11:00 - 22:30","Sunday:11:00 - 20:30"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -1260,7 +1260,7 @@ const art = {
 			"extra": "Door de eeuwen heen groeide de kerk uit van een kleine houten kapel tot een omvangrijke hallenkerk. Vandaag geldt het gebouw als een belangrijk (inter)nationaal monument. In ons programma worden verleden, heden en toekomst met elkaar verbonden door een samenspel tussen eeuwenoud erfgoed en hedendaagse kunst. Op uitnodiging van de Oude Kerk maken kunstenaars en musici nieuw werk dat alleen hier eenmalig te zien en te horen is. Zo ontstaan nieuwe perspectieven op de geschiedenis van het gebouw, de wereld om ons heen en de toekomst.",
 			"link": "https://www.oudekerk.nl",
 			"address": "Oudekerksplein 23",
-			"open": ["Monday:10:00 - 18:00","Tuesday:10:00 - 18:00","Wednesday:10:00 - 18:00","Thursdayy:10:00 - 18:00","Friday:10:00 - 18:00","Saturday:10:00 - 18:00","Sunday:13:00 - 17:30"]
+			"open": ["Monday:10:00 - 18:00","Tuesday:10:00 - 18:00","Wednesday:10:00 - 18:00","Thursday:10:00 - 18:00","Friday:10:00 - 18:00","Saturday:10:00 - 18:00","Sunday:13:00 - 17:30"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -1280,7 +1280,7 @@ const art = {
 			"extra": "Museum of the Mind: discover the artwork between your ears\nWe are the Museum of the Mind. We are fascinated by the artwork between your ears. Nothing is as diverse, unique, powerful, and at the same time as vulnerable as the human mind. Anyone who has had a poor night’s sleep can tell you how thin the line is between feeling normal and feeling different.",
 			"address": "Amstel 51",
 			"link": "https://museumvandegeest.nl/amsterdam",
-			"open": ["Tuesday:10:00 - 17:00","Wednesday:10:00 - 17:00","Thursdayy:10:00 - 17:00","Friday:10:00 - 17:00","Saturday:10:00 - 17:00","Sunday:10:00 - 17:00"]
+			"open": ["Tuesday:10:00 - 17:00","Wednesday:10:00 - 17:00","Thursday:10:00 - 17:00","Friday:10:00 - 17:00","Saturday:10:00 - 17:00","Sunday:10:00 - 17:00"]
 		},
 		"geometry": {
 			"type": "Point",
@@ -1300,7 +1300,7 @@ const art = {
 			"extra": "Buro Stedelijk is a versatile art space that celebrates community and encourages innovative and boundary-pushing art.\nAs a decentralized observatory, it is attentive to community needs and promotes artistic expression. By fostering collaboration between artists, communities, and institutions, Buro Stedelijk aims to inspire new perspectives and active civic participation. You can visit Buro Stedelijk during the opening times of Stedelijk Museum Amsterdam, at Museumplein 10. For evening events Buro Stedelijk has its entrance on the Paulus Potterstraat 13. Buro Stedelijk is hybrid, make sure to check the location per manifestation on our website.",
 			"address": "Museumplein 10",
 			"link": "https://burostedelijk.nl",
-			"open": ["Museumplein 10:", "Tuesday:10:00 - 18:00","Wednesday:10:00 - 18:00","Thursdayy:10:00 - 18:00","Friday:10:00 - 18:00","Saturday:10:00 - 18:00","Sunday:10:00 - 18:00","Paulus Potterstraat 13:\n 18:30 - 20:30 on the days of events.\nCheck website for more information."]
+			"open": ["Museumplein 10:", "Tuesday:10:00 - 18:00","Wednesday:10:00 - 18:00","Thursday:10:00 - 18:00","Friday:10:00 - 18:00","Saturday:10:00 - 18:00","Sunday:10:00 - 18:00","Paulus Potterstraat 13:\n 18:30 - 20:30 on the days of events.\nCheck website for more information."]
 		},
 		"geometry": {
 			"type": "Point",
