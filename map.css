@@ -684,6 +684,28 @@ display: flex;
   padding: 0 5px;
 }
 
+/* Button hover and active states */
+/* .menuTop button:hover,
+.menubar button:hover {
+  background: linear-gradient(to top, #d4941f, #c48620);
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+.menuTop button:active,
+.menubar button:active {
+  transform: scale(0.98);
+}
+
+.locateMe:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.locateMe:disabled:hover {
+  transform: scale(1);
+} */
+
 .check {
   font-size: 0.85em;
   font-weight: bold;

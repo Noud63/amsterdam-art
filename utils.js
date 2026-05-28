@@ -9,13 +9,15 @@ const menuTop = document.querySelector(".menuTop");
 const menubar = document.querySelector(".menubar");
 const listLength = document.querySelector(".listLength");
 const closeInfoBtn = document.querySelector(".closeIcon_info");
-
 // Initial load
 createArtLayer(art.features);
 
 //Button resets map to initial state
 document.querySelectorAll(".reset").forEach((btn) => {
-  btn.addEventListener("click", () => createArtLayer(art.features));
+  btn.addEventListener("click", () => {
+    clearUserLocation();
+    createArtLayer(art.features);
+  });
 });
 
 // close infowindow on button click
@@ -128,11 +130,10 @@ mymap.on("click", () => {
   infowindow.classList.remove("active");
 });
 
-
 //EventHandler for hamburger menu
 hamburger.addEventListener("click", () => {
   if (infowindow.classList.contains("active")) {
-    closeInfo();  // Close the infowindow and remove active class
+    closeInfo(); // Close the infowindow and remove active class
   } else {
     const isOpen = menubar.classList.toggle("active");
     hamburger.classList.toggle("active", isOpen);
@@ -175,10 +176,11 @@ const closedOpen = (venue) => {
 
   if (!schedule) return;
 
-  const isOpen = schedule.some((entry) => {  // entry = "Tuesday:10:00 - 17:00"
-    const colonIndex = entry.indexOf(":");  // index of first : = 7
+  const isOpen = schedule.some((entry) => {
+    // entry = "Tuesday:10:00 - 17:00"
+    const colonIndex = entry.indexOf(":"); // index of first : = 7
 
-    const day = entry.slice(0, colonIndex); 
+    const day = entry.slice(0, colonIndex);
     const times = entry.slice(colonIndex + 1);
 
     if (day !== today) return false;
