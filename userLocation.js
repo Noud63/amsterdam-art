@@ -54,8 +54,8 @@ function getUserLocation() {
       // Add user location marker
       userLocationMarker = L.marker([lat, lng], { icon: userLocationIcon })
         .bindPopup(
-          `<div style="text-align: center;">
-          <strong>Your Location</strong><br>
+          `<div class="locationPopUp" style="text-align: center;">
+          <div class="locationPopUp_title"><strong>Your Location</strong></div><br>
           Latitude: ${lat.toFixed(4)}<br>
           Longitude: ${lng.toFixed(4)}<br>
           Accuracy: ~${Math.round(accuracy)} meters
