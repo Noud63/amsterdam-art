@@ -1,6 +1,12 @@
 <h1>Art in Amsterdam</h1>
 
-Galleries, Museums, Art Centres and public Art in Amsterdam.
+Find Galleries, Museums, Art Centres and public Art in Amsterdam.<br /><br />
+HTML<br />
+CSS<br />
+Leaflet OpenStreetMap<br />
+Mapbox<br /><br />
+
+Demo:https://amsterdam-art.vercel.app/ <br/><br />
 
 <div><img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0723c20a-3007-44b6-adc5-12e002fad26f" /></div><br />
 
