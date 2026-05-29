@@ -3,6 +3,7 @@
 Find Galleries, Museums, Art Centres and public Art in Amsterdam.<br /><br />
 HTML<br />
 CSS<br />
+Javascript<br/>
 Leaflet OpenStreetMap<br />
 Mapbox<br /><br />
 
