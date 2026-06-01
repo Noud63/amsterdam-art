@@ -5,6 +5,7 @@ HTML<br />
 CSS<br />
 Javascript<br/>
 Leaflet OpenStreetMap<br />
+Graphhopper<br />
 Mapbox<br /><br />
 
 Demo: https://amsterdam-art.vercel.app/ <br/><br />

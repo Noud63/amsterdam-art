@@ -68,7 +68,7 @@ function createArtLayer(features) {
         const distanceHtml = distance
           ? `<div class="distance">
        <div>📍${formatDistance(distance)}</div> 
-       <div><img src="/images/walk.png" alt="walk" class="walkIcon"/>${estimateWalkingTime(distance)}</div>
+       <div><img src="/images/walk.png" alt="walk" class="walkIcon"/>${estimateWalkingTime(distance)} (5 km/h)</div>
      </div>`
           : `<div class="distance">📍 Location unavailable</div>`;
 
