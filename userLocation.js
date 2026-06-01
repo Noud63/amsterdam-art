@@ -128,10 +128,14 @@ function clearUserLocation() {
 
 // Add event listener to locate button when DOM is ready
 document.addEventListener("DOMContentLoaded", function () {
+  // Auto-request location on page load (silently, without popup)
+  getUserLocation(false);
+
+  // Setup "Locate Me" button to show popup when clicked
   const locateBtn = document.querySelectorAll(".locateMe");
   if (locateBtn) {
     locateBtn.forEach((btn) => {
-      btn.addEventListener("click", getUserLocation);
+      btn.addEventListener("click", () => getUserLocation(true));
     });
   }
 });

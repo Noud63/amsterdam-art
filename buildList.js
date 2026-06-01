@@ -17,6 +17,8 @@ function buildItemList(features) {
     const prop = feature.properties;
     const marker = feature.marker;
 
+   
+
     const listing = document.createElement("div");
     listing.className = "item";
     listing.id = "item" + index;
@@ -26,6 +28,15 @@ function buildItemList(features) {
     listing.addEventListener("mouseenter", () => {
       if (marker) marker.bounce(2);
     });
+
+     // Calculate distance if user location exists
+    // const distance = getDistanceToVenue(
+    //   feature.geometry.coordinates[1],
+    //   feature.geometry.coordinates[0]
+    // );
+    // const distanceHtml = distance 
+    //   ? `<div class="distance">📍 ${formatDistance(distance)} away</div>`
+    //   : `<div class="distance">📍 Location unavailable</div>`;
     
     // Highlight list item on hover
     const res = Array.from(document.querySelectorAll(".info"));
@@ -36,6 +47,7 @@ function buildItemList(features) {
         <div class="box">
           <img src="images/${prop.image}" id="pic">
           <div class="info">
+        
             <div class="space">${prop.name}</div>
             <span class="extra">${feature.cat}</span>
           </div>

@@ -31,7 +31,6 @@ html {
   border: none;
 }
 
-
 .icon-closed {
   width: 35px;
 }
@@ -67,7 +66,9 @@ html {
   right: 0px;
   width: 145px;
   height: 100vh;
-  background-image: linear-gradient(to top, rgba(73, 39, 0, 0.8), rgba(211, 142, 64, 0.8)), url("images/sunflowers.jpg");
+  background-image:
+    linear-gradient(to top, rgba(73, 39, 0, 0.8), rgba(211, 142, 64, 0.8)),
+    url("images/sunflowers.jpg");
   background-position: left;
   z-index: 7;
   padding: 20px;
@@ -109,15 +110,17 @@ html {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  position:fixed;
+  position: fixed;
   top: 0;
-  left:0;
-   /* background-color: #b47630; */
-   background-image: linear-gradient(to top, rgba(211, 142, 64, 0.8), rgba(211, 142, 64, 0.8)), url("images/sunflowers.jpg");
+  left: 0;
+  /* background-color: #b47630; */
+  background-image:
+    linear-gradient(to top, rgba(211, 142, 64, 0.8), rgba(211, 142, 64, 0.8)),
+    url("images/sunflowers.jpg");
   background-position: center;
-   height: 45px;
-   z-index: 10;
-   box-shadow: 0 2px 2px #69503a;
+  height: 45px;
+  z-index: 10;
+  box-shadow: 0 2px 2px #69503a;
 }
 
 .menuTop button {
@@ -139,7 +142,7 @@ html {
 .amsterdam_logo {
   display: flex;
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   z-index: 12;
   padding: 14px 20px;
@@ -148,14 +151,14 @@ html {
 .amsterdam_logo_right {
   display: flex;
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   z-index: 12;
   padding: 14px 20px;
 }
 
 .amsterdam_logo img {
-   display: flex;
+  display: flex;
   width: 70px;
 }
 
@@ -164,23 +167,24 @@ html {
   width: 70px;
 }
 
-.artinamsterdam  {
+.artinamsterdam {
   display: none;
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   z-index: 12;
   padding: 12px 14px;
 }
 
 .artinamsterdam img {
-display: flex;
+  display: flex;
   width: 240px;
 }
 
 @media only screen and (max-width: 975px) {
-  .amsterdam_logo, .amsterdam_logo_right  {
-     display: none;
+  .amsterdam_logo,
+  .amsterdam_logo_right {
+    display: none;
   }
 }
 
@@ -201,7 +205,9 @@ display: flex;
   right: 0px;
   width: 320px;
   height: 100vh;
-  background-image: linear-gradient(to top, rgba(73, 39, 0, 0.8), rgba(211, 142, 64, 0.8)), url("images/sunflowers.jpg");
+  background-image:
+    linear-gradient(to top, rgba(73, 39, 0, 0.8), rgba(211, 142, 64, 0.8)),
+    url("images/sunflowers.jpg");
   background-position: left;
   background-size: cover;
   z-index: 9;
@@ -299,7 +305,6 @@ display: flex;
   -moz-box-shadow: 5px 0 5px -2px #2a4763;
   box-shadow: 5px 0 5px -2px #4b647c;
   cursor: pointer;
-  
 }
 
 .sidebar {
@@ -310,7 +315,9 @@ display: flex;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: linear-gradient(to top, rgba(73, 39, 0, 0.76), rgba(211, 142, 64, 0.76)), url("images/sunflowers.jpg");
+  background-image:
+    linear-gradient(to top, rgba(73, 39, 0, 0.76), rgba(211, 142, 64, 0.76)),
+    url("images/sunflowers.jpg");
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -492,7 +499,7 @@ display: flex;
     display: none;
   } */
   .infowindow {
-     width: 270px;
+    width: 270px;
     transform: translateX(275px);
   }
 }
@@ -505,10 +512,9 @@ display: flex;
     display: none;
   }
   .listings {
-    margin-top:0px;
+    margin-top: 0px;
   }
 }
-
 
 @media only screen and (max-width: 430px) {
   .listings {
@@ -549,7 +555,6 @@ display: flex;
     transform: translateX(-180px);
   }
 }
-
 
 /* ------------ CUSTOM SCROLLBAR ------------- */
 
@@ -592,7 +597,6 @@ display: flex;
   clear: both;
   visibility: hidden;
 }
-
 
 /* ------------- CUSTOM POPUP STYLES -------------- */
 
@@ -659,7 +663,6 @@ display: flex;
   .pic {
     width: 270px;
     height: 170px;
-    
   }
 
   .pic img {
@@ -730,6 +733,48 @@ display: flex;
 
 .popupSectionTitle {
   font-weight: bold;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  margin-bottom: 5px;
+}
+
+.websiteLink,
+.routeLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #883d00;
+  width: 100%;
+  padding: 7px;
+  border-radius: 25px;
+  border: none;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.07rem;
+  font-weight: 600;
+  border: 1px solid #8d4b00;
+  cursor: pointer;
+}
+
+.websiteLink a,
+.routeLink a {
+  color: #804400;
+  text-decoration: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkIcon {
+  width: 17px;
+  margin-right: 6px;
 }
 
 .category {
@@ -806,18 +851,42 @@ hr {
 /* Location */
 
 .locationPopUp {
- color:rgb(139, 76, 17);
- line-height: 1.2rem;
- padding-bottom: 4px;
+  color: rgb(139, 76, 17);
+  line-height: 1.2rem;
+  padding-bottom: 4px;
 }
 
 .locationPopUp_title {
-  display:inline-block;
-  font-size: .8rem;
+  display: inline-block;
+  font-size: 0.8rem;
   font-weight: bold;
   margin-bottom: 5px;
   text-decoration: underline;
   text-decoration-color: rgb(139, 76, 17);
+}
+
+.distance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #5a3000;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: #2a4763 1px dotted;
+  padding-bottom: 5px;
+}
+
+.distance:empty {
+  display: none;
+}
+
+.walkIcon {
+  width: 10px;
+  height: auto;
+  margin-right: 4px;
 }
 
 /* git add . && git commit -m "update" && git push origin main */

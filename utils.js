@@ -9,13 +9,15 @@ const menuTop = document.querySelector(".menuTop");
 const menubar = document.querySelector(".menubar");
 const listLength = document.querySelector(".listLength");
 const closeInfoBtn = document.querySelector(".closeIcon_info");
+
 // Initial load
 createArtLayer(art.features);
 
 //Button resets map to initial state
 document.querySelectorAll(".reset").forEach((btn) => {
   btn.addEventListener("click", () => {
-    clearUserLocation();
+    // clearUserLocation();
+    clearRoute()
     createArtLayer(art.features);
   });
 });

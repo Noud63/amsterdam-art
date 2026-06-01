@@ -54,24 +54,54 @@ function createArtLayer(features) {
           }
         }
 
+        // Calculate distance if user location exists
+        const distance = getDistanceToVenue(
+          feature.geometry.coordinates[1],
+          feature.geometry.coordinates[0],
+        );
+
         // Array of openings hours
         const openingHours = feature.properties.open
           ? feature.properties.open.map((day) => `<div>${day}</div>`).join("")
           : "";
+
+        const distanceHtml = distance
+          ? `<div class="distance">
+       <div>📍${formatDistance(distance)}</div> 
+       <div><img src="/images/walk.png" alt="walk" class="walkIcon"/>${estimateWalkingTime(distance)}</div>
+     </div>`
+          : `<div class="distance">📍 Location unavailable</div>`;
+
+          // NEW: Get directions button (only show if user location exists)
+    const directionsButton = userLocationMarker
+      ? `<button class="routeLink" onclick="showRoute(
+          ${userLocationMarker.getLatLng().lat},
+          ${userLocationMarker.getLatLng().lng},
+          ${feature.geometry.coordinates[1]},
+          ${feature.geometry.coordinates[0]},
+          '${feature.properties.name}'
+        )"><img src="/images/route.png" alt="Route" class="linkIcon"/>Route</button>`
+      : '';
 
         // popup rendering logic
         element.innerHTML = `
           <div class='pic'>
             <img src="images/${feature.properties.image}" class="puImage"/>
           </div>
+        
           <div class="popUpContent" >
+            ${distanceHtml}
             <div class="puName">${feature.properties.name}</div>
             ${feature.properties.title ? `<div class="puTitle">"${feature.properties.title}"</div>` : ""}
             ${feature.properties.extra ? `<div class="extra3">${feature.properties.extra}</div>` : ""}
             ${feature.properties.address ? `<div class="address"><span class="popupSectionTitle">Address:</span> ${feature.properties.address}</div>` : ""}
             ${feature.cat !== "public" && feature.properties.name !== "Van Gogh Museum" ? `<div class="openOrClosed"><span class="category">${feature.cat.charAt(0).toUpperCase() + feature.cat.slice(1)} is:</span> ${closedOpen(feature) ? `<span class="closedOpen">Open</span>` : `<span class="closedOpen">Closed</span>`}</div>` : ""}
-            ${feature.properties.link ? `<div class="puLink"><a href=${feature.properties.link} target="_blank" rel="noopener" style="text-decoration:none"><span class="popupSectionTitle">Website</span> ${feature.properties.link}</a></div>` : ""}
+            
             ${feature.properties.open ? `<div class="openingHours"><span class="popupSectionTitle">Opening hours:</span>${openingHours}</div>` : ""}
+            <div class="links">
+              ${feature.properties.link ? `<button class="websiteLink"><a href=${feature.properties.link} target="_blank" rel="noopener" style="text-decoration:none"><img src="/images/globe.png" alt="Website" class="linkIcon"/><span>Website</span></a></button>` : ""}
+              ${directionsButton}
+            </div>
            
             <div class="close">
               <img src="images/close.png" class="closeIcon"/>

@@ -4,15 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="map.css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
-    <link
+<link
       href="https://fonts.googleapis.com/css?family=Stardos Stencil"
       rel="stylesheet"
     />
-    <!-- <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=roboto"
-    /> -->
-    <link
+     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -23,12 +19,25 @@
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
       crossorigin=""
     ></script>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css"
+    /> -->
+     <!-- <script src="https://cdn.jsdelivr.net/npm/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script> -->
+   
     <!-- <link rel="stylesheet" type="text/css" href="leaflet.css"> -->
+
+   <!-- <script src="https://unpkg.com/lrm-graphhopper@3.2.4/dist/lrm-graphhopper.umd.js"></script> -->
 
     <script
       type="text/javascript"
       src="leaflet.smoothmarkerbouncing.js"
     ></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"
+    />
   </head>
 
   <body>
@@ -144,11 +153,14 @@
 
     <div class="wrapper"></div>
 
-    <script type="text/javascript" src="geolocation.js"></script>
     <script type="text/javascript" src="map.js"></script>
     <script type="text/javascript" src="buildList.js"></script>
+    <script type="text/javascript" src="geolocation.js"></script>
+    <script type="text/javascript" src="distance.js"></script>
+    <script type="text/javascript" src="routing.js"></script>
     <script type="text/javascript" src="layers.js"></script>
     <script type="text/javascript" src="userLocation.js"></script>
+
     <script type="text/javascript" src="utils.js"></script>
   </body>
 </html>
