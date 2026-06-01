@@ -1,3 +1,5 @@
+
+
 export default async function handler(req, res) {
   // Only allow POST requests
   if (req.method !== 'POST') {
@@ -8,6 +10,8 @@ export default async function handler(req, res) {
 
   // API key is now in server environment variable (not exposed)
   const apiKey = process.env.GRAPHHOPPER_API_KEY;
+
+  console.log('Env vars:', Object.keys(process.env).filter(k => k.includes('GRAPH')));
 
   if (!apiKey) {
     return res.status(500).json({ error: 'API key not configured' });
