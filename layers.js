@@ -72,6 +72,8 @@ function createArtLayer(features) {
      </div>`
           : `<div class="distance">📍 Location unavailable</div>`;
 
+          const venueName = feature.properties.name.replace(/'/g, "\\'");
+
           // NEW: Get directions button (only show if user location exists)
     const directionsButton = userLocationMarker
       ? `<button class="routeLink" onclick="showRoute(
@@ -79,7 +81,7 @@ function createArtLayer(features) {
           ${userLocationMarker.getLatLng().lng},
           ${feature.geometry.coordinates[1]},
           ${feature.geometry.coordinates[0]},
-          '${feature.properties.name}'
+           '${venueName}'
         )"><img src="/images/route.png" alt="Route" class="linkIcon"/>Route</button>`
       : '';
 

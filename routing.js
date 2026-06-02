@@ -21,7 +21,10 @@ function showRoute(userLat, userLng, venueLat, venueLng, venueName) {
     .then((response) => response.json())
     .then((data) => {
 
-      console.log("Data:", data); // Debug log
+      console.log("Data:", data);
+
+      const pathText = data.paths[0].instructions.map((inst) => inst.text);
+      console.log("Route instructions:", pathText);
 
       if (data.paths && data.paths.length > 0) {
         const path = data.paths[0];

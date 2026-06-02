@@ -8,8 +8,10 @@ export default async function handler(req, res) {
 
   const { userLat, userLng, venueLat, venueLng, venueName } = req.body;
 
+  console.log(venueName); // Debug log
+
   // API key is now in server environment variable (not exposed)
-  const apiKey = process.env.GRAPHHOPPER_API_KEY;
+  const apiKey = process.env.GRAPHHOPPER_API_KEY || "4c2dc949-e1d1-4723-8a87-976243986dad";
 
   if (!apiKey) {
     return res.status(500).json({ error: 'API key not configured' });
@@ -22,7 +24,7 @@ export default async function handler(req, res) {
     const response = await fetch(url);
     const data = await response.json();
     
-    return res.status(200).json({...data, venueName });
+    return res.status(200).json({...data, venueName : venueName });
   } catch (error) {
     return res.status(500).json({ error: 'Routing failed' });
   }
