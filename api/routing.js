@@ -9,7 +9,7 @@ export default async function handler(req, res) {
   const { userLat, userLng, venueLat, venueLng, venueName } = req.body;
 
   // API key is now in server environment variable (not exposed)
-  const apiKey = process.env.GRAPHHOPPER_API_KEY || "4c2dc949-e1d1-4723-8a87-976243986dad";
+  const apiKey = process.env.GRAPHHOPPER_API_KEY;
 
   if (!apiKey) {
     return res.status(500).json({ error: 'API key not configured' });
