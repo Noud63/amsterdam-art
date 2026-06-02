@@ -13,6 +13,6 @@ Demo: https://amsterdam-art.vercel.app/ <br/><br />
 
 <div><img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/68b2c3d5-fca2-4158-8b65-d2025bc10e32" /></div><br />
 
-<div><img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ed1048eb-f742-4c75-8fa7-5e8a6a37e58f" /></div><br />
+<div><img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/43187a96-2495-429c-a20e-18dc920abe22" /></div><br />
 
 <div><img width="1600" height="903" alt="Image" src="https://github.com/user-attachments/assets/265fa9c1-b0d7-4a78-93ad-324859c66ea3" /></div>
