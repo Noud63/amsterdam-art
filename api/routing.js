@@ -9,13 +9,13 @@ export default async function handler(req, res) {
   const { userLat, userLng, venueLat, venueLng, venueName } = req.body;
 
   // API key is now in server environment variable (not exposed)
-  const apiKey = process.env.GRAPHHOPPER_API_KEY ;
+  const apiKey = process.env.GRAPHHOPPER_API_KEY || "4c2dc949-e1d1-4723-8a87-976243986dad";
 
   if (!apiKey) {
     return res.status(500).json({ error: 'API key not configured' });
   }
 
-  // Call GraphHopper from backend (key is hidden)
+  // Call GraphHopper from backend (in production, the api key is hidden)
   const url = `https://graphhopper.com/api/1/route?point=${userLat},${userLng}&point=${venueLat},${venueLng}&vehicle=foot&locale=en&points_encoded=false&key=${apiKey}`;
 
   try {
